@@ -65,6 +65,7 @@ def generate_repl(target, path, cfu_lib_filepath, predefined=False):
     result += """
 
 cpu:
+    cpuType: "rv32im_zicsr"
     init:
         RegisterCustomCSR "BPM" 0xB04  User
         RegisterCustomCSR "BPM" 0xB05  User
