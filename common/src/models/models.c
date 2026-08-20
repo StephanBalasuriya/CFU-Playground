@@ -27,6 +27,7 @@
 #include "models/mlcommons_tiny_v01/kws/kws.h"
 #include "models/mlcommons_tiny_v01/vww/vww.h"
 #include "models/mnv2/mnv2.h"
+#include "models/mnv3/mnv3.h"
 #include "models/pdti8/pdti8.h"
 
 inline void no_menu() {}
@@ -51,6 +52,9 @@ static struct Menu MENU = {
 #endif
 #if defined(INCLUDE_MODEL_MNV2)
         MENU_ITEM(AUTO_INC_CHAR, "Mobile Net v2 models", mnv2_menu),
+#endif
+#if defined(INCLUDE_MODEL_MNV3)
+        MENU_ITEM(AUTO_INC_CHAR, "MobileNetV3 Minimalistic models", mnv3_menu),
 #endif
 #if defined(INCLUDE_MODEL_HPS)
         MENU_ITEM(AUTO_INC_CHAR, "HPS models", hps_model_menu),

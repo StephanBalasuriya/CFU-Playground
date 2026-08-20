@@ -37,6 +37,7 @@ DEFINES += INCLUDE_MODEL_PDTI8
 # Uncomment to include mnv2 in built binary (adds ~500kB to binary)
 ifneq 'hps' '$(PLATFORM)'
 DEFINES += INCLUDE_MODEL_MNV2
+DEFINES += INCLUDE_MODEL_MNV3
 endif
 RUN_MENU_ITEMS := 3 1
 

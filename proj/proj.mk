@@ -271,7 +271,8 @@ ifndef SKIP_TFLM
 	$(COPY) $(TFLM_SRC_DIR)/tensorflow/lite/micro/kernels/depthwise_conv_test* $(BUILD_DIR)/src/tensorflow/lite/micro/kernels
 	@for d in $(TFLM_COPY_DATA_DIRS); do \
 		mkdir -p $(BUILD_DIR)/src/$$d; \
-		$(COPY) `find $(TFLM_SRC_DIR)/$$d -maxdepth 1 -type f -regex '.*_data\.\(h\|cc\)'` $(BUILD_DIR)/src/$$d; \
+		files=`find $(TFLM_SRC_DIR)/$$d -maxdepth 1 -type f -regex '.*_data\.\(h\|cc\)' 2>/dev/null`; \
+		if [ -n "$$files" ]; then $(COPY) $$files $(BUILD_DIR)/src/$$d; fi; \
 	done
 	mkdir -p $(BUILD_DIR)/src/tensorflow/lite/micro/examples/person_detection
 	$(COPY) $(TFLM_SRC_DIR)/tensorflow/lite/micro/examples/person_detection/model_settings* $(BUILD_DIR)/src/tensorflow/lite/micro/examples/person_detection
