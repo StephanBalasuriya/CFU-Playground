@@ -38,6 +38,20 @@ Should Run TFLite Unit Tests
     Wait For Prompt On Uart  main>
 
 
+Should Run MobileNetV3 Standard Golden Test
+    Create Machine
+
+    Wait For Line On Uart    CFU Playground
+    Wait For Prompt On Uart  main>
+    Write Line To Uart       1
+    Wait For Prompt On Uart  models>
+    Write Line To Uart       3
+    Wait For Prompt On Uart  mnv3>  timeout=120
+    Write Line To Uart       g
+    Wait For Line On Uart    Result for Test Input 0:  120
+    Wait For Prompt On Uart  mnv3>  timeout=120
+
+
 Should Run 1x1 Conv2D Golden Tests
     Create Machine
 

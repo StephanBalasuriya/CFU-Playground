@@ -1,0 +1,2255 @@
+14:32:03.1391 [INFO] Including script: /home/victus_linux/cfu-playground-fork/CFU-Playground/proj/mnv2_first/build/renode/digilent_arty.resc
+14:32:03.1535 [INFO] System bus created.
+14:32:03.9381 [WARNING] SimulationFilePath not set!
+14:32:04.7825 [INFO] digilent_arty: GDB server with all CPUs started on port :10001
+14:32:04.8240 [WARNING] Method HandleMainMessage is marked with Export attribute, but was not exported.
+14:32:04.8241 [WARNING] Method Receive is marked with Export attribute, but was not exported.
+14:32:04.8608 [INFO] sysbus: Loading segment of 4882272 bytes length at 0x40000000.
+14:32:04.9853 [INFO] cpu: Setting PC value to 0x40000000.
+14:32:05.0964 [INFO] digilent_arty: Machine started.
+14:32:05.1990 [INFO] uart: [host: 0.41s (+0.41s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:32:05.1990 [INFO] uart: [host: 0.41s (+0.41s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:32:05.1996 [INFO] uart: [host: 0.41s (+0.59ms)|virt:     22.1ms (+0s)] 
+14:32:05.1996 [INFO] uart: [host: 0.41s (+0.65ms)|virt:     22.1ms (+0s)] 
+14:32:05.2019 [INFO] uart: [host: 0.41s (+2.49ms)|virt:     22.1ms (+0s)] CFU Playground
+14:32:05.2020 [INFO] uart: [host: 0.41s (+2.34ms)|virt:     22.1ms (+0s)] CFU Playground
+14:32:05.2039 [INFO] uart: [host: 0.41s (+1.87ms)|virt:     22.1ms (+0s)] ==============
+14:32:05.2039 [INFO] uart: [host: 0.41s (+1.87ms)|virt:     22.1ms (+0s)] ==============
+14:32:05.2067 [INFO] uart: [host: 0.42s (+2.92ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:32:05.2067 [INFO] uart: [host: 0.42s (+2.91ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:32:05.2082 [INFO] uart: [host: 0.42s (+1.42ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:32:05.2082 [INFO] uart: [host: 0.42s (+1.46ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:32:05.2105 [INFO] uart: [host: 0.42s (+2.34ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:32:05.2105 [INFO] uart: [host: 0.42s (+2.31ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:32:05.2115 [INFO] uart: [host: 0.42s (+0.99ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:32:05.2115 [INFO] uart: [host: 0.42s (+0.99ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:32:05.2125 [INFO] uart: [host: 0.42s (+0.95ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:32:05.2125 [INFO] uart: [host: 0.42s (+0.95ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:32:05.2149 [INFO] uart: [host: 0.42s (+2.42ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:32:05.2150 [INFO] uart: [host: 0.42s (+2.43ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:32:05.2161 [INFO] uart: [host: 0.43s (+1.21ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:32:05.2161 [INFO] uart: [host: 0.42s (+1.24ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:32:05.2174 [INFO] uart: [host: 0.43s (+1.36ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:32:05.2175 [INFO] uart: [host: 0.43s (+1.34ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:32:05.2317 [INFO] uart: [host: 0.44s (+14.3ms)|virt:  25.7ms (+3.5ms)] main> 1
+14:32:05.2317 [INFO] uart: [host: 0.44s (+14.28ms)|virt:  25.7ms (+3.5ms)] main> 1
+14:32:05.2318 [INFO] uart: [host:   0.44s (+80µs)|virt:     25.7ms (+0s)] 
+14:32:05.2318 [INFO] uart: [host:    0.44s (+77µs)|virt:     25.7ms (+0s)] 
+14:32:05.2342 [INFO] uart: [host: 0.44s (+2.38ms)|virt:     25.7ms (+0s)] Running TfLM Models menu
+14:32:05.2343 [INFO] uart: [host:   0.44s (+2.4ms)|virt:     25.7ms (+0s)] Running TfLM Models menu
+14:32:05.2344 [INFO] uart: [host: 0.44s (+0.22ms)|virt:     25.7ms (+0s)] 
+14:32:05.2344 [INFO] uart: [host:  0.44s (+0.19ms)|virt:     25.7ms (+0s)] 
+14:32:05.2347 [INFO] uart: [host: 0.44s (+0.33ms)|virt:     25.7ms (+0s)] TfLM Models
+14:32:05.2347 [INFO] uart: [host:  0.44s (+0.34ms)|virt:     25.7ms (+0s)] TfLM Models
+14:32:05.2355 [INFO] uart: [host: 0.44s (+0.83ms)|virt:     25.7ms (+0s)] ===========
+14:32:05.2355 [INFO] uart: [host:  0.44s (+0.81ms)|virt:     25.7ms (+0s)] ===========
+14:32:05.2401 [INFO] uart: [host: 0.45s (+4.52ms)|virt:     25.7ms (+0s)]  1: Person Detection int8 model
+14:32:05.2401 [INFO] uart: [host:  0.45s (+4.57ms)|virt:     25.7ms (+0s)]  1: Person Detection int8 model
+14:32:05.2438 [INFO] uart: [host: 0.45s (+3.74ms)|virt:     25.7ms (+0s)]  2: Mobile Net v2 models
+14:32:05.2438 [INFO] uart: [host:   0.45s (+3.7ms)|virt:     25.7ms (+0s)]  2: Mobile Net v2 models
+14:32:05.2485 [INFO] uart: [host: 0.46s (+4.54ms)|virt:     25.7ms (+0s)]  3: MobileNetV3 Standard models
+14:32:05.2485 [INFO] uart: [host:  0.46s (+4.58ms)|virt:     25.7ms (+0s)]  3: MobileNetV3 Standard models
+14:32:05.2522 [INFO] uart: [host: 0.46s (+3.82ms)|virt:     25.7ms (+0s)]  x: eXit to previous menu
+14:32:05.2522 [INFO] uart: [host:  0.46s (+3.81ms)|virt:     25.7ms (+0s)]  x: eXit to previous menu
+14:32:05.2589 [INFO] uart: [host: 0.47s (+6.73ms)|virt:  27.5ms (+1.8ms)] models> 2
+14:32:05.2589 [INFO] uart: [host:  0.47s (+6.72ms)|virt:  27.5ms (+1.8ms)] models> 2
+14:32:05.2590 [INFO] uart: [host:   0.47s (+79µs)|virt:     27.5ms (+0s)] 
+14:32:05.2590 [INFO] uart: [host:    0.47s (+60µs)|virt:     27.5ms (+0s)] 
+14:32:05.2614 [INFO] uart: [host:  0.47s (+0.8ms)|virt:     27.5ms (+0s)] Running Mobile Net v2 models
+14:32:05.2614 [INFO] uart: [host:  0.47s (+2.11ms)|virt:     27.5ms (+0s)] Running Mobile Net v2 models
+14:32:05.2625 [INFO] uart: [host: 0.47s (+2.69ms)|virt:     27.5ms (+0s)] tflite_load_model: len=691040
+14:32:05.2625 [INFO] uart: [host:  0.47s (+1.41ms)|virt:     27.5ms (+0s)] tflite_load_model: len=691040
+14:32:05.2656 [INFO] uart: [host: 0.47s (+2.95ms)|virt:     27.5ms (+0s)] Error_reporter OK!
+14:32:05.2656 [INFO] uart: [host:  0.47s (+2.92ms)|virt:     27.5ms (+0s)] Error_reporter OK!
+14:32:05.2701 [INFO] uart: [host: 0.48s (+4.37ms)|virt:    29ms (+1.5ms)] 
+14:32:05.2701 [INFO] uart: [host:  0.48s (+4.37ms)|virt:    29ms (+1.5ms)] 
+14:32:05.2701 [INFO] uart: [host:   0.48s (+85µs)|virt:       29ms (+0s)] 
+14:32:05.2701 [INFO] uart: [host:    0.48s (+78µs)|virt:       29ms (+0s)] 
+14:32:05.2864 [INFO] uart: [host: 0.5s (+16.46ms)|virt:  31.2ms (+2.2ms)] GetModel done. Creating interpreter (arena=2097152 bytes)...
+14:32:05.2864 [INFO] uart: [host:   0.5s (+16.5ms)|virt:  31.2ms (+2.2ms)] GetModel done. Creating interpreter (arena=2097152 bytes)...
+14:32:05.2904 [INFO] uart: [host:  0.5s (+4.04ms)|virt:     31.2ms (+0s)] Calling AllocateTensors()...
+14:32:05.2904 [INFO] uart: [host:   0.5s (+4.05ms)|virt:     31.2ms (+0s)] Calling AllocateTensors()...
+14:32:05.2950 [INFO] uart: [host:  0.5s (+4.68ms)|virt:     31.2ms (+0s)] AllocateTensors: StartModelAllocation...
+14:32:05.2951 [INFO] uart: [host:   0.5s (+4.62ms)|virt:     31.2ms (+0s)] AllocateTensors: StartModelAllocation...
+14:32:05.3044 [INFO] uart: [host: 0.51s (+9.32ms)|virt:  31.5ms (+0.3ms)] AllocateTensors: PrepareNodeAndRegistrationDataFromFlatbuffer...
+14:32:05.3044 [INFO] uart: [host:  0.51s (+9.32ms)|virt:  31.5ms (+0.3ms)] AllocateTensors: PrepareNodeAndRegistrationDataFromFlatbuffer...
+14:32:05.3125 [INFO] uart: [host: 0.52s (+7.99ms)|virt:  31.9ms (+0.4ms)] AllocateTensors: InitSubgraphs...
+14:32:05.3125 [INFO] uart: [host:  0.52s (+8.07ms)|virt:  31.9ms (+0.4ms)] AllocateTensors: InitSubgraphs...
+14:32:05.3175 [INFO] uart: [host: 0.53s (+5.12ms)|virt:     31.9ms (+0s)] AllocateTensors: PrepareSubgraphs...
+14:32:05.3176 [INFO] uart: [host:  0.53s (+5.08ms)|virt:     31.9ms (+0s)] AllocateTensors: PrepareSubgraphs...
+14:32:05.5247 [INFO] uart: [host:  0.73s (+0.21s)|virt:  0.11s (+77.4ms)] AllocateTensors: FinishModelAllocation...
+14:32:05.5248 [INFO] uart: [host:   0.73s (+0.21s)|virt:  0.11s (+77.4ms)] AllocateTensors: FinishModelAllocation...
+14:32:05.5369 [INFO] uart: [host: 0.75s (+12.3ms)|virt:   0.11s (+1.2ms)] AllocateTensors: SetScratchBufferHandles...
+14:32:05.5369 [INFO] uart: [host: 0.75s (+12.21ms)|virt:   0.11s (+1.2ms)] AllocateTensors: SetScratchBufferHandles...
+14:32:05.5421 [INFO] uart: [host: 0.75s (+5.29ms)|virt:   0.11s (+0.1ms)] AllocateTensors status: 0
+14:32:05.5422 [INFO] uart: [host:  0.75s (+5.28ms)|virt:   0.11s (+0.1ms)] AllocateTensors status: 0
+14:32:05.5483 [INFO] uart: [host:  0.76s (+6.1ms)|virt:      0.11s (+0s)] Input: 76800 bytes, 4 dims: 1 160 160 3
+14:32:05.5483 [INFO] uart: [host:  0.76s (+6.11ms)|virt:      0.11s (+0s)] Input: 76800 bytes, 4 dims: 1 160 160 3
+14:32:05.5483 [INFO] uart: [host: 0.76s (+0.12ms)|virt:      0.11s (+0s)] 
+14:32:05.5483 [INFO] uart: [host:    0.76s (+74µs)|virt:      0.11s (+0s)] 
+14:32:05.5485 [INFO] uart: [host: 0.76s (+0.16ms)|virt:      0.11s (+0s)] 
+14:32:05.5485 [INFO] uart: [host:  0.76s (+0.19ms)|virt:      0.11s (+0s)] 
+14:32:05.5518 [INFO] uart: [host: 0.76s (+3.26ms)|virt:      0.11s (+0s)] Tests for mnv2 model
+14:32:05.5518 [INFO] uart: [host:  0.76s (+3.32ms)|virt:      0.11s (+0s)] Tests for mnv2 model
+14:32:05.5545 [INFO] uart: [host: 0.76s (+2.73ms)|virt:      0.11s (+0s)] ====================
+14:32:05.5545 [INFO] uart: [host:   0.76s (+2.7ms)|virt:      0.11s (+0s)] ====================
+14:32:05.5583 [INFO] uart: [host: 0.77s (+3.79ms)|virt:   0.11s (+0.1ms)]  0: Run test 0
+14:32:05.5583 [INFO] uart: [host:  0.77s (+3.78ms)|virt:   0.11s (+0.1ms)]  0: Run test 0
+14:32:05.5597 [INFO] uart: [host: 0.77s (+1.43ms)|virt:      0.11s (+0s)]  1: Run test 1
+14:32:05.5597 [INFO] uart: [host:  0.77s (+1.42ms)|virt:      0.11s (+0s)]  1: Run test 1
+14:32:05.5631 [INFO] uart: [host: 0.77s (+3.38ms)|virt:      0.11s (+0s)]  s: Run special test
+14:32:05.5631 [INFO] uart: [host:  0.77s (+3.39ms)|virt:      0.11s (+0s)]  s: Run special test
+14:32:05.5690 [INFO] uart: [host: 0.78s (+5.89ms)|virt:      0.11s (+0s)]  g: Run golden tests (check for expected outputs)
+14:32:05.5690 [INFO] uart: [host:  0.78s (+5.91ms)|virt:      0.11s (+0s)]  g: Run golden tests (check for expected outputs)
+14:32:05.5726 [INFO] uart: [host: 0.78s (+3.58ms)|virt:      0.11s (+0s)]  z: Run with zeros input
+14:32:05.5726 [INFO] uart: [host:  0.78s (+3.58ms)|virt:      0.11s (+0s)]  z: Run with zeros input
+14:32:05.5766 [INFO] uart: [host: 0.79s (+3.96ms)|virt:      0.11s (+0s)]  x: eXit to previous menu
+14:32:05.5766 [INFO] uart: [host:  0.79s (+3.97ms)|virt:      0.11s (+0s)]  x: eXit to previous menu
+14:32:05.5820 [INFO] uart: [host: 0.79s (+5.46ms)|virt:   0.11s (+1.8ms)] mnv2> g
+14:32:05.5820 [INFO] uart: [host:  0.79s (+5.42ms)|virt:   0.11s (+1.8ms)] mnv2> g
+14:32:05.5820 [INFO] uart: [host:   0.79s (+90µs)|virt:      0.11s (+0s)] 
+14:32:05.5820 [INFO] uart: [host:    0.79s (+69µs)|virt:      0.11s (+0s)] 
+14:32:05.5861 [INFO] uart: [host:  0.8s (+3.96ms)|virt:      0.11s (+0s)] Running Run golden tests (check for expected outputs)
+14:32:05.5862 [INFO] uart: [host:  0.79s (+4.02ms)|virt:      0.11s (+0s)] Running Run golden tests (check for expected outputs)
+14:32:05.6107 [INFO] uart: [host: 0.82s (+24.64ms)|virt:   0.12s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:05.6108 [INFO] uart: [host: 0.82s (+24.65ms)|virt:   0.12s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:05.6119 [INFO] uart: [host:  0.82s (+1.17ms)|virt:      0.12s (+0s)] Running mnv2
+14:32:05.6119 [INFO] uart: [host:  0.82s (+1.15ms)|virt:      0.12s (+0s)] Running mnv2
+14:32:13.4668 [INFO] uart: [host:   8.68s (+7.85s)|virt:   2.36s (+2.24s)] ....................................................................
+14:32:13.4668 [INFO] uart: [host:   8.68s (+7.85s)|virt:   2.36s (+2.24s)] ....................................................................
+14:32:13.4700 [INFO] uart: [host:   8.68s (+3.3ms)|virt:      2.36s (+0s)] "Event","Tag","Ticks"
+14:32:13.4701 [INFO] uart: [host:  8.68s (+3.28ms)|virt:      2.36s (+0s)] "Event","Tag","Ticks"
+14:32:13.4736 [INFO] uart: [host:  8.68s (+3.48ms)|virt:   2.36s (+1.5ms)] 
+14:32:13.4736 [INFO] uart: [host:  8.68s (+3.47ms)|virt:   2.36s (+1.5ms)] 
+14:32:13.4737 [INFO] uart: [host:  8.68s (+0.16ms)|virt:      2.36s (+0s)] 
+14:32:13.4737 [INFO] uart: [host:  8.68s (+0.22ms)|virt:      2.36s (+0s)] 
+14:32:13.4789 [INFO] uart: [host:  8.69s (+5.17ms)|virt:   2.36s (+1.5ms)] 0,MUL,3804
+14:32:13.4789 [INFO] uart: [host:  8.69s (+5.14ms)|virt:   2.36s (+1.5ms)] 0,MUL,3804
+14:32:13.4826 [INFO] uart: [host:  8.69s (+3.58ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4827 [INFO] uart: [host:  8.69s (+3.54ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4827 [INFO] uart: [host:    8.69s (+86µs)|virt:      2.37s (+0s)] 
+14:32:13.4827 [INFO] uart: [host:    8.69s (+78µs)|virt:      2.37s (+0s)] 
+14:32:13.4855 [INFO] uart: [host:  8.69s (+2.94ms)|virt:   2.37s (+1.5ms)] 1,SUB,9061
+14:32:13.4855 [INFO] uart: [host:  8.69s (+2.98ms)|virt:   2.37s (+1.5ms)] 1,SUB,9061
+14:32:13.4897 [INFO] uart: [host:   8.7s (+4.19ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4897 [INFO] uart: [host:    8.7s (+4.2ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4901 [INFO] uart: [host:   8.7s (+0.46ms)|virt:      2.37s (+0s)] 
+14:32:13.4901 [INFO] uart: [host:   8.7s (+0.44ms)|virt:      2.37s (+0s)] 
+14:32:13.4961 [INFO] uart: [host:  8.71s (+5.75ms)|virt:   2.37s (+1.5ms)] 2,CONV_2D,56206
+14:32:13.4961 [INFO] uart: [host:   8.7s (+5.71ms)|virt:   2.37s (+1.5ms)] 2,CONV_2D,56206
+14:32:13.4986 [INFO] uart: [host:  8.71s (+2.77ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4986 [INFO] uart: [host:  8.71s (+2.76ms)|virt:   2.37s (+1.5ms)] 
+14:32:13.4987 [INFO] uart: [host:    8.71s (+67µs)|virt:      2.37s (+0s)] 
+14:32:13.4987 [INFO] uart: [host:    8.71s (+94µs)|virt:      2.37s (+0s)] 
+14:32:13.5060 [INFO] uart: [host:  8.72s (+7.24ms)|virt:   2.37s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30921
+14:32:13.5060 [INFO] uart: [host:  8.71s (+7.34ms)|virt:   2.37s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30921
+14:32:13.5102 [INFO] uart: [host:  8.72s (+4.27ms)|virt:   2.37s (+1.6ms)] 
+14:32:13.5102 [INFO] uart: [host:  8.72s (+4.18ms)|virt:   2.37s (+1.6ms)] 
+14:32:13.5104 [INFO] uart: [host:  8.72s (+0.16ms)|virt:      2.37s (+0s)] 
+14:32:13.5104 [INFO] uart: [host:  8.72s (+0.16ms)|virt:      2.37s (+0s)] 
+14:32:13.5158 [INFO] uart: [host:  8.73s (+5.46ms)|virt:   2.38s (+1.5ms)] 4,CONV_2D,182
+14:32:13.5159 [INFO] uart: [host:  8.72s (+5.47ms)|virt:   2.38s (+1.5ms)] 4,CONV_2D,182
+14:32:13.5200 [INFO] uart: [host:  8.73s (+4.13ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5200 [INFO] uart: [host:  8.73s (+4.13ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5200 [INFO] uart: [host:  8.73s (+0.12ms)|virt:      2.38s (+0s)] 
+14:32:13.5200 [INFO] uart: [host:    8.73s (+60µs)|virt:      2.38s (+0s)] 
+14:32:13.5294 [INFO] uart: [host:  8.74s (+9.33ms)|virt:   2.38s (+1.5ms)] 5,CONV_2D,321
+14:32:13.5295 [INFO] uart: [host:  8.74s (+9.39ms)|virt:   2.38s (+1.5ms)] 5,CONV_2D,321
+14:32:13.5341 [INFO] uart: [host:   8.74s (+4.7ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5341 [INFO] uart: [host:  8.74s (+4.67ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5344 [INFO] uart: [host:   8.74s (+0.3ms)|virt:      2.38s (+0s)] 
+14:32:13.5345 [INFO] uart: [host:  8.74s (+0.35ms)|virt:      2.38s (+0s)] 
+14:32:13.5414 [INFO] uart: [host:  8.75s (+6.99ms)|virt:   2.38s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23128
+14:32:13.5414 [INFO] uart: [host:  8.75s (+6.92ms)|virt:   2.38s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23128
+14:32:13.5454 [INFO] uart: [host:  8.75s (+4.01ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5454 [INFO] uart: [host:  8.75s (+4.06ms)|virt:   2.38s (+1.5ms)] 
+14:32:13.5455 [INFO] uart: [host:  8.75s (+0.13ms)|virt:      2.38s (+0s)] 
+14:32:13.5456 [INFO] uart: [host:  8.75s (+0.12ms)|virt:      2.38s (+0s)] 
+14:32:13.5507 [INFO] uart: [host:  8.76s (+5.19ms)|virt:   2.38s (+1.5ms)] 7,CONV_2D,81
+14:32:13.5508 [INFO] uart: [host:  8.76s (+5.18ms)|virt:   2.38s (+1.5ms)] 7,CONV_2D,81
+14:32:13.5551 [INFO] uart: [host:  8.76s (+4.39ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5551 [INFO] uart: [host:  8.76s (+4.41ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5553 [INFO] uart: [host:  8.76s (+0.16ms)|virt:      2.39s (+0s)] 
+14:32:13.5553 [INFO] uart: [host:  8.76s (+0.14ms)|virt:      2.39s (+0s)] 
+14:32:13.5602 [INFO] uart: [host:  8.77s (+4.86ms)|virt:   2.39s (+1.5ms)] 8,CONV_2D,81
+14:32:13.5602 [INFO] uart: [host:  8.77s (+4.87ms)|virt:   2.39s (+1.5ms)] 8,CONV_2D,81
+14:32:13.5641 [INFO] uart: [host:  8.77s (+3.93ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5641 [INFO] uart: [host:  8.77s (+3.93ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5642 [INFO] uart: [host:  8.77s (+0.17ms)|virt:      2.39s (+0s)] 
+14:32:13.5643 [INFO] uart: [host:  8.77s (+0.17ms)|virt:      2.39s (+0s)] 
+14:32:13.5701 [INFO] uart: [host:  8.78s (+5.89ms)|virt:   2.39s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22901
+14:32:13.5702 [INFO] uart: [host:  8.78s (+5.88ms)|virt:   2.39s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22901
+14:32:13.5725 [INFO] uart: [host:  8.78s (+2.37ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5725 [INFO] uart: [host:  8.78s (+2.37ms)|virt:   2.39s (+1.5ms)] 
+14:32:13.5727 [INFO] uart: [host:  8.78s (+0.22ms)|virt:      2.39s (+0s)] 
+14:32:13.5728 [INFO] uart: [host:  8.78s (+0.23ms)|virt:      2.39s (+0s)] 
+14:32:13.5797 [INFO] uart: [host:  8.79s (+6.99ms)|virt:   2.39s (+1.5ms)] 10,CONV_2D,81
+14:32:13.5797 [INFO] uart: [host:  8.79s (+6.98ms)|virt:   2.39s (+1.5ms)] 10,CONV_2D,81
+14:32:13.5839 [INFO] uart: [host:   8.79s (+3.9ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5839 [INFO] uart: [host:  8.79s (+3.87ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5840 [INFO] uart: [host:    8.79s (+85µs)|virt:       2.4s (+0s)] 
+14:32:13.5840 [INFO] uart: [host:    8.79s (+79µs)|virt:       2.4s (+0s)] 
+14:32:13.5873 [INFO] uart: [host:   8.8s (+3.61ms)|virt:    2.4s (+1.6ms)] 11,ADD,1059
+14:32:13.5873 [INFO] uart: [host:   8.8s (+3.66ms)|virt:    2.4s (+1.6ms)] 11,ADD,1059
+14:32:13.5910 [INFO] uart: [host:   8.8s (+3.66ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5910 [INFO] uart: [host:   8.8s (+3.65ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5911 [INFO] uart: [host:   8.8s (+0.16ms)|virt:       2.4s (+0s)] 
+14:32:13.5911 [INFO] uart: [host:   8.8s (+0.17ms)|virt:       2.4s (+0s)] 
+14:32:13.5954 [INFO] uart: [host:   8.8s (+4.31ms)|virt:    2.4s (+1.5ms)] 12,CONV_2D,82
+14:32:13.5955 [INFO] uart: [host:   8.8s (+4.32ms)|virt:    2.4s (+1.5ms)] 12,CONV_2D,82
+14:32:13.5995 [INFO] uart: [host:  8.81s (+4.05ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5995 [INFO] uart: [host:  8.81s (+4.01ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.5996 [INFO] uart: [host:    8.81s (+65µs)|virt:       2.4s (+0s)] 
+14:32:13.5996 [INFO] uart: [host:    8.81s (+92µs)|virt:       2.4s (+0s)] 
+14:32:13.6062 [INFO] uart: [host:  8.82s (+6.68ms)|virt:    2.4s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:13.6063 [INFO] uart: [host:   8.81s (+6.7ms)|virt:    2.4s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:13.6109 [INFO] uart: [host:  8.82s (+4.58ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.6109 [INFO] uart: [host:  8.82s (+4.61ms)|virt:    2.4s (+1.5ms)] 
+14:32:13.6113 [INFO] uart: [host:   8.82s (+0.4ms)|virt:       2.4s (+0s)] 
+14:32:13.6113 [INFO] uart: [host:   8.82s (+0.4ms)|virt:       2.4s (+0s)] 
+14:32:13.6173 [INFO] uart: [host:  8.83s (+5.97ms)|virt:   2.41s (+1.5ms)] 14,CONV_2D,25
+14:32:13.6173 [INFO] uart: [host:  8.83s (+5.91ms)|virt:   2.41s (+1.5ms)] 14,CONV_2D,25
+14:32:13.6195 [INFO] uart: [host:  8.83s (+2.36ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6195 [INFO] uart: [host:  8.83s (+2.38ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6197 [INFO] uart: [host:  8.83s (+0.15ms)|virt:      2.41s (+0s)] 
+14:32:13.6197 [INFO] uart: [host:  8.83s (+0.17ms)|virt:      2.41s (+0s)] 
+14:32:13.6247 [INFO] uart: [host:  8.83s (+5.04ms)|virt:   2.41s (+1.5ms)] 15,CONV_2D,39
+14:32:13.6248 [INFO] uart: [host:  8.83s (+5.04ms)|virt:   2.41s (+1.5ms)] 15,CONV_2D,39
+14:32:13.6283 [INFO] uart: [host:  8.84s (+3.56ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6283 [INFO] uart: [host:  8.84s (+3.55ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6286 [INFO] uart: [host:  8.84s (+0.24ms)|virt:      2.41s (+0s)] 
+14:32:13.6286 [INFO] uart: [host:  8.84s (+0.26ms)|virt:      2.41s (+0s)] 
+14:32:13.6361 [INFO] uart: [host:  8.85s (+7.46ms)|virt:   2.41s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11390
+14:32:13.6361 [INFO] uart: [host:  8.84s (+7.49ms)|virt:   2.41s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11390
+14:32:13.6403 [INFO] uart: [host:  8.85s (+4.21ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6403 [INFO] uart: [host:  8.85s (+4.14ms)|virt:   2.41s (+1.5ms)] 
+14:32:13.6405 [INFO] uart: [host:  8.85s (+0.25ms)|virt:      2.41s (+0s)] 
+14:32:13.6405 [INFO] uart: [host:   8.85s (+0.3ms)|virt:      2.41s (+0s)] 
+14:32:13.6460 [INFO] uart: [host:  8.86s (+5.51ms)|virt:   2.41s (+1.5ms)] 17,CONV_2D,38
+14:32:13.6460 [INFO] uart: [host:  8.85s (+5.49ms)|virt:   2.41s (+1.5ms)] 17,CONV_2D,38
+14:32:13.6502 [INFO] uart: [host:  8.86s (+4.19ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6502 [INFO] uart: [host:  8.86s (+4.19ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6503 [INFO] uart: [host:  8.86s (+0.16ms)|virt:      2.42s (+0s)] 
+14:32:13.6503 [INFO] uart: [host:  8.86s (+0.16ms)|virt:      2.42s (+0s)] 
+14:32:13.6556 [INFO] uart: [host:  8.86s (+5.29ms)|virt:   2.42s (+1.6ms)] 18,ADD,523
+14:32:13.6556 [INFO] uart: [host:  8.86s (+5.29ms)|virt:   2.42s (+1.6ms)] 18,ADD,523
+14:32:13.6596 [INFO] uart: [host:  8.87s (+3.98ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6596 [INFO] uart: [host:  8.87s (+3.98ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6597 [INFO] uart: [host:  8.87s (+0.13ms)|virt:      2.42s (+0s)] 
+14:32:13.6597 [INFO] uart: [host:  8.87s (+0.11ms)|virt:      2.42s (+0s)] 
+14:32:13.6653 [INFO] uart: [host:  8.87s (+5.49ms)|virt:   2.42s (+1.5ms)] 19,CONV_2D,39
+14:32:13.6653 [INFO] uart: [host:  8.87s (+5.54ms)|virt:   2.42s (+1.5ms)] 19,CONV_2D,39
+14:32:13.6692 [INFO] uart: [host:  8.88s (+3.89ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6692 [INFO] uart: [host:  8.88s (+3.82ms)|virt:   2.42s (+1.5ms)] 
+14:32:13.6693 [INFO] uart: [host:  8.88s (+0.15ms)|virt:      2.42s (+0s)] 
+14:32:13.6693 [INFO] uart: [host:  8.88s (+0.14ms)|virt:      2.42s (+0s)] 
+14:32:13.6756 [INFO] uart: [host:   8.88s (+6.3ms)|virt:   2.42s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11402
+14:32:13.6756 [INFO] uart: [host:  8.88s (+6.34ms)|virt:   2.42s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11402
+14:32:13.6798 [INFO] uart: [host:  8.89s (+4.25ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6798 [INFO] uart: [host:  8.89s (+4.24ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6799 [INFO] uart: [host:   8.89s (+0.1ms)|virt:      2.43s (+0s)] 
+14:32:13.6799 [INFO] uart: [host:   8.89s (+0.1ms)|virt:      2.43s (+0s)] 
+14:32:13.6854 [INFO] uart: [host:  8.89s (+5.44ms)|virt:   2.43s (+1.5ms)] 21,CONV_2D,38
+14:32:13.6854 [INFO] uart: [host:  8.89s (+5.46ms)|virt:   2.43s (+1.5ms)] 21,CONV_2D,38
+14:32:13.6896 [INFO] uart: [host:    8.9s (+4.2ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6896 [INFO] uart: [host:    8.9s (+4.2ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6896 [INFO] uart: [host:   8.9s (+0.12ms)|virt:      2.43s (+0s)] 
+14:32:13.6896 [INFO] uart: [host:     8.9s (+69µs)|virt:      2.43s (+0s)] 
+14:32:13.6940 [INFO] uart: [host:   8.9s (+4.33ms)|virt:   2.43s (+1.5ms)] 22,ADD,523
+14:32:13.6941 [INFO] uart: [host:   8.9s (+4.41ms)|virt:   2.43s (+1.5ms)] 22,ADD,523
+14:32:13.6980 [INFO] uart: [host:   8.91s (+3.8ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6980 [INFO] uart: [host:  8.91s (+3.74ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.6980 [INFO] uart: [host:  8.91s (+0.16ms)|virt:      2.43s (+0s)] 
+14:32:13.6980 [INFO] uart: [host:  8.91s (+0.14ms)|virt:      2.43s (+0s)] 
+14:32:13.7026 [INFO] uart: [host:  8.91s (+4.64ms)|virt:   2.43s (+1.5ms)] 23,CONV_2D,39
+14:32:13.7026 [INFO] uart: [host:  8.91s (+4.68ms)|virt:   2.43s (+1.5ms)] 23,CONV_2D,39
+14:32:13.7050 [INFO] uart: [host:  8.91s (+2.45ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.7051 [INFO] uart: [host:  8.91s (+2.44ms)|virt:   2.43s (+1.5ms)] 
+14:32:13.7051 [INFO] uart: [host:    8.91s (+80µs)|virt:      2.43s (+0s)] 
+14:32:13.7051 [INFO] uart: [host:    8.91s (+47µs)|virt:      2.43s (+0s)] 
+14:32:13.7125 [INFO] uart: [host:  8.92s (+7.28ms)|virt:   2.44s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:13.7126 [INFO] uart: [host:   8.92s (+7.3ms)|virt:   2.44s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:13.7148 [INFO] uart: [host:  8.92s (+2.37ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7148 [INFO] uart: [host:  8.92s (+2.39ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7148 [INFO] uart: [host:    8.92s (+85µs)|virt:      2.44s (+0s)] 
+14:32:13.7149 [INFO] uart: [host:    8.92s (+80µs)|virt:      2.44s (+0s)] 
+14:32:13.7199 [INFO] uart: [host:  8.93s (+4.99ms)|virt:   2.44s (+1.6ms)] 25,CONV_2D,12
+14:32:13.7199 [INFO] uart: [host:  8.93s (+5.01ms)|virt:   2.44s (+1.6ms)] 25,CONV_2D,12
+14:32:13.7236 [INFO] uart: [host:  8.93s (+3.74ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7236 [INFO] uart: [host:  8.93s (+3.78ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7241 [INFO] uart: [host:  8.93s (+0.57ms)|virt:      2.44s (+0s)] 
+14:32:13.7241 [INFO] uart: [host:   8.93s (+0.5ms)|virt:      2.44s (+0s)] 
+14:32:13.7297 [INFO] uart: [host:  8.94s (+5.54ms)|virt:   2.44s (+1.5ms)] 26,CONV_2D,17
+14:32:13.7297 [INFO] uart: [host:  8.94s (+5.57ms)|virt:   2.44s (+1.5ms)] 26,CONV_2D,17
+14:32:13.7342 [INFO] uart: [host:  8.94s (+4.43ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7342 [INFO] uart: [host:  8.94s (+4.48ms)|virt:   2.44s (+1.5ms)] 
+14:32:13.7347 [INFO] uart: [host:  8.94s (+0.52ms)|virt:      2.44s (+0s)] 
+14:32:13.7347 [INFO] uart: [host:  8.94s (+0.51ms)|virt:      2.44s (+0s)] 
+14:32:13.7415 [INFO] uart: [host:  8.95s (+6.81ms)|virt:   2.45s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4174
+14:32:13.7415 [INFO] uart: [host:  8.95s (+6.76ms)|virt:   2.45s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4174
+14:32:13.7463 [INFO] uart: [host:  8.96s (+4.74ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7463 [INFO] uart: [host:  8.95s (+4.78ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7467 [INFO] uart: [host:  8.96s (+0.47ms)|virt:      2.45s (+0s)] 
+14:32:13.7467 [INFO] uart: [host:  8.96s (+0.45ms)|virt:      2.45s (+0s)] 
+14:32:13.7528 [INFO] uart: [host:  8.96s (+6.07ms)|virt:   2.45s (+1.5ms)] 28,CONV_2D,16
+14:32:13.7528 [INFO] uart: [host:  8.96s (+6.06ms)|virt:   2.45s (+1.5ms)] 28,CONV_2D,16
+14:32:13.7573 [INFO] uart: [host:  8.97s (+4.47ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7573 [INFO] uart: [host:  8.97s (+4.49ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7575 [INFO] uart: [host:  8.97s (+0.26ms)|virt:      2.45s (+0s)] 
+14:32:13.7576 [INFO] uart: [host:  8.97s (+0.28ms)|virt:      2.45s (+0s)] 
+14:32:13.7649 [INFO] uart: [host:  8.97s (+7.35ms)|virt:   2.45s (+1.5ms)] 29,ADD,200
+14:32:13.7649 [INFO] uart: [host:  8.97s (+7.36ms)|virt:   2.45s (+1.5ms)] 29,ADD,200
+14:32:13.7692 [INFO] uart: [host:  8.98s (+4.31ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7692 [INFO] uart: [host:  8.98s (+4.23ms)|virt:   2.45s (+1.5ms)] 
+14:32:13.7695 [INFO] uart: [host:   8.98s (+0.3ms)|virt:      2.45s (+0s)] 
+14:32:13.7695 [INFO] uart: [host:  8.98s (+0.37ms)|virt:      2.45s (+0s)] 
+14:32:13.7753 [INFO] uart: [host:  8.98s (+5.83ms)|virt:   2.45s (+1.5ms)] 30,CONV_2D,17
+14:32:13.7753 [INFO] uart: [host:  8.98s (+5.79ms)|virt:   2.45s (+1.5ms)] 30,CONV_2D,17
+14:32:13.7786 [INFO] uart: [host:  8.99s (+3.28ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7786 [INFO] uart: [host:  8.99s (+3.29ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7787 [INFO] uart: [host:  8.99s (+0.16ms)|virt:      2.46s (+0s)] 
+14:32:13.7787 [INFO] uart: [host:  8.99s (+0.16ms)|virt:      2.46s (+0s)] 
+14:32:13.7852 [INFO] uart: [host:   8.99s (+6.5ms)|virt:   2.46s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4168
+14:32:13.7852 [INFO] uart: [host:  8.99s (+6.46ms)|virt:   2.46s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4168
+14:32:13.7886 [INFO] uart: [host:     9s (+3.37ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7886 [INFO] uart: [host:      9s (+3.4ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7888 [INFO] uart: [host:     9s (+0.14ms)|virt:      2.46s (+0s)] 
+14:32:13.7888 [INFO] uart: [host:     9s (+0.15ms)|virt:      2.46s (+0s)] 
+14:32:13.7935 [INFO] uart: [host:     9s (+4.75ms)|virt:   2.46s (+1.5ms)] 32,CONV_2D,16
+14:32:13.7935 [INFO] uart: [host:     9s (+4.75ms)|virt:   2.46s (+1.5ms)] 32,CONV_2D,16
+14:32:13.7972 [INFO] uart: [host:   9.01s (+3.7ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7972 [INFO] uart: [host:  9.01s (+3.73ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.7977 [INFO] uart: [host:  9.01s (+0.49ms)|virt:   2.46s (+0.1ms)] 
+14:32:13.7977 [INFO] uart: [host:  9.01s (+0.45ms)|virt:   2.46s (+0.1ms)] 
+14:32:13.8019 [INFO] uart: [host:  9.01s (+4.26ms)|virt:   2.46s (+1.5ms)] 33,ADD,199
+14:32:13.8019 [INFO] uart: [host:  9.01s (+4.26ms)|virt:   2.46s (+1.5ms)] 33,ADD,199
+14:32:13.8054 [INFO] uart: [host:  9.01s (+3.51ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.8055 [INFO] uart: [host:   9.01s (+3.5ms)|virt:   2.46s (+1.5ms)] 
+14:32:13.8056 [INFO] uart: [host:  9.01s (+0.15ms)|virt:      2.46s (+0s)] 
+14:32:13.8056 [INFO] uart: [host:  9.01s (+0.15ms)|virt:      2.46s (+0s)] 
+14:32:13.8103 [INFO] uart: [host:  9.02s (+4.73ms)|virt:   2.47s (+1.5ms)] 34,CONV_2D,17
+14:32:13.8103 [INFO] uart: [host:  9.02s (+4.72ms)|virt:   2.47s (+1.5ms)] 34,CONV_2D,17
+14:32:13.8127 [INFO] uart: [host:  9.02s (+2.35ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8127 [INFO] uart: [host:  9.02s (+2.36ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8127 [INFO] uart: [host:   9.02s (+0.1ms)|virt:      2.47s (+0s)] 
+14:32:13.8127 [INFO] uart: [host:    9.02s (+58µs)|virt:      2.47s (+0s)] 
+14:32:13.8199 [INFO] uart: [host:  9.03s (+7.12ms)|virt:   2.47s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4171
+14:32:13.8199 [INFO] uart: [host:  9.03s (+7.16ms)|virt:   2.47s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4171
+14:32:13.8240 [INFO] uart: [host:  9.03s (+4.15ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8241 [INFO] uart: [host:  9.03s (+4.15ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8242 [INFO] uart: [host:  9.03s (+0.15ms)|virt:      2.47s (+0s)] 
+14:32:13.8242 [INFO] uart: [host:  9.03s (+0.16ms)|virt:      2.47s (+0s)] 
+14:32:13.8291 [INFO] uart: [host:  9.04s (+4.88ms)|virt:   2.47s (+1.5ms)] 36,CONV_2D,15
+14:32:13.8291 [INFO] uart: [host:  9.04s (+4.88ms)|virt:   2.47s (+1.5ms)] 36,CONV_2D,15
+14:32:13.8326 [INFO] uart: [host:  9.04s (+3.53ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8326 [INFO] uart: [host:   9.04s (+3.5ms)|virt:   2.47s (+1.5ms)] 
+14:32:13.8329 [INFO] uart: [host:  9.04s (+0.24ms)|virt:      2.47s (+0s)] 
+14:32:13.8329 [INFO] uart: [host:   9.04s (+0.3ms)|virt:      2.47s (+0s)] 
+14:32:13.8375 [INFO] uart: [host:  9.05s (+4.69ms)|virt:   2.48s (+1.5ms)] 37,ADD,198
+14:32:13.8375 [INFO] uart: [host:  9.05s (+4.62ms)|virt:   2.48s (+1.5ms)] 37,ADD,198
+14:32:13.8416 [INFO] uart: [host:  9.05s (+3.84ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8416 [INFO] uart: [host:  9.05s (+3.85ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8418 [INFO] uart: [host:   9.05s (+0.4ms)|virt:      2.48s (+0s)] 
+14:32:13.8418 [INFO] uart: [host:  9.05s (+0.42ms)|virt:      2.48s (+0s)] 
+14:32:13.8473 [INFO] uart: [host:  9.06s (+5.54ms)|virt:   2.48s (+1.5ms)] 38,CONV_2D,17
+14:32:13.8473 [INFO] uart: [host:  9.06s (+5.51ms)|virt:   2.48s (+1.5ms)] 38,CONV_2D,17
+14:32:13.8517 [INFO] uart: [host:   9.06s (+4.3ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8517 [INFO] uart: [host:  9.06s (+4.42ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8519 [INFO] uart: [host:  9.06s (+0.28ms)|virt:      2.48s (+0s)] 
+14:32:13.8519 [INFO] uart: [host:  9.06s (+0.21ms)|virt:      2.48s (+0s)] 
+14:32:13.8600 [INFO] uart: [host:   9.07s (+6.7ms)|virt:   2.48s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4139
+14:32:13.8602 [INFO] uart: [host:   9.07s (+6.7ms)|virt:   2.48s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4139
+14:32:13.8646 [INFO] uart: [host:  9.07s (+5.72ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8646 [INFO] uart: [host:  9.07s (+5.68ms)|virt:   2.48s (+1.5ms)] 
+14:32:13.8646 [INFO] uart: [host:    9.07s (+91µs)|virt:      2.48s (+0s)] 
+14:32:13.8646 [INFO] uart: [host:    9.07s (+85µs)|virt:      2.48s (+0s)] 
+14:32:13.8700 [INFO] uart: [host:  9.08s (+5.57ms)|virt:   2.48s (+1.6ms)] 40,CONV_2D,17
+14:32:13.8701 [INFO] uart: [host:  9.08s (+5.58ms)|virt:   2.48s (+1.6ms)] 40,CONV_2D,17
+14:32:13.8746 [INFO] uart: [host:  9.08s (+4.59ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8747 [INFO] uart: [host:  9.08s (+4.67ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8751 [INFO] uart: [host:  9.08s (+0.45ms)|virt:      2.49s (+0s)] 
+14:32:13.8751 [INFO] uart: [host:  9.08s (+0.44ms)|virt:      2.49s (+0s)] 
+14:32:13.8806 [INFO] uart: [host:  9.09s (+5.59ms)|virt:   2.49s (+1.5ms)] 41,CONV_2D,23
+14:32:13.8806 [INFO] uart: [host:  9.09s (+5.56ms)|virt:   2.49s (+1.5ms)] 41,CONV_2D,23
+14:32:13.8843 [INFO] uart: [host:  9.09s (+3.65ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8843 [INFO] uart: [host:  9.09s (+3.63ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8843 [INFO] uart: [host:    9.09s (+98µs)|virt:      2.49s (+0s)] 
+14:32:13.8843 [INFO] uart: [host:    9.09s (+66µs)|virt:      2.49s (+0s)] 
+14:32:13.8906 [INFO] uart: [host:   9.1s (+6.21ms)|virt:   2.49s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:13.8906 [INFO] uart: [host:   9.1s (+6.24ms)|virt:   2.49s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:13.8946 [INFO] uart: [host:   9.1s (+4.04ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8946 [INFO] uart: [host:   9.1s (+4.05ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.8948 [INFO] uart: [host:   9.1s (+0.15ms)|virt:      2.49s (+0s)] 
+14:32:13.8948 [INFO] uart: [host:   9.1s (+0.14ms)|virt:      2.49s (+0s)] 
+14:32:13.8995 [INFO] uart: [host:  9.11s (+4.74ms)|virt:   2.49s (+1.5ms)] 43,CONV_2D,21
+14:32:13.8995 [INFO] uart: [host:  9.11s (+4.74ms)|virt:   2.49s (+1.5ms)] 43,CONV_2D,21
+14:32:13.9030 [INFO] uart: [host:  9.11s (+3.52ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.9031 [INFO] uart: [host:  9.11s (+3.53ms)|virt:   2.49s (+1.5ms)] 
+14:32:13.9032 [INFO] uart: [host:  9.11s (+0.16ms)|virt:      2.49s (+0s)] 
+14:32:13.9032 [INFO] uart: [host:  9.11s (+0.16ms)|virt:      2.49s (+0s)] 
+14:32:13.9074 [INFO] uart: [host:  9.12s (+4.21ms)|virt:    2.5s (+1.5ms)] 44,ADD,265
+14:32:13.9074 [INFO] uart: [host:  9.12s (+4.21ms)|virt:    2.5s (+1.5ms)] 44,ADD,265
+14:32:13.9097 [INFO] uart: [host:  9.12s (+2.31ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9097 [INFO] uart: [host:  9.12s (+2.29ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9099 [INFO] uart: [host:  9.12s (+0.19ms)|virt:       2.5s (+0s)] 
+14:32:13.9099 [INFO] uart: [host:   9.12s (+0.2ms)|virt:       2.5s (+0s)] 
+14:32:13.9160 [INFO] uart: [host:  9.13s (+5.89ms)|virt:    2.5s (+1.5ms)] 45,CONV_2D,23
+14:32:13.9160 [INFO] uart: [host:  9.12s (+5.86ms)|virt:    2.5s (+1.5ms)] 45,CONV_2D,23
+14:32:13.9184 [INFO] uart: [host:   9.13s (+2.6ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9184 [INFO] uart: [host:  9.13s (+2.64ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9186 [INFO] uart: [host:  9.13s (+0.16ms)|virt:       2.5s (+0s)] 
+14:32:13.9186 [INFO] uart: [host:  9.13s (+0.16ms)|virt:       2.5s (+0s)] 
+14:32:13.9258 [INFO] uart: [host:  9.14s (+7.23ms)|virt:    2.5s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5555
+14:32:13.9258 [INFO] uart: [host:  9.13s (+7.22ms)|virt:    2.5s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5555
+14:32:13.9297 [INFO] uart: [host:  9.14s (+3.96ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9297 [INFO] uart: [host:  9.14s (+3.95ms)|virt:    2.5s (+1.5ms)] 
+14:32:13.9301 [INFO] uart: [host:  9.14s (+0.28ms)|virt:       2.5s (+0s)] 
+14:32:13.9301 [INFO] uart: [host:  9.14s (+0.33ms)|virt:       2.5s (+0s)] 
+14:32:13.9356 [INFO] uart: [host:  9.14s (+5.54ms)|virt:   2.51s (+1.6ms)] 47,CONV_2D,22
+14:32:13.9356 [INFO] uart: [host:  9.14s (+5.51ms)|virt:   2.51s (+1.6ms)] 47,CONV_2D,22
+14:32:13.9401 [INFO] uart: [host:   9.15s (+4.5ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9402 [INFO] uart: [host:  9.15s (+4.55ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9403 [INFO] uart: [host:  9.15s (+0.22ms)|virt:      2.51s (+0s)] 
+14:32:13.9403 [INFO] uart: [host:  9.15s (+0.16ms)|virt:      2.51s (+0s)] 
+14:32:13.9459 [INFO] uart: [host:  9.16s (+5.57ms)|virt:   2.51s (+1.5ms)] 48,ADD,264
+14:32:13.9459 [INFO] uart: [host:  9.15s (+5.57ms)|virt:   2.51s (+1.5ms)] 48,ADD,264
+14:32:13.9498 [INFO] uart: [host:  9.16s (+3.96ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9498 [INFO] uart: [host:  9.16s (+3.92ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9499 [INFO] uart: [host:    9.16s (+69µs)|virt:      2.51s (+0s)] 
+14:32:13.9499 [INFO] uart: [host:    9.16s (+97µs)|virt:      2.51s (+0s)] 
+14:32:13.9548 [INFO] uart: [host:  9.16s (+4.92ms)|virt:   2.51s (+1.5ms)] 49,CONV_2D,23
+14:32:13.9548 [INFO] uart: [host:  9.16s (+4.89ms)|virt:   2.51s (+1.5ms)] 49,CONV_2D,23
+14:32:13.9590 [INFO] uart: [host:  9.17s (+4.19ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9591 [INFO] uart: [host:  9.17s (+4.27ms)|virt:   2.51s (+1.5ms)] 
+14:32:13.9593 [INFO] uart: [host:  9.17s (+0.38ms)|virt:      2.51s (+0s)] 
+14:32:13.9593 [INFO] uart: [host:  9.17s (+0.29ms)|virt:      2.51s (+0s)] 
+14:32:13.9656 [INFO] uart: [host:  9.17s (+6.27ms)|virt:   2.51s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1380
+14:32:13.9657 [INFO] uart: [host:  9.17s (+6.32ms)|virt:   2.51s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1380
+14:32:13.9697 [INFO] uart: [host:  9.18s (+4.03ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9697 [INFO] uart: [host:  9.18s (+4.03ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9698 [INFO] uart: [host:  9.18s (+0.17ms)|virt:      2.52s (+0s)] 
+14:32:13.9699 [INFO] uart: [host:  9.18s (+0.16ms)|virt:      2.52s (+0s)] 
+14:32:13.9748 [INFO] uart: [host:  9.18s (+4.99ms)|virt:   2.52s (+1.5ms)] 51,CONV_2D,16
+14:32:13.9748 [INFO] uart: [host:  9.18s (+4.99ms)|virt:   2.52s (+1.5ms)] 51,CONV_2D,16
+14:32:13.9783 [INFO] uart: [host:  9.19s (+3.51ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9784 [INFO] uart: [host:  9.19s (+3.51ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9785 [INFO] uart: [host:  9.19s (+0.17ms)|virt:      2.52s (+0s)] 
+14:32:13.9785 [INFO] uart: [host:  9.19s (+0.17ms)|virt:      2.52s (+0s)] 
+14:32:13.9835 [INFO] uart: [host:  9.19s (+4.97ms)|virt:   2.52s (+1.5ms)] 52,CONV_2D,24
+14:32:13.9835 [INFO] uart: [host:  9.19s (+4.98ms)|virt:   2.52s (+1.5ms)] 52,CONV_2D,24
+14:32:13.9874 [INFO] uart: [host:   9.2s (+3.93ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9875 [INFO] uart: [host:   9.2s (+3.96ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9880 [INFO] uart: [host:   9.2s (+0.57ms)|virt:      2.52s (+0s)] 
+14:32:13.9880 [INFO] uart: [host:   9.2s (+0.56ms)|virt:      2.52s (+0s)] 
+14:32:13.9955 [INFO] uart: [host:   9.2s (+7.55ms)|virt:   2.52s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2311
+14:32:13.9955 [INFO] uart: [host:   9.2s (+7.52ms)|virt:   2.52s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2311
+14:32:13.9980 [INFO] uart: [host:  9.21s (+2.52ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9981 [INFO] uart: [host:  9.21s (+2.52ms)|virt:   2.52s (+1.5ms)] 
+14:32:13.9982 [INFO] uart: [host:  9.21s (+0.18ms)|virt:      2.52s (+0s)] 
+14:32:13.9982 [INFO] uart: [host:  9.21s (+0.18ms)|virt:      2.52s (+0s)] 
+14:32:14.0029 [INFO] uart: [host:  9.21s (+4.72ms)|virt:   2.53s (+1.5ms)] 54,CONV_2D,31
+14:32:14.0029 [INFO] uart: [host:  9.21s (+4.68ms)|virt:   2.53s (+1.5ms)] 54,CONV_2D,31
+14:32:14.0065 [INFO] uart: [host:  9.22s (+3.53ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0065 [INFO] uart: [host:  9.22s (+3.58ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0069 [INFO] uart: [host:  9.22s (+0.38ms)|virt:   2.53s (+0.1ms)] 
+14:32:14.0069 [INFO] uart: [host:  9.22s (+0.38ms)|virt:   2.53s (+0.1ms)] 
+14:32:14.0117 [INFO] uart: [host:  9.22s (+4.85ms)|virt:   2.53s (+1.5ms)] 55,ADD,116
+14:32:14.0117 [INFO] uart: [host:   9.22s (+4.8ms)|virt:   2.53s (+1.5ms)] 55,ADD,116
+14:32:14.0166 [INFO] uart: [host:  9.23s (+4.78ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0167 [INFO] uart: [host:  9.23s (+4.94ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0169 [INFO] uart: [host:   9.23s (+0.4ms)|virt:      2.53s (+0s)] 
+14:32:14.0169 [INFO] uart: [host:  9.23s (+0.31ms)|virt:      2.53s (+0s)] 
+14:32:14.0284 [INFO] uart: [host: 9.24s (+11.51ms)|virt:   2.53s (+1.5ms)] 56,CONV_2D,25
+14:32:14.0285 [INFO] uart: [host: 9.24s (+11.49ms)|virt:   2.53s (+1.5ms)] 56,CONV_2D,25
+14:32:14.0334 [INFO] uart: [host:  9.24s (+4.93ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0334 [INFO] uart: [host:   9.24s (+4.9ms)|virt:   2.53s (+1.5ms)] 
+14:32:14.0336 [INFO] uart: [host:  9.24s (+0.19ms)|virt:      2.53s (+0s)] 
+14:32:14.0336 [INFO] uart: [host:  9.24s (+0.24ms)|virt:      2.53s (+0s)] 
+14:32:14.0412 [INFO] uart: [host:  9.25s (+7.68ms)|virt:   2.54s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:14.0412 [INFO] uart: [host:  9.25s (+7.66ms)|virt:   2.54s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:14.0462 [INFO] uart: [host:  9.26s (+4.96ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0462 [INFO] uart: [host:  9.25s (+4.96ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0463 [INFO] uart: [host:  9.26s (+0.18ms)|virt:      2.54s (+0s)] 
+14:32:14.0464 [INFO] uart: [host:  9.26s (+0.18ms)|virt:      2.54s (+0s)] 
+14:32:14.0521 [INFO] uart: [host:  9.26s (+5.77ms)|virt:   2.54s (+1.5ms)] 58,CONV_2D,31
+14:32:14.0521 [INFO] uart: [host:  9.26s (+5.77ms)|virt:   2.54s (+1.5ms)] 58,CONV_2D,31
+14:32:14.0572 [INFO] uart: [host:  9.27s (+5.08ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0572 [INFO] uart: [host:  9.27s (+5.07ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0572 [INFO] uart: [host:    9.27s (+99µs)|virt:      2.54s (+0s)] 
+14:32:14.0573 [INFO] uart: [host:    9.27s (+60µs)|virt:      2.54s (+0s)] 
+14:32:14.0625 [INFO] uart: [host:  9.27s (+5.17ms)|virt:   2.54s (+1.5ms)] 59,ADD,117
+14:32:14.0625 [INFO] uart: [host:  9.27s (+5.22ms)|virt:   2.54s (+1.5ms)] 59,ADD,117
+14:32:14.0664 [INFO] uart: [host:  9.28s (+3.92ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0664 [INFO] uart: [host:  9.28s (+3.93ms)|virt:   2.54s (+1.5ms)] 
+14:32:14.0665 [INFO] uart: [host:  9.28s (+0.17ms)|virt:      2.54s (+0s)] 
+14:32:14.0665 [INFO] uart: [host:  9.28s (+0.11ms)|virt:      2.54s (+0s)] 
+14:32:14.0713 [INFO] uart: [host:  9.28s (+4.76ms)|virt:   2.54s (+1.5ms)] 60,CONV_2D,25
+14:32:14.0713 [INFO] uart: [host:   9.28s (+4.8ms)|virt:   2.54s (+1.5ms)] 60,CONV_2D,25
+14:32:14.0752 [INFO] uart: [host:  9.28s (+2.64ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0753 [INFO] uart: [host:  9.28s (+2.63ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0753 [INFO] uart: [host:   9.28s (+1.2ms)|virt:      2.55s (+0s)] 
+14:32:14.0753 [INFO] uart: [host:  9.28s (+1.16ms)|virt:      2.55s (+0s)] 
+14:32:14.0820 [INFO] uart: [host:  9.29s (+6.89ms)|virt:   2.55s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2290
+14:32:14.0821 [INFO] uart: [host:  9.29s (+6.93ms)|virt:   2.55s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2290
+14:32:14.0855 [INFO] uart: [host:  9.29s (+3.47ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0855 [INFO] uart: [host:  9.29s (+3.47ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0857 [INFO] uart: [host:  9.29s (+0.16ms)|virt:      2.55s (+0s)] 
+14:32:14.0857 [INFO] uart: [host:  9.29s (+0.16ms)|virt:      2.55s (+0s)] 
+14:32:14.0916 [INFO] uart: [host:   9.3s (+5.92ms)|virt:   2.55s (+1.6ms)] 62,CONV_2D,56
+14:32:14.0916 [INFO] uart: [host:   9.3s (+5.93ms)|virt:   2.55s (+1.6ms)] 62,CONV_2D,56
+14:32:14.0955 [INFO] uart: [host:   9.3s (+3.93ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0955 [INFO] uart: [host:   9.3s (+3.92ms)|virt:   2.55s (+1.5ms)] 
+14:32:14.0957 [INFO] uart: [host:   9.3s (+0.16ms)|virt:      2.55s (+0s)] 
+14:32:14.0957 [INFO] uart: [host:   9.3s (+0.16ms)|virt:      2.55s (+0s)] 
+14:32:14.1015 [INFO] uart: [host:  9.31s (+5.78ms)|virt:   2.55s (+1.5ms)] 63,CONV_2D,158
+14:32:14.1015 [INFO] uart: [host:  9.31s (+5.78ms)|virt:   2.55s (+1.5ms)] 63,CONV_2D,158
+14:32:14.1057 [INFO] uart: [host:  9.32s (+4.29ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1058 [INFO] uart: [host:  9.31s (+4.28ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1058 [INFO] uart: [host:    9.32s (+86µs)|virt:      2.56s (+0s)] 
+14:32:14.1058 [INFO] uart: [host:    9.31s (+52µs)|virt:      2.56s (+0s)] 
+14:32:14.1124 [INFO] uart: [host:  9.32s (+6.54ms)|virt:   2.56s (+1.5ms)] 64,AVERAGE_POOL_2D,252
+14:32:14.1124 [INFO] uart: [host:  9.32s (+6.59ms)|virt:   2.56s (+1.5ms)] 64,AVERAGE_POOL_2D,252
+14:32:14.1166 [INFO] uart: [host:   9.33s (+4.2ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1166 [INFO] uart: [host:  9.33s (+4.19ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1167 [INFO] uart: [host:  9.33s (+0.22ms)|virt:      2.56s (+0s)] 
+14:32:14.1168 [INFO] uart: [host:  9.33s (+0.18ms)|virt:      2.56s (+0s)] 
+14:32:14.1227 [INFO] uart: [host:  9.33s (+5.86ms)|virt:   2.56s (+1.5ms)] 65,RESHAPE,8
+14:32:14.1227 [INFO] uart: [host:  9.33s (+5.91ms)|virt:   2.56s (+1.5ms)] 65,RESHAPE,8
+14:32:14.1267 [INFO] uart: [host:  9.34s (+4.05ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1267 [INFO] uart: [host:     9.34s (+4ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1267 [INFO] uart: [host:    9.34s (+74µs)|virt:      2.56s (+0s)] 
+14:32:14.1267 [INFO] uart: [host:    9.34s (+69µs)|virt:      2.56s (+0s)] 
+14:32:14.1343 [INFO] uart: [host:  9.34s (+7.47ms)|virt:   2.56s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:14.1343 [INFO] uart: [host:   9.34s (+7.5ms)|virt:   2.56s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:14.1369 [INFO] uart: [host:  9.35s (+2.61ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1369 [INFO] uart: [host:  9.35s (+2.62ms)|virt:   2.56s (+1.5ms)] 
+14:32:14.1370 [INFO] uart: [host:  9.35s (+0.16ms)|virt:      2.56s (+0s)] 
+14:32:14.1371 [INFO] uart: [host:  9.35s (+0.18ms)|virt:      2.56s (+0s)] 
+14:32:14.1442 [INFO] uart: [host:  9.35s (+6.97ms)|virt:   2.57s (+1.5ms)] 67,SOFTMAX,2
+14:32:14.1442 [INFO] uart: [host:  9.35s (+6.92ms)|virt:   2.57s (+1.5ms)] 67,SOFTMAX,2
+14:32:14.1466 [INFO] uart: [host:  9.36s (+2.61ms)|virt:   2.57s (+1.5ms)] 
+14:32:14.1466 [INFO] uart: [host:  9.36s (+2.61ms)|virt:   2.57s (+1.5ms)] 
+14:32:14.1467 [INFO] uart: [host:    9.36s (+69µs)|virt:      2.57s (+0s)] 
+14:32:14.1467 [INFO] uart: [host:    9.36s (+96µs)|virt:      2.57s (+0s)] 
+14:32:14.1556 [INFO] uart: [host:  9.36s (+8.95ms)|virt:   2.57s (+1.5ms)] Perf counters not enabled.
+14:32:14.1556 [INFO] uart: [host:  9.36s (+8.93ms)|virt:   2.57s (+1.5ms)] Perf counters not enabled.
+14:32:14.1607 [INFO] uart: [host:  9.37s (+4.84ms)|virt:   2.57s (+0.1ms)]    224M (    224125004 )  cycles total
+14:32:14.1607 [INFO] uart: [host:  9.37s (+4.91ms)|virt:   2.57s (+0.1ms)]    224M (    224125004 )  cycles total
+14:32:14.1809 [INFO] uart: [host: 9.39s (+20.39ms)|virt:   2.58s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:14.1809 [INFO] uart: [host: 9.39s (+20.37ms)|virt:   2.58s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:14.1839 [INFO] uart: [host:  9.39s (+3.09ms)|virt:      2.58s (+0s)] Running mnv2
+14:32:14.1840 [INFO] uart: [host:  9.39s (+3.08ms)|virt:      2.58s (+0s)] Running mnv2
+14:32:21.9601 [INFO] uart: [host:  17.17s (+7.78s)|virt:   4.82s (+2.24s)] ....................................................................
+14:32:21.9601 [INFO] uart: [host:  17.17s (+7.78s)|virt:   4.82s (+2.24s)] ....................................................................
+14:32:21.9624 [INFO] uart: [host: 17.17s (+2.36ms)|virt:      4.82s (+0s)] "Event","Tag","Ticks"
+14:32:21.9624 [INFO] uart: [host:  17.17s (+2.3ms)|virt:      4.82s (+0s)] "Event","Tag","Ticks"
+14:32:21.9669 [INFO] uart: [host: 17.18s (+4.42ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9669 [INFO] uart: [host:  17.18s (+4.5ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9672 [INFO] uart: [host: 17.18s (+0.37ms)|virt:      4.82s (+0s)] 
+14:32:21.9672 [INFO] uart: [host: 17.18s (+0.32ms)|virt:      4.82s (+0s)] 
+14:32:21.9718 [INFO] uart: [host: 17.18s (+4.61ms)|virt:   4.82s (+1.5ms)] 0,MUL,3804
+14:32:21.9719 [INFO] uart: [host: 17.18s (+4.62ms)|virt:   4.82s (+1.5ms)] 0,MUL,3804
+14:32:21.9761 [INFO] uart: [host: 17.19s (+4.24ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9761 [INFO] uart: [host: 17.18s (+4.28ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9780 [INFO] uart: [host: 17.19s (+0.62ms)|virt:      4.82s (+0s)] 
+14:32:21.9780 [INFO] uart: [host: 17.19s (+0.61ms)|virt:      4.82s (+0s)] 
+14:32:21.9832 [INFO] uart: [host: 17.19s (+6.48ms)|virt:   4.82s (+1.6ms)] 1,SUB,9052
+14:32:21.9832 [INFO] uart: [host: 17.19s (+6.49ms)|virt:   4.82s (+1.6ms)] 1,SUB,9052
+14:32:21.9875 [INFO] uart: [host:  17.2s (+4.29ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9875 [INFO] uart: [host:  17.2s (+4.26ms)|virt:   4.82s (+1.5ms)] 
+14:32:21.9876 [INFO] uart: [host:  17.2s (+0.17ms)|virt:      4.82s (+0s)] 
+14:32:21.9876 [INFO] uart: [host:  17.2s (+0.17ms)|virt:      4.82s (+0s)] 
+14:32:21.9928 [INFO] uart: [host:  17.2s (+5.19ms)|virt:   4.83s (+1.5ms)] 2,CONV_2D,56209
+14:32:21.9929 [INFO] uart: [host:  17.2s (+5.21ms)|virt:   4.83s (+1.5ms)] 2,CONV_2D,56209
+14:32:21.9970 [INFO] uart: [host: 17.21s (+4.14ms)|virt:   4.83s (+1.5ms)] 
+14:32:21.9970 [INFO] uart: [host: 17.21s (+4.16ms)|virt:   4.83s (+1.5ms)] 
+14:32:21.9972 [INFO] uart: [host: 17.21s (+0.29ms)|virt:      4.83s (+0s)] 
+14:32:21.9973 [INFO] uart: [host: 17.21s (+0.25ms)|virt:      4.83s (+0s)] 
+14:32:22.0035 [INFO] uart: [host: 17.21s (+6.26ms)|virt:   4.83s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30926
+14:32:22.0035 [INFO] uart: [host: 17.21s (+6.25ms)|virt:   4.83s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30926
+14:32:22.0072 [INFO] uart: [host:  17.22s (+3.7ms)|virt:   4.83s (+1.5ms)] 
+14:32:22.0072 [INFO] uart: [host:  17.22s (+3.7ms)|virt:   4.83s (+1.5ms)] 
+14:32:22.0073 [INFO] uart: [host:   17.22s (+88µs)|virt:      4.83s (+0s)] 
+14:32:22.0073 [INFO] uart: [host:   17.22s (+53µs)|virt:      4.83s (+0s)] 
+14:32:22.0125 [INFO] uart: [host: 17.22s (+5.13ms)|virt:   4.83s (+1.5ms)] 4,CONV_2D,183
+14:32:22.0125 [INFO] uart: [host: 17.22s (+5.18ms)|virt:   4.83s (+1.5ms)] 4,CONV_2D,183
+14:32:22.0184 [INFO] uart: [host: 17.23s (+5.96ms)|virt:   4.83s (+1.5ms)] 
+14:32:22.0185 [INFO] uart: [host: 17.23s (+5.97ms)|virt:   4.83s (+1.5ms)] 
+14:32:22.0185 [INFO] uart: [host: 17.23s (+0.14ms)|virt:      4.83s (+0s)] 
+14:32:22.0186 [INFO] uart: [host: 17.23s (+0.12ms)|virt:      4.83s (+0s)] 
+14:32:22.0263 [INFO] uart: [host: 17.24s (+7.76ms)|virt:   4.83s (+1.5ms)] 5,CONV_2D,320
+14:32:22.0264 [INFO] uart: [host: 17.23s (+7.79ms)|virt:   4.83s (+1.5ms)] 5,CONV_2D,320
+14:32:22.0313 [INFO] uart: [host:    17.24s (+5ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0314 [INFO] uart: [host:    17.24s (+5ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0314 [INFO] uart: [host: 17.24s (+0.14ms)|virt:      4.84s (+0s)] 
+14:32:22.0315 [INFO] uart: [host: 17.24s (+0.12ms)|virt:      4.84s (+0s)] 
+14:32:22.0412 [INFO] uart: [host: 17.25s (+9.75ms)|virt:   4.84s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23126
+14:32:22.0412 [INFO] uart: [host: 17.25s (+9.75ms)|virt:   4.84s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23126
+14:32:22.0440 [INFO] uart: [host: 17.25s (+2.79ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0440 [INFO] uart: [host:  17.25s (+2.8ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0442 [INFO] uart: [host: 17.25s (+0.18ms)|virt:      4.84s (+0s)] 
+14:32:22.0442 [INFO] uart: [host: 17.25s (+0.17ms)|virt:      4.84s (+0s)] 
+14:32:22.0498 [INFO] uart: [host: 17.26s (+5.63ms)|virt:   4.84s (+1.5ms)] 7,CONV_2D,81
+14:32:22.0498 [INFO] uart: [host: 17.26s (+5.62ms)|virt:   4.84s (+1.5ms)] 7,CONV_2D,81
+14:32:22.0539 [INFO] uart: [host: 17.26s (+4.15ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0540 [INFO] uart: [host: 17.26s (+4.16ms)|virt:   4.84s (+1.5ms)] 
+14:32:22.0541 [INFO] uart: [host: 17.26s (+0.16ms)|virt:      4.84s (+0s)] 
+14:32:22.0541 [INFO] uart: [host: 17.26s (+0.16ms)|virt:      4.84s (+0s)] 
+14:32:22.0593 [INFO] uart: [host: 17.27s (+5.19ms)|virt:   4.84s (+1.5ms)] 8,CONV_2D,82
+14:32:22.0593 [INFO] uart: [host: 17.27s (+5.19ms)|virt:   4.84s (+1.5ms)] 8,CONV_2D,82
+14:32:22.0635 [INFO] uart: [host: 17.27s (+4.21ms)|virt:   4.85s (+1.6ms)] 
+14:32:22.0635 [INFO] uart: [host: 17.27s (+4.22ms)|virt:   4.85s (+1.6ms)] 
+14:32:22.0637 [INFO] uart: [host: 17.27s (+0.19ms)|virt:      4.85s (+0s)] 
+14:32:22.0637 [INFO] uart: [host: 17.27s (+0.18ms)|virt:      4.85s (+0s)] 
+14:32:22.0729 [INFO] uart: [host: 17.28s (+9.23ms)|virt:   4.85s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22900
+14:32:22.0729 [INFO] uart: [host: 17.28s (+9.23ms)|virt:   4.85s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22900
+14:32:22.0770 [INFO] uart: [host:  17.29s (+4.1ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0771 [INFO] uart: [host: 17.29s (+4.11ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0774 [INFO] uart: [host: 17.29s (+0.39ms)|virt:      4.85s (+0s)] 
+14:32:22.0774 [INFO] uart: [host: 17.29s (+0.33ms)|virt:      4.85s (+0s)] 
+14:32:22.0838 [INFO] uart: [host: 17.29s (+6.38ms)|virt:   4.85s (+1.5ms)] 10,CONV_2D,81
+14:32:22.0838 [INFO] uart: [host: 17.29s (+6.42ms)|virt:   4.85s (+1.5ms)] 10,CONV_2D,81
+14:32:22.0875 [INFO] uart: [host:   17.3s (+3.7ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0875 [INFO] uart: [host:   17.3s (+3.7ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0876 [INFO] uart: [host:  17.3s (+0.11ms)|virt:      4.85s (+0s)] 
+14:32:22.0876 [INFO] uart: [host:    17.3s (+87µs)|virt:      4.85s (+0s)] 
+14:32:22.0926 [INFO] uart: [host:  17.3s (+5.03ms)|virt:   4.85s (+1.5ms)] 11,ADD,1056
+14:32:22.0926 [INFO] uart: [host:  17.3s (+5.05ms)|virt:   4.85s (+1.5ms)] 11,ADD,1056
+14:32:22.0968 [INFO] uart: [host: 17.31s (+4.18ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0968 [INFO] uart: [host: 17.31s (+4.19ms)|virt:   4.85s (+1.5ms)] 
+14:32:22.0969 [INFO] uart: [host: 17.31s (+0.13ms)|virt:      4.85s (+0s)] 
+14:32:22.0969 [INFO] uart: [host: 17.31s (+0.12ms)|virt:      4.85s (+0s)] 
+14:32:22.1020 [INFO] uart: [host: 17.31s (+5.03ms)|virt:   4.86s (+1.5ms)] 12,CONV_2D,81
+14:32:22.1020 [INFO] uart: [host: 17.31s (+5.04ms)|virt:   4.86s (+1.5ms)] 12,CONV_2D,81
+14:32:22.1062 [INFO] uart: [host: 17.32s (+4.05ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1062 [INFO] uart: [host: 17.31s (+4.01ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1063 [INFO] uart: [host: 17.32s (+0.11ms)|virt:      4.86s (+0s)] 
+14:32:22.1063 [INFO] uart: [host:   17.31s (+97µs)|virt:      4.86s (+0s)] 
+14:32:22.1128 [INFO] uart: [host: 17.32s (+6.71ms)|virt:   4.86s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:22.1128 [INFO] uart: [host: 17.32s (+6.71ms)|virt:   4.86s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:22.1169 [INFO] uart: [host: 17.33s (+4.01ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1169 [INFO] uart: [host: 17.33s (+4.09ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1171 [INFO] uart: [host: 17.33s (+0.29ms)|virt:      4.86s (+0s)] 
+14:32:22.1171 [INFO] uart: [host: 17.33s (+0.26ms)|virt:      4.86s (+0s)] 
+14:32:22.1224 [INFO] uart: [host: 17.33s (+5.27ms)|virt:   4.86s (+1.5ms)] 14,CONV_2D,25
+14:32:22.1224 [INFO] uart: [host: 17.33s (+5.22ms)|virt:   4.86s (+1.5ms)] 14,CONV_2D,25
+14:32:22.1260 [INFO] uart: [host: 17.34s (+3.64ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1261 [INFO] uart: [host: 17.33s (+3.68ms)|virt:   4.86s (+1.5ms)] 
+14:32:22.1262 [INFO] uart: [host: 17.34s (+0.17ms)|virt:      4.86s (+0s)] 
+14:32:22.1262 [INFO] uart: [host: 17.33s (+0.17ms)|virt:      4.86s (+0s)] 
+14:32:22.1307 [INFO] uart: [host: 17.34s (+4.49ms)|virt:   4.86s (+1.5ms)] 15,CONV_2D,39
+14:32:22.1307 [INFO] uart: [host: 17.34s (+4.48ms)|virt:   4.86s (+1.5ms)] 15,CONV_2D,39
+14:32:22.1346 [INFO] uart: [host: 17.34s (+3.89ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1346 [INFO] uart: [host:  17.34s (+3.9ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1347 [INFO] uart: [host: 17.34s (+0.12ms)|virt:      4.87s (+0s)] 
+14:32:22.1347 [INFO] uart: [host: 17.34s (+0.11ms)|virt:      4.87s (+0s)] 
+14:32:22.1418 [INFO] uart: [host: 17.35s (+7.04ms)|virt:   4.87s (+1.6ms)] 16,DEPTHWISE_CONV_2D,11387
+14:32:22.1418 [INFO] uart: [host: 17.35s (+7.04ms)|virt:   4.87s (+1.6ms)] 16,DEPTHWISE_CONV_2D,11387
+14:32:22.1455 [INFO] uart: [host: 17.35s (+3.78ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1455 [INFO] uart: [host: 17.35s (+3.78ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1457 [INFO] uart: [host: 17.36s (+0.16ms)|virt:      4.87s (+0s)] 
+14:32:22.1457 [INFO] uart: [host: 17.35s (+0.16ms)|virt:      4.87s (+0s)] 
+14:32:22.1515 [INFO] uart: [host: 17.36s (+5.81ms)|virt:   4.87s (+1.5ms)] 17,CONV_2D,38
+14:32:22.1515 [INFO] uart: [host: 17.36s (+5.81ms)|virt:   4.87s (+1.5ms)] 17,CONV_2D,38
+14:32:22.1558 [INFO] uart: [host: 17.37s (+4.22ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1558 [INFO] uart: [host: 17.36s (+4.26ms)|virt:   4.87s (+1.5ms)] 
+14:32:22.1575 [INFO] uart: [host: 17.37s (+0.47ms)|virt:      4.87s (+0s)] 
+14:32:22.1575 [INFO] uart: [host: 17.37s (+1.46ms)|virt:      4.87s (+0s)] 
+14:32:22.1623 [INFO] uart: [host:  17.37s (+4.8ms)|virt:   4.87s (+1.5ms)] 18,ADD,524
+14:32:22.1623 [INFO] uart: [host: 17.37s (+3.76ms)|virt:   4.87s (+1.5ms)] 18,ADD,524
+14:32:22.1648 [INFO] uart: [host: 17.37s (+3.77ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1648 [INFO] uart: [host: 17.37s (+3.76ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1648 [INFO] uart: [host: 17.37s (+0.11ms)|virt:      4.88s (+0s)] 
+14:32:22.1648 [INFO] uart: [host:   17.37s (+72µs)|virt:      4.88s (+0s)] 
+14:32:22.1715 [INFO] uart: [host: 17.38s (+6.64ms)|virt:   4.88s (+1.5ms)] 19,CONV_2D,39
+14:32:22.1715 [INFO] uart: [host: 17.38s (+6.69ms)|virt:   4.88s (+1.5ms)] 19,CONV_2D,39
+14:32:22.1767 [INFO] uart: [host: 17.39s (+5.15ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1767 [INFO] uart: [host: 17.39s (+5.12ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1770 [INFO] uart: [host: 17.39s (+0.23ms)|virt:      4.88s (+0s)] 
+14:32:22.1770 [INFO] uart: [host: 17.39s (+0.38ms)|virt:      4.88s (+0s)] 
+14:32:22.1836 [INFO] uart: [host:  17.39s (+6.7ms)|virt:   4.88s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11399
+14:32:22.1836 [INFO] uart: [host: 17.39s (+6.57ms)|virt:   4.88s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11399
+14:32:22.1876 [INFO] uart: [host:  17.4s (+4.05ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1877 [INFO] uart: [host:  17.4s (+4.04ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1877 [INFO] uart: [host:  17.4s (+0.11ms)|virt:      4.88s (+0s)] 
+14:32:22.1877 [INFO] uart: [host:    17.4s (+74µs)|virt:      4.88s (+0s)] 
+14:32:22.1930 [INFO] uart: [host:  17.4s (+5.26ms)|virt:   4.88s (+1.5ms)] 21,CONV_2D,38
+14:32:22.1930 [INFO] uart: [host:   17.4s (+5.3ms)|virt:   4.88s (+1.5ms)] 21,CONV_2D,38
+14:32:22.1964 [INFO] uart: [host: 17.41s (+3.43ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1964 [INFO] uart: [host: 17.41s (+3.39ms)|virt:   4.88s (+1.5ms)] 
+14:32:22.1966 [INFO] uart: [host:   17.41s (+70µs)|virt:      4.88s (+0s)] 
+14:32:22.1966 [INFO] uart: [host: 17.41s (+0.16ms)|virt:      4.88s (+0s)] 
+14:32:22.2016 [INFO] uart: [host: 17.41s (+5.13ms)|virt:   4.89s (+1.5ms)] 22,ADD,526
+14:32:22.2017 [INFO] uart: [host: 17.41s (+5.08ms)|virt:   4.89s (+1.5ms)] 22,ADD,526
+14:32:22.2050 [INFO] uart: [host: 17.41s (+3.33ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2050 [INFO] uart: [host: 17.41s (+3.32ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2050 [INFO] uart: [host:   17.41s (+86µs)|virt:      4.89s (+0s)] 
+14:32:22.2050 [INFO] uart: [host:   17.41s (+52µs)|virt:      4.89s (+0s)] 
+14:32:22.2110 [INFO] uart: [host: 17.42s (+5.91ms)|virt:   4.89s (+1.6ms)] 23,CONV_2D,38
+14:32:22.2110 [INFO] uart: [host: 17.42s (+5.96ms)|virt:   4.89s (+1.6ms)] 23,CONV_2D,38
+14:32:22.2152 [INFO] uart: [host:  17.42s (+4.3ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2152 [INFO] uart: [host: 17.42s (+4.26ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2153 [INFO] uart: [host:   17.42s (+69µs)|virt:      4.89s (+0s)] 
+14:32:22.2153 [INFO] uart: [host:   17.42s (+66µs)|virt:      4.89s (+0s)] 
+14:32:22.2208 [INFO] uart: [host:  17.43s (+5.5ms)|virt:   4.89s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2828
+14:32:22.2208 [INFO] uart: [host: 17.43s (+5.55ms)|virt:   4.89s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2828
+14:32:22.2243 [INFO] uart: [host: 17.43s (+3.47ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2243 [INFO] uart: [host: 17.43s (+3.47ms)|virt:   4.89s (+1.5ms)] 
+14:32:22.2245 [INFO] uart: [host: 17.43s (+0.17ms)|virt:      4.89s (+0s)] 
+14:32:22.2245 [INFO] uart: [host: 17.43s (+0.19ms)|virt:      4.89s (+0s)] 
+14:32:22.2319 [INFO] uart: [host:  17.44s (+7.4ms)|virt:    4.9s (+1.5ms)] 25,CONV_2D,12
+14:32:22.2320 [INFO] uart: [host: 17.44s (+7.42ms)|virt:    4.9s (+1.5ms)] 25,CONV_2D,12
+14:32:22.2360 [INFO] uart: [host: 17.44s (+2.92ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2360 [INFO] uart: [host: 17.44s (+2.88ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2360 [INFO] uart: [host: 17.45s (+1.06ms)|virt:       4.9s (+0s)] 
+14:32:22.2360 [INFO] uart: [host: 17.44s (+1.01ms)|virt:       4.9s (+0s)] 
+14:32:22.2423 [INFO] uart: [host:  17.45s (+6.5ms)|virt:    4.9s (+1.5ms)] 26,CONV_2D,17
+14:32:22.2424 [INFO] uart: [host: 17.45s (+6.52ms)|virt:    4.9s (+1.5ms)] 26,CONV_2D,17
+14:32:22.2461 [INFO] uart: [host: 17.46s (+3.75ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2461 [INFO] uart: [host: 17.45s (+3.75ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2461 [INFO] uart: [host:   17.46s (+88µs)|virt:       4.9s (+0s)] 
+14:32:22.2461 [INFO] uart: [host:   17.45s (+54µs)|virt:       4.9s (+0s)] 
+14:32:22.2522 [INFO] uart: [host: 17.46s (+6.05ms)|virt:    4.9s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4173
+14:32:22.2522 [INFO] uart: [host:  17.46s (+6.1ms)|virt:    4.9s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4173
+14:32:22.2561 [INFO] uart: [host: 17.47s (+3.92ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2562 [INFO] uart: [host: 17.46s (+3.92ms)|virt:    4.9s (+1.5ms)] 
+14:32:22.2563 [INFO] uart: [host: 17.47s (+0.17ms)|virt:       4.9s (+0s)] 
+14:32:22.2563 [INFO] uart: [host: 17.46s (+0.17ms)|virt:       4.9s (+0s)] 
+14:32:22.2618 [INFO] uart: [host: 17.47s (+5.57ms)|virt:    4.9s (+1.5ms)] 28,CONV_2D,15
+14:32:22.2619 [INFO] uart: [host: 17.47s (+5.53ms)|virt:    4.9s (+1.5ms)] 28,CONV_2D,15
+14:32:22.2655 [INFO] uart: [host: 17.47s (+3.62ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2655 [INFO] uart: [host: 17.47s (+3.65ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2657 [INFO] uart: [host:  17.48s (+0.2ms)|virt:      4.91s (+0s)] 
+14:32:22.2657 [INFO] uart: [host: 17.47s (+0.21ms)|virt:      4.91s (+0s)] 
+14:32:22.2701 [INFO] uart: [host: 17.48s (+4.44ms)|virt:   4.91s (+1.5ms)] 29,ADD,201
+14:32:22.2702 [INFO] uart: [host: 17.48s (+4.43ms)|virt:   4.91s (+1.5ms)] 29,ADD,201
+14:32:22.2740 [INFO] uart: [host:  17.48s (+3.8ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2740 [INFO] uart: [host: 17.48s (+3.85ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2743 [INFO] uart: [host: 17.48s (+0.31ms)|virt:      4.91s (+0s)] 
+14:32:22.2743 [INFO] uart: [host: 17.48s (+0.27ms)|virt:      4.91s (+0s)] 
+14:32:22.2806 [INFO] uart: [host: 17.49s (+6.35ms)|virt:   4.91s (+1.6ms)] 30,CONV_2D,17
+14:32:22.2806 [INFO] uart: [host: 17.49s (+6.36ms)|virt:   4.91s (+1.6ms)] 30,CONV_2D,17
+14:32:22.2841 [INFO] uart: [host: 17.49s (+3.46ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2841 [INFO] uart: [host: 17.49s (+3.46ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2842 [INFO] uart: [host: 17.49s (+0.16ms)|virt:      4.91s (+0s)] 
+14:32:22.2843 [INFO] uart: [host: 17.49s (+0.16ms)|virt:      4.91s (+0s)] 
+14:32:22.2926 [INFO] uart: [host:   17.5s (+8.3ms)|virt:   4.91s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:22.2926 [INFO] uart: [host:   17.5s (+8.3ms)|virt:   4.91s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:22.2965 [INFO] uart: [host:  17.5s (+2.53ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2965 [INFO] uart: [host:  17.5s (+2.54ms)|virt:   4.91s (+1.5ms)] 
+14:32:22.2966 [INFO] uart: [host: 17.51s (+1.28ms)|virt:      4.91s (+0s)] 
+14:32:22.2966 [INFO] uart: [host: 17.51s (+1.24ms)|virt:      4.91s (+0s)] 
+14:32:22.3021 [INFO] uart: [host: 17.51s (+5.81ms)|virt:   4.92s (+1.5ms)] 32,CONV_2D,16
+14:32:22.3022 [INFO] uart: [host: 17.51s (+5.81ms)|virt:   4.92s (+1.5ms)] 32,CONV_2D,16
+14:32:22.3044 [INFO] uart: [host:  17.51s (+2.2ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3044 [INFO] uart: [host: 17.51s (+2.23ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3046 [INFO] uart: [host: 17.51s (+0.19ms)|virt:      4.92s (+0s)] 
+14:32:22.3046 [INFO] uart: [host:  17.51s (+0.2ms)|virt:      4.92s (+0s)] 
+14:32:22.3092 [INFO] uart: [host: 17.52s (+4.66ms)|virt:   4.92s (+1.5ms)] 33,ADD,200
+14:32:22.3092 [INFO] uart: [host: 17.52s (+4.66ms)|virt:   4.92s (+1.5ms)] 33,ADD,200
+14:32:22.3126 [INFO] uart: [host: 17.52s (+3.42ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3126 [INFO] uart: [host: 17.52s (+3.42ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3128 [INFO] uart: [host:  17.52s (+0.2ms)|virt:      4.92s (+0s)] 
+14:32:22.3128 [INFO] uart: [host:  17.52s (+0.2ms)|virt:      4.92s (+0s)] 
+14:32:22.3179 [INFO] uart: [host: 17.53s (+5.03ms)|virt:   4.92s (+1.5ms)] 34,CONV_2D,17
+14:32:22.3179 [INFO] uart: [host: 17.53s (+5.04ms)|virt:   4.92s (+1.5ms)] 34,CONV_2D,17
+14:32:22.3216 [INFO] uart: [host: 17.53s (+3.77ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3217 [INFO] uart: [host: 17.53s (+3.75ms)|virt:   4.92s (+1.5ms)] 
+14:32:22.3217 [INFO] uart: [host: 17.53s (+0.11ms)|virt:      4.92s (+0s)] 
+14:32:22.3217 [INFO] uart: [host:   17.53s (+73µs)|virt:      4.92s (+0s)] 
+14:32:22.3311 [INFO] uart: [host: 17.54s (+9.33ms)|virt:   4.93s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4173
+14:32:22.3311 [INFO] uart: [host: 17.54s (+9.37ms)|virt:   4.93s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4173
+14:32:22.3358 [INFO] uart: [host: 17.55s (+4.66ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3358 [INFO] uart: [host: 17.54s (+4.66ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3358 [INFO] uart: [host: 17.55s (+0.12ms)|virt:      4.93s (+0s)] 
+14:32:22.3358 [INFO] uart: [host:   17.54s (+76µs)|virt:      4.93s (+0s)] 
+14:32:22.3414 [INFO] uart: [host:  17.55s (+5.5ms)|virt:   4.93s (+1.5ms)] 36,CONV_2D,16
+14:32:22.3414 [INFO] uart: [host: 17.55s (+5.55ms)|virt:   4.93s (+1.5ms)] 36,CONV_2D,16
+14:32:22.3451 [INFO] uart: [host: 17.55s (+3.77ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3452 [INFO] uart: [host: 17.55s (+3.77ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3453 [INFO] uart: [host: 17.55s (+0.18ms)|virt:      4.93s (+0s)] 
+14:32:22.3453 [INFO] uart: [host: 17.55s (+0.16ms)|virt:      4.93s (+0s)] 
+14:32:22.3506 [INFO] uart: [host: 17.56s (+5.32ms)|virt:   4.93s (+1.5ms)] 37,ADD,199
+14:32:22.3507 [INFO] uart: [host: 17.56s (+5.34ms)|virt:   4.93s (+1.5ms)] 37,ADD,199
+14:32:22.3545 [INFO] uart: [host: 17.56s (+3.95ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3546 [INFO] uart: [host: 17.56s (+3.92ms)|virt:   4.93s (+1.5ms)] 
+14:32:22.3546 [INFO] uart: [host:   17.56s (+78µs)|virt:      4.93s (+0s)] 
+14:32:22.3546 [INFO] uart: [host:   17.56s (+55µs)|virt:      4.93s (+0s)] 
+14:32:22.3594 [INFO] uart: [host: 17.57s (+4.75ms)|virt:   4.93s (+1.6ms)] 38,CONV_2D,17
+14:32:22.3594 [INFO] uart: [host: 17.57s (+4.81ms)|virt:   4.93s (+1.6ms)] 38,CONV_2D,17
+14:32:22.3636 [INFO] uart: [host: 17.57s (+4.01ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3636 [INFO] uart: [host: 17.57s (+3.97ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3637 [INFO] uart: [host: 17.57s (+0.12ms)|virt:      4.94s (+0s)] 
+14:32:22.3637 [INFO] uart: [host:  17.57s (+0.1ms)|virt:      4.94s (+0s)] 
+14:32:22.3705 [INFO] uart: [host: 17.58s (+6.99ms)|virt:   4.94s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4136
+14:32:22.3705 [INFO] uart: [host: 17.58s (+7.03ms)|virt:   4.94s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4136
+14:32:22.3744 [INFO] uart: [host: 17.58s (+3.85ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3744 [INFO] uart: [host: 17.58s (+3.85ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3745 [INFO] uart: [host: 17.58s (+0.16ms)|virt:      4.94s (+0s)] 
+14:32:22.3745 [INFO] uart: [host: 17.58s (+0.16ms)|virt:      4.94s (+0s)] 
+14:32:22.3799 [INFO] uart: [host: 17.59s (+5.34ms)|virt:   4.94s (+1.5ms)] 40,CONV_2D,18
+14:32:22.3799 [INFO] uart: [host: 17.59s (+5.35ms)|virt:   4.94s (+1.5ms)] 40,CONV_2D,18
+14:32:22.3844 [INFO] uart: [host: 17.59s (+4.45ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3844 [INFO] uart: [host: 17.59s (+4.48ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3848 [INFO] uart: [host:  17.59s (+0.5ms)|virt:      4.94s (+0s)] 
+14:32:22.3848 [INFO] uart: [host: 17.59s (+0.46ms)|virt:      4.94s (+0s)] 
+14:32:22.3900 [INFO] uart: [host:  17.6s (+5.14ms)|virt:   4.94s (+1.5ms)] 41,CONV_2D,22
+14:32:22.3900 [INFO] uart: [host:  17.6s (+5.14ms)|virt:   4.94s (+1.5ms)] 41,CONV_2D,22
+14:32:22.3936 [INFO] uart: [host:  17.6s (+3.62ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3936 [INFO] uart: [host:  17.6s (+3.62ms)|virt:   4.94s (+1.5ms)] 
+14:32:22.3937 [INFO] uart: [host:  17.6s (+0.16ms)|virt:      4.94s (+0s)] 
+14:32:22.3938 [INFO] uart: [host:  17.6s (+0.16ms)|virt:      4.94s (+0s)] 
+14:32:22.4000 [INFO] uart: [host: 17.61s (+6.23ms)|virt:   4.95s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5570
+14:32:22.4000 [INFO] uart: [host: 17.61s (+6.23ms)|virt:   4.95s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5570
+14:32:22.4041 [INFO] uart: [host: 17.61s (+4.09ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4041 [INFO] uart: [host: 17.61s (+4.09ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4042 [INFO] uart: [host: 17.61s (+0.11ms)|virt:      4.95s (+0s)] 
+14:32:22.4042 [INFO] uart: [host:   17.61s (+90µs)|virt:      4.95s (+0s)] 
+14:32:22.4096 [INFO] uart: [host: 17.62s (+5.44ms)|virt:   4.95s (+1.5ms)] 43,CONV_2D,21
+14:32:22.4096 [INFO] uart: [host: 17.62s (+5.45ms)|virt:   4.95s (+1.5ms)] 43,CONV_2D,21
+14:32:22.4137 [INFO] uart: [host: 17.62s (+4.14ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4138 [INFO] uart: [host: 17.62s (+4.14ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4139 [INFO] uart: [host: 17.62s (+0.17ms)|virt:      4.95s (+0s)] 
+14:32:22.4139 [INFO] uart: [host: 17.62s (+0.17ms)|virt:      4.95s (+0s)] 
+14:32:22.4189 [INFO] uart: [host: 17.63s (+4.93ms)|virt:   4.95s (+1.5ms)] 44,ADD,264
+14:32:22.4189 [INFO] uart: [host: 17.63s (+4.94ms)|virt:   4.95s (+1.5ms)] 44,ADD,264
+14:32:22.4235 [INFO] uart: [host: 17.63s (+4.58ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4235 [INFO] uart: [host:  17.63s (+4.6ms)|virt:   4.95s (+1.5ms)] 
+14:32:22.4238 [INFO] uart: [host: 17.63s (+0.34ms)|virt:      4.95s (+0s)] 
+14:32:22.4238 [INFO] uart: [host: 17.63s (+0.34ms)|virt:      4.95s (+0s)] 
+14:32:22.4311 [INFO] uart: [host: 17.64s (+7.37ms)|virt:   4.96s (+1.6ms)] 45,CONV_2D,22
+14:32:22.4311 [INFO] uart: [host: 17.64s (+7.32ms)|virt:   4.96s (+1.6ms)] 45,CONV_2D,22
+14:32:22.4335 [INFO] uart: [host: 17.64s (+2.37ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4335 [INFO] uart: [host: 17.64s (+2.38ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4337 [INFO] uart: [host: 17.64s (+0.16ms)|virt:      4.96s (+0s)] 
+14:32:22.4337 [INFO] uart: [host: 17.64s (+0.16ms)|virt:      4.96s (+0s)] 
+14:32:22.4408 [INFO] uart: [host: 17.65s (+7.11ms)|virt:   4.96s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5553
+14:32:22.4408 [INFO] uart: [host: 17.65s (+7.09ms)|virt:   4.96s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5553
+14:32:22.4424 [INFO] uart: [host: 17.65s (+1.61ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4424 [INFO] uart: [host: 17.65s (+1.61ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4424 [INFO] uart: [host:   17.65s (+71µs)|virt:      4.96s (+0s)] 
+14:32:22.4424 [INFO] uart: [host:   17.65s (+55µs)|virt:      4.96s (+0s)] 
+14:32:22.4476 [INFO] uart: [host: 17.66s (+5.13ms)|virt:   4.96s (+1.5ms)] 47,CONV_2D,21
+14:32:22.4476 [INFO] uart: [host: 17.66s (+5.18ms)|virt:   4.96s (+1.5ms)] 47,CONV_2D,21
+14:32:22.4519 [INFO] uart: [host: 17.66s (+4.26ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4519 [INFO] uart: [host: 17.66s (+4.26ms)|virt:   4.96s (+1.5ms)] 
+14:32:22.4520 [INFO] uart: [host: 17.66s (+0.12ms)|virt:      4.96s (+0s)] 
+14:32:22.4520 [INFO] uart: [host: 17.66s (+0.12ms)|virt:      4.96s (+0s)] 
+14:32:22.4583 [INFO] uart: [host: 17.67s (+5.05ms)|virt:   4.96s (+1.5ms)] 48,ADD,262
+14:32:22.4584 [INFO] uart: [host: 17.67s (+5.99ms)|virt:   4.96s (+1.5ms)] 48,ADD,262
+14:32:22.4616 [INFO] uart: [host: 17.67s (+4.63ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4617 [INFO] uart: [host: 17.67s (+3.67ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4617 [INFO] uart: [host:  17.67s (+0.1ms)|virt:      4.97s (+0s)] 
+14:32:22.4617 [INFO] uart: [host:   17.67s (+72µs)|virt:      4.97s (+0s)] 
+14:32:22.4686 [INFO] uart: [host: 17.68s (+6.86ms)|virt:   4.97s (+1.5ms)] 49,CONV_2D,23
+14:32:22.4687 [INFO] uart: [host: 17.68s (+6.94ms)|virt:   4.97s (+1.5ms)] 49,CONV_2D,23
+14:32:22.4728 [INFO] uart: [host: 17.68s (+3.97ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4728 [INFO] uart: [host: 17.68s (+3.92ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4728 [INFO] uart: [host: 17.68s (+0.22ms)|virt:      4.97s (+0s)] 
+14:32:22.4728 [INFO] uart: [host: 17.68s (+0.19ms)|virt:      4.97s (+0s)] 
+14:32:22.4795 [INFO] uart: [host: 17.69s (+6.62ms)|virt:   4.97s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:22.4795 [INFO] uart: [host:  17.69s (+6.7ms)|virt:   4.97s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:22.4841 [INFO] uart: [host: 17.69s (+4.65ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4841 [INFO] uart: [host: 17.69s (+4.61ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4842 [INFO] uart: [host: 17.69s (+0.16ms)|virt:      4.97s (+0s)] 
+14:32:22.4842 [INFO] uart: [host: 17.69s (+0.16ms)|virt:      4.97s (+0s)] 
+14:32:22.4900 [INFO] uart: [host:  17.7s (+5.79ms)|virt:   4.97s (+1.5ms)] 51,CONV_2D,16
+14:32:22.4900 [INFO] uart: [host:  17.7s (+5.79ms)|virt:   4.97s (+1.5ms)] 51,CONV_2D,16
+14:32:22.4936 [INFO] uart: [host:  17.7s (+3.52ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4936 [INFO] uart: [host:  17.7s (+3.52ms)|virt:   4.97s (+1.5ms)] 
+14:32:22.4936 [INFO] uart: [host:  17.7s (+0.12ms)|virt:      4.97s (+0s)] 
+14:32:22.4936 [INFO] uart: [host:    17.7s (+76µs)|virt:      4.97s (+0s)] 
+14:32:22.4998 [INFO] uart: [host: 17.71s (+6.09ms)|virt:   4.98s (+1.6ms)] 52,CONV_2D,25
+14:32:22.4998 [INFO] uart: [host: 17.71s (+6.14ms)|virt:   4.98s (+1.6ms)] 52,CONV_2D,25
+14:32:22.5036 [INFO] uart: [host: 17.71s (+3.93ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5037 [INFO] uart: [host: 17.71s (+3.89ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5038 [INFO] uart: [host:   17.71s (+73µs)|virt:      4.98s (+0s)] 
+14:32:22.5038 [INFO] uart: [host:  17.71s (+0.1ms)|virt:      4.98s (+0s)] 
+14:32:22.5103 [INFO] uart: [host: 17.72s (+6.57ms)|virt:   4.98s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:22.5104 [INFO] uart: [host: 17.72s (+6.59ms)|virt:   4.98s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:22.5152 [INFO] uart: [host: 17.72s (+4.85ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5152 [INFO] uart: [host: 17.72s (+4.82ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5153 [INFO] uart: [host: 17.72s (+0.19ms)|virt:      4.98s (+0s)] 
+14:32:22.5153 [INFO] uart: [host: 17.72s (+0.18ms)|virt:      4.98s (+0s)] 
+14:32:22.5219 [INFO] uart: [host: 17.73s (+6.51ms)|virt:   4.98s (+1.5ms)] 54,CONV_2D,32
+14:32:22.5219 [INFO] uart: [host: 17.73s (+6.55ms)|virt:   4.98s (+1.5ms)] 54,CONV_2D,32
+14:32:22.5296 [INFO] uart: [host: 17.74s (+7.69ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5297 [INFO] uart: [host: 17.74s (+7.71ms)|virt:   4.98s (+1.5ms)] 
+14:32:22.5298 [INFO] uart: [host: 17.74s (+0.25ms)|virt:      4.98s (+0s)] 
+14:32:22.5298 [INFO] uart: [host: 17.74s (+0.23ms)|virt:      4.98s (+0s)] 
+14:32:22.5365 [INFO] uart: [host: 17.75s (+6.59ms)|virt:   4.99s (+1.5ms)] 55,ADD,116
+14:32:22.5365 [INFO] uart: [host:  17.75s (+6.6ms)|virt:   4.99s (+1.5ms)] 55,ADD,116
+14:32:22.5413 [INFO] uart: [host: 17.75s (+4.83ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5413 [INFO] uart: [host: 17.75s (+4.83ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5414 [INFO] uart: [host: 17.75s (+0.17ms)|virt:      4.99s (+0s)] 
+14:32:22.5414 [INFO] uart: [host: 17.75s (+0.16ms)|virt:      4.99s (+0s)] 
+14:32:22.5477 [INFO] uart: [host: 17.76s (+6.25ms)|virt:   4.99s (+1.5ms)] 56,CONV_2D,24
+14:32:22.5477 [INFO] uart: [host: 17.76s (+6.24ms)|virt:   4.99s (+1.5ms)] 56,CONV_2D,24
+14:32:22.5526 [INFO] uart: [host: 17.76s (+4.82ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5526 [INFO] uart: [host: 17.76s (+4.87ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5528 [INFO] uart: [host: 17.76s (+0.32ms)|virt:      4.99s (+0s)] 
+14:32:22.5528 [INFO] uart: [host: 17.76s (+0.29ms)|virt:      4.99s (+0s)] 
+14:32:22.5600 [INFO] uart: [host: 17.77s (+7.14ms)|virt:   4.99s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:22.5600 [INFO] uart: [host: 17.77s (+7.12ms)|virt:   4.99s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:22.5645 [INFO] uart: [host: 17.77s (+4.46ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5645 [INFO] uart: [host: 17.77s (+4.49ms)|virt:   4.99s (+1.5ms)] 
+14:32:22.5649 [INFO] uart: [host: 17.77s (+0.47ms)|virt:      4.99s (+0s)] 
+14:32:22.5649 [INFO] uart: [host: 17.77s (+0.43ms)|virt:      4.99s (+0s)] 
+14:32:22.5693 [INFO] uart: [host: 17.78s (+4.43ms)|virt:   4.99s (+1.5ms)] 58,CONV_2D,32
+14:32:22.5693 [INFO] uart: [host: 17.78s (+4.43ms)|virt:   4.99s (+1.5ms)] 58,CONV_2D,32
+14:32:22.5735 [INFO] uart: [host: 17.78s (+4.23ms)|virt:      5s (+1.5ms)] 
+14:32:22.5736 [INFO] uart: [host: 17.78s (+4.24ms)|virt:      5s (+1.5ms)] 
+14:32:22.5737 [INFO] uart: [host: 17.78s (+0.21ms)|virt:         5s (+0s)] 
+14:32:22.5737 [INFO] uart: [host: 17.78s (+0.18ms)|virt:         5s (+0s)] 
+14:32:22.5787 [INFO] uart: [host: 17.79s (+4.96ms)|virt:      5s (+1.5ms)] 59,ADD,116
+14:32:22.5787 [INFO] uart: [host: 17.79s (+4.99ms)|virt:      5s (+1.5ms)] 59,ADD,116
+14:32:22.5831 [INFO] uart: [host: 17.79s (+4.42ms)|virt:      5s (+1.5ms)] 
+14:32:22.5831 [INFO] uart: [host: 17.79s (+4.38ms)|virt:      5s (+1.5ms)] 
+14:32:22.5833 [INFO] uart: [host: 17.79s (+0.16ms)|virt:         5s (+0s)] 
+14:32:22.5833 [INFO] uart: [host:  17.79s (+0.2ms)|virt:         5s (+0s)] 
+14:32:22.5917 [INFO] uart: [host:  17.8s (+8.36ms)|virt:      5s (+1.6ms)] 60,CONV_2D,24
+14:32:22.5917 [INFO] uart: [host:  17.8s (+8.37ms)|virt:      5s (+1.6ms)] 60,CONV_2D,24
+14:32:22.5957 [INFO] uart: [host:   17.8s (+3.8ms)|virt:      5s (+1.5ms)] 
+14:32:22.5957 [INFO] uart: [host:  17.8s (+3.76ms)|virt:      5s (+1.5ms)] 
+14:32:22.5957 [INFO] uart: [host:  17.8s (+0.12ms)|virt:         5s (+0s)] 
+14:32:22.5957 [INFO] uart: [host:  17.8s (+0.11ms)|virt:         5s (+0s)] 
+14:32:22.6019 [INFO] uart: [host: 17.81s (+6.32ms)|virt:      5s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2292
+14:32:22.6019 [INFO] uart: [host: 17.81s (+6.37ms)|virt:      5s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2292
+14:32:22.6062 [INFO] uart: [host: 17.82s (+4.29ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6062 [INFO] uart: [host: 17.81s (+4.29ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6064 [INFO] uart: [host: 17.82s (+0.18ms)|virt:      5.01s (+0s)] 
+14:32:22.6064 [INFO] uart: [host: 17.82s (+0.17ms)|virt:      5.01s (+0s)] 
+14:32:22.6119 [INFO] uart: [host: 17.82s (+5.48ms)|virt:   5.01s (+1.5ms)] 62,CONV_2D,56
+14:32:22.6119 [INFO] uart: [host: 17.82s (+5.48ms)|virt:   5.01s (+1.5ms)] 62,CONV_2D,56
+14:32:22.6158 [INFO] uart: [host: 17.83s (+3.92ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6158 [INFO] uart: [host: 17.82s (+3.96ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6163 [INFO] uart: [host: 17.83s (+0.51ms)|virt:      5.01s (+0s)] 
+14:32:22.6163 [INFO] uart: [host: 17.82s (+0.51ms)|virt:      5.01s (+0s)] 
+14:32:22.6216 [INFO] uart: [host: 17.83s (+5.33ms)|virt:   5.01s (+1.5ms)] 63,CONV_2D,158
+14:32:22.6217 [INFO] uart: [host: 17.83s (+5.29ms)|virt:   5.01s (+1.5ms)] 63,CONV_2D,158
+14:32:22.6257 [INFO] uart: [host: 17.84s (+4.12ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6258 [INFO] uart: [host: 17.83s (+4.11ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6258 [INFO] uart: [host: 17.84s (+0.11ms)|virt:      5.01s (+0s)] 
+14:32:22.6258 [INFO] uart: [host:   17.83s (+74µs)|virt:      5.01s (+0s)] 
+14:32:22.6316 [INFO] uart: [host: 17.84s (+5.73ms)|virt:   5.01s (+1.5ms)] 64,AVERAGE_POOL_2D,252
+14:32:22.6316 [INFO] uart: [host: 17.84s (+5.76ms)|virt:   5.01s (+1.5ms)] 64,AVERAGE_POOL_2D,252
+14:32:22.6357 [INFO] uart: [host: 17.85s (+4.13ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6357 [INFO] uart: [host: 17.84s (+4.14ms)|virt:   5.01s (+1.5ms)] 
+14:32:22.6358 [INFO] uart: [host:  17.85s (+0.1ms)|virt:      5.01s (+0s)] 
+14:32:22.6358 [INFO] uart: [host:  17.84s (+0.1ms)|virt:      5.01s (+0s)] 
+14:32:22.6403 [INFO] uart: [host: 17.85s (+4.49ms)|virt:   5.02s (+1.5ms)] 65,RESHAPE,8
+14:32:22.6403 [INFO] uart: [host:  17.85s (+4.5ms)|virt:   5.02s (+1.5ms)] 65,RESHAPE,8
+14:32:22.6439 [INFO] uart: [host: 17.85s (+3.57ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6439 [INFO] uart: [host: 17.85s (+3.57ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6440 [INFO] uart: [host: 17.85s (+0.15ms)|virt:      5.02s (+0s)] 
+14:32:22.6440 [INFO] uart: [host: 17.85s (+0.18ms)|virt:      5.02s (+0s)] 
+14:32:22.6519 [INFO] uart: [host: 17.86s (+7.69ms)|virt:   5.02s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:22.6519 [INFO] uart: [host: 17.86s (+7.63ms)|virt:   5.02s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:22.6543 [INFO] uart: [host:  17.86s (+2.6ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6543 [INFO] uart: [host: 17.86s (+2.62ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6544 [INFO] uart: [host: 17.86s (+0.13ms)|virt:      5.02s (+0s)] 
+14:32:22.6545 [INFO] uart: [host: 17.86s (+0.14ms)|virt:      5.02s (+0s)] 
+14:32:22.6618 [INFO] uart: [host: 17.87s (+7.36ms)|virt:   5.02s (+1.6ms)] 67,SOFTMAX,2
+14:32:22.6618 [INFO] uart: [host: 17.87s (+7.38ms)|virt:   5.02s (+1.6ms)] 67,SOFTMAX,2
+14:32:22.6643 [INFO] uart: [host: 17.87s (+2.46ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6643 [INFO] uart: [host: 17.87s (+2.46ms)|virt:   5.02s (+1.5ms)] 
+14:32:22.6644 [INFO] uart: [host: 17.87s (+0.13ms)|virt:      5.02s (+0s)] 
+14:32:22.6645 [INFO] uart: [host: 17.87s (+0.12ms)|virt:      5.02s (+0s)] 
+14:32:22.6725 [INFO] uart: [host: 17.88s (+8.06ms)|virt:   5.02s (+1.5ms)] Perf counters not enabled.
+14:32:22.6725 [INFO] uart: [host: 17.88s (+8.08ms)|virt:   5.02s (+1.5ms)] Perf counters not enabled.
+14:32:22.6782 [INFO] uart: [host: 17.89s (+5.77ms)|virt:      5.02s (+0s)]    224M (    224108752 )  cycles total
+14:32:22.6782 [INFO] uart: [host: 17.89s (+5.74ms)|virt:      5.02s (+0s)]    224M (    224108752 )  cycles total
+14:32:22.6975 [INFO] uart: [host: 17.91s (+19.25ms)|virt:     5.03s (+7ms)] Set 76800 bytes at 0x402a15a0
+14:32:22.6975 [INFO] uart: [host: 17.91s (+19.25ms)|virt:     5.03s (+7ms)] Set 76800 bytes at 0x402a15a0
+14:32:22.6996 [INFO] uart: [host:   17.91s (+2.1ms)|virt:      5.03s (+0s)] Running mnv2
+14:32:22.6996 [INFO] uart: [host:  17.91s (+2.07ms)|virt:      5.03s (+0s)] Running mnv2
+14:32:30.3969 [INFO] uart: [host:    25.61s (+7.7s)|virt:   7.27s (+2.24s)] ....................................................................
+14:32:30.3969 [INFO] uart: [host:    25.61s (+7.7s)|virt:   7.27s (+2.24s)] ....................................................................
+14:32:30.4008 [INFO] uart: [host:  25.61s (+3.97ms)|virt:      7.27s (+0s)] "Event","Tag","Ticks"
+14:32:30.4009 [INFO] uart: [host:  25.61s (+3.92ms)|virt:      7.27s (+0s)] "Event","Tag","Ticks"
+14:32:30.4034 [INFO] uart: [host:  25.61s (+2.59ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4034 [INFO] uart: [host:   25.61s (+2.6ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4036 [INFO] uart: [host:  25.61s (+0.18ms)|virt:      7.28s (+0s)] 
+14:32:30.4036 [INFO] uart: [host:  25.61s (+0.18ms)|virt:      7.28s (+0s)] 
+14:32:30.4107 [INFO] uart: [host:   25.62s (+7.1ms)|virt:   7.28s (+1.6ms)] 0,MUL,3804
+14:32:30.4107 [INFO] uart: [host:   25.62s (+7.1ms)|virt:   7.28s (+1.6ms)] 0,MUL,3804
+14:32:30.4146 [INFO] uart: [host:   25.62s (+3.9ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4147 [INFO] uart: [host:  25.62s (+3.94ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4152 [INFO] uart: [host:  25.62s (+0.58ms)|virt:      7.28s (+0s)] 
+14:32:30.4152 [INFO] uart: [host:  25.62s (+0.57ms)|virt:      7.28s (+0s)] 
+14:32:30.4197 [INFO] uart: [host:  25.63s (+4.54ms)|virt:   7.28s (+1.5ms)] 1,SUB,9112
+14:32:30.4197 [INFO] uart: [host:   25.63s (+4.5ms)|virt:   7.28s (+1.5ms)] 1,SUB,9112
+14:32:30.4238 [INFO] uart: [host:  25.63s (+3.98ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4238 [INFO] uart: [host:  25.63s (+3.96ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4239 [INFO] uart: [host:  25.63s (+0.16ms)|virt:      7.28s (+0s)] 
+14:32:30.4239 [INFO] uart: [host:  25.63s (+0.15ms)|virt:      7.28s (+0s)] 
+14:32:30.4304 [INFO] uart: [host:  25.64s (+6.52ms)|virt:   7.28s (+1.5ms)] 2,CONV_2D,56205
+14:32:30.4304 [INFO] uart: [host:  25.64s (+6.56ms)|virt:   7.28s (+1.5ms)] 2,CONV_2D,56205
+14:32:30.4342 [INFO] uart: [host:  25.64s (+3.86ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4342 [INFO] uart: [host:  25.64s (+3.84ms)|virt:   7.28s (+1.5ms)] 
+14:32:30.4344 [INFO] uart: [host:  25.64s (+0.13ms)|virt:      7.28s (+0s)] 
+14:32:30.4344 [INFO] uart: [host:  25.64s (+0.14ms)|virt:      7.28s (+0s)] 
+14:32:30.4405 [INFO] uart: [host:  25.65s (+6.11ms)|virt:   7.29s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30929
+14:32:30.4405 [INFO] uart: [host:   25.65s (+6.1ms)|virt:   7.29s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30929
+14:32:30.4446 [INFO] uart: [host:  25.65s (+4.14ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4446 [INFO] uart: [host:  25.65s (+4.14ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4447 [INFO] uart: [host:  25.65s (+0.11ms)|virt:      7.29s (+0s)] 
+14:32:30.4447 [INFO] uart: [host:    25.65s (+69µs)|virt:      7.29s (+0s)] 
+14:32:30.4496 [INFO] uart: [host:  25.66s (+4.92ms)|virt:   7.29s (+1.5ms)] 4,CONV_2D,182
+14:32:30.4497 [INFO] uart: [host:  25.66s (+4.96ms)|virt:   7.29s (+1.5ms)] 4,CONV_2D,182
+14:32:30.4556 [INFO] uart: [host:  25.66s (+5.71ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4556 [INFO] uart: [host:  25.66s (+5.67ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4556 [INFO] uart: [host:  25.66s (+0.12ms)|virt:      7.29s (+0s)] 
+14:32:30.4556 [INFO] uart: [host:  25.66s (+0.11ms)|virt:      7.29s (+0s)] 
+14:32:30.4601 [INFO] uart: [host:  25.67s (+4.51ms)|virt:   7.29s (+1.5ms)] 5,CONV_2D,321
+14:32:30.4602 [INFO] uart: [host:  25.67s (+4.54ms)|virt:   7.29s (+1.5ms)] 5,CONV_2D,321
+14:32:30.4632 [INFO] uart: [host:  25.67s (+3.18ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4632 [INFO] uart: [host:  25.67s (+3.23ms)|virt:   7.29s (+1.5ms)] 
+14:32:30.4634 [INFO] uart: [host:  25.67s (+0.24ms)|virt:      7.29s (+0s)] 
+14:32:30.4634 [INFO] uart: [host:  25.67s (+0.21ms)|virt:      7.29s (+0s)] 
+14:32:30.4711 [INFO] uart: [host:  25.68s (+7.65ms)|virt:   7.29s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23127
+14:32:30.4711 [INFO] uart: [host:  25.68s (+7.65ms)|virt:   7.29s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23127
+14:32:30.4750 [INFO] uart: [host:  25.68s (+3.96ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4750 [INFO] uart: [host:  25.68s (+3.94ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4751 [INFO] uart: [host:    25.68s (+92µs)|virt:       7.3s (+0s)] 
+14:32:30.4751 [INFO] uart: [host:    25.68s (+57µs)|virt:       7.3s (+0s)] 
+14:32:30.4807 [INFO] uart: [host:  25.69s (+5.68ms)|virt:    7.3s (+1.5ms)] 7,CONV_2D,81
+14:32:30.4808 [INFO] uart: [host:  25.69s (+5.68ms)|virt:    7.3s (+1.5ms)] 7,CONV_2D,81
+14:32:30.4848 [INFO] uart: [host:  25.69s (+3.96ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4848 [INFO] uart: [host:  25.69s (+4.04ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4850 [INFO] uart: [host:  25.69s (+0.31ms)|virt:       7.3s (+0s)] 
+14:32:30.4851 [INFO] uart: [host:  25.69s (+0.27ms)|virt:       7.3s (+0s)] 
+14:32:30.4900 [INFO] uart: [host:   25.7s (+4.94ms)|virt:    7.3s (+1.6ms)] 8,CONV_2D,81
+14:32:30.4900 [INFO] uart: [host:   25.7s (+4.92ms)|virt:    7.3s (+1.6ms)] 8,CONV_2D,81
+14:32:30.4947 [INFO] uart: [host:   25.7s (+4.72ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4947 [INFO] uart: [host:   25.7s (+4.72ms)|virt:    7.3s (+1.5ms)] 
+14:32:30.4947 [INFO] uart: [host:     25.7s (+95µs)|virt:       7.3s (+0s)] 
+14:32:30.4948 [INFO] uart: [host:     25.7s (+58µs)|virt:       7.3s (+0s)] 
+14:32:30.5027 [INFO] uart: [host:  25.71s (+7.92ms)|virt:    7.3s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22908
+14:32:30.5027 [INFO] uart: [host:  25.71s (+7.96ms)|virt:    7.3s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22908
+14:32:30.5072 [INFO] uart: [host:  25.72s (+4.26ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5072 [INFO] uart: [host:  25.72s (+4.24ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5073 [INFO] uart: [host:   25.72s (+0.3ms)|virt:      7.31s (+0s)] 
+14:32:30.5074 [INFO] uart: [host:  25.72s (+0.37ms)|virt:      7.31s (+0s)] 
+14:32:30.5134 [INFO] uart: [host:  25.72s (+6.13ms)|virt:   7.31s (+1.5ms)] 10,CONV_2D,81
+14:32:30.5135 [INFO] uart: [host:   25.72s (+6.1ms)|virt:   7.31s (+1.5ms)] 10,CONV_2D,81
+14:32:30.5189 [INFO] uart: [host:  25.73s (+5.41ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5189 [INFO] uart: [host:   25.73s (+5.4ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5192 [INFO] uart: [host:  25.73s (+0.32ms)|virt:      7.31s (+0s)] 
+14:32:30.5193 [INFO] uart: [host:  25.73s (+0.37ms)|virt:      7.31s (+0s)] 
+14:32:30.5282 [INFO] uart: [host:  25.74s (+9.08ms)|virt:   7.31s (+1.5ms)] 11,ADD,1058
+14:32:30.5283 [INFO] uart: [host:  25.74s (+9.04ms)|virt:   7.31s (+1.5ms)] 11,ADD,1058
+14:32:30.5327 [INFO] uart: [host:  25.74s (+4.42ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5327 [INFO] uart: [host:  25.74s (+4.42ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5327 [INFO] uart: [host:  25.74s (+0.12ms)|virt:      7.31s (+0s)] 
+14:32:30.5328 [INFO] uart: [host:   25.74s (+0.1ms)|virt:      7.31s (+0s)] 
+14:32:30.5384 [INFO] uart: [host:   25.75s (+5.6ms)|virt:   7.31s (+1.5ms)] 12,CONV_2D,81
+14:32:30.5384 [INFO] uart: [host:  25.75s (+5.63ms)|virt:   7.31s (+1.5ms)] 12,CONV_2D,81
+14:32:30.5431 [INFO] uart: [host:  25.75s (+4.58ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5431 [INFO] uart: [host:  25.75s (+4.55ms)|virt:   7.31s (+1.5ms)] 
+14:32:30.5431 [INFO] uart: [host:   25.75s (+0.2ms)|virt:      7.31s (+0s)] 
+14:32:30.5431 [INFO] uart: [host:  25.75s (+0.18ms)|virt:      7.31s (+0s)] 
+14:32:30.5516 [INFO] uart: [host:  25.76s (+8.42ms)|virt:   7.32s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5733
+14:32:30.5516 [INFO] uart: [host:  25.76s (+8.46ms)|virt:   7.32s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5733
+14:32:30.5568 [INFO] uart: [host:  25.77s (+5.14ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5568 [INFO] uart: [host:  25.77s (+5.13ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5569 [INFO] uart: [host:  25.77s (+0.25ms)|virt:      7.32s (+0s)] 
+14:32:30.5569 [INFO] uart: [host:  25.77s (+0.21ms)|virt:      7.32s (+0s)] 
+14:32:30.5631 [INFO] uart: [host:  25.77s (+6.16ms)|virt:   7.32s (+1.5ms)] 14,CONV_2D,25
+14:32:30.5632 [INFO] uart: [host:  25.77s (+6.21ms)|virt:   7.32s (+1.5ms)] 14,CONV_2D,25
+14:32:30.5671 [INFO] uart: [host:  25.78s (+3.98ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5671 [INFO] uart: [host:  25.78s (+3.96ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5672 [INFO] uart: [host:  25.78s (+0.14ms)|virt:      7.32s (+0s)] 
+14:32:30.5673 [INFO] uart: [host:  25.78s (+0.15ms)|virt:      7.32s (+0s)] 
+14:32:30.5724 [INFO] uart: [host:  25.78s (+5.14ms)|virt:   7.32s (+1.6ms)] 15,CONV_2D,39
+14:32:30.5724 [INFO] uart: [host:  25.78s (+5.15ms)|virt:   7.32s (+1.6ms)] 15,CONV_2D,39
+14:32:30.5766 [INFO] uart: [host:  25.79s (+4.07ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5766 [INFO] uart: [host:  25.79s (+4.15ms)|virt:   7.32s (+1.5ms)] 
+14:32:30.5771 [INFO] uart: [host:   25.79s (+0.6ms)|virt:      7.32s (+0s)] 
+14:32:30.5771 [INFO] uart: [host:  25.79s (+0.57ms)|virt:      7.32s (+0s)] 
+14:32:30.5840 [INFO] uart: [host:  25.79s (+7.01ms)|virt:   7.32s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:30.5841 [INFO] uart: [host:  25.79s (+6.91ms)|virt:   7.32s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:30.5881 [INFO] uart: [host:   25.8s (+3.98ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.5881 [INFO] uart: [host:   25.8s (+4.02ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.5883 [INFO] uart: [host:   25.8s (+0.17ms)|virt:      7.33s (+0s)] 
+14:32:30.5883 [INFO] uart: [host:   25.8s (+0.19ms)|virt:      7.33s (+0s)] 
+14:32:30.5945 [INFO] uart: [host:    25.8s (+6.3ms)|virt:   7.33s (+1.5ms)] 17,CONV_2D,38
+14:32:30.5946 [INFO] uart: [host:   25.8s (+6.28ms)|virt:   7.33s (+1.5ms)] 17,CONV_2D,38
+14:32:30.5995 [INFO] uart: [host:  25.81s (+4.96ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.5995 [INFO] uart: [host:  25.81s (+4.95ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.5997 [INFO] uart: [host:  25.81s (+0.21ms)|virt:      7.33s (+0s)] 
+14:32:30.5997 [INFO] uart: [host:  25.81s (+0.22ms)|virt:      7.33s (+0s)] 
+14:32:30.6054 [INFO] uart: [host:  25.81s (+5.65ms)|virt:   7.33s (+1.5ms)] 18,ADD,525
+14:32:30.6054 [INFO] uart: [host:  25.81s (+5.65ms)|virt:   7.33s (+1.5ms)] 18,ADD,525
+14:32:30.6104 [INFO] uart: [host:  25.82s (+5.01ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.6104 [INFO] uart: [host:     25.82s (+5ms)|virt:   7.33s (+1.5ms)] 
+14:32:30.6104 [INFO] uart: [host:  25.82s (+0.11ms)|virt:      7.33s (+0s)] 
+14:32:30.6104 [INFO] uart: [host:    25.82s (+75µs)|virt:      7.33s (+0s)] 
+14:32:30.6168 [INFO] uart: [host:  25.83s (+6.32ms)|virt:   7.33s (+1.5ms)] 19,CONV_2D,39
+14:32:30.6169 [INFO] uart: [host:   25.83s (+6.4ms)|virt:   7.33s (+1.5ms)] 19,CONV_2D,39
+14:32:30.6210 [INFO] uart: [host:   25.83s (+4.2ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6210 [INFO] uart: [host:   25.83s (+4.2ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6215 [INFO] uart: [host:  25.83s (+0.45ms)|virt:      7.34s (+0s)] 
+14:32:30.6215 [INFO] uart: [host:  25.83s (+0.44ms)|virt:      7.34s (+0s)] 
+14:32:30.6299 [INFO] uart: [host:  25.84s (+8.43ms)|virt:   7.34s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11407
+14:32:30.6299 [INFO] uart: [host:  25.84s (+8.39ms)|virt:   7.34s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11407
+14:32:30.6341 [INFO] uart: [host:  25.84s (+4.22ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6341 [INFO] uart: [host:  25.84s (+4.21ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6342 [INFO] uart: [host:  25.84s (+0.11ms)|virt:      7.34s (+0s)] 
+14:32:30.6342 [INFO] uart: [host:    25.84s (+74µs)|virt:      7.34s (+0s)] 
+14:32:30.6393 [INFO] uart: [host:  25.85s (+5.05ms)|virt:   7.34s (+1.5ms)] 21,CONV_2D,38
+14:32:30.6393 [INFO] uart: [host:   25.85s (+5.1ms)|virt:   7.34s (+1.5ms)] 21,CONV_2D,38
+14:32:30.6432 [INFO] uart: [host:  25.85s (+3.92ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6432 [INFO] uart: [host:  25.85s (+3.96ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6434 [INFO] uart: [host:  25.85s (+0.29ms)|virt:      7.34s (+0s)] 
+14:32:30.6435 [INFO] uart: [host:  25.85s (+0.25ms)|virt:      7.34s (+0s)] 
+14:32:30.6485 [INFO] uart: [host:  25.86s (+5.04ms)|virt:   7.34s (+1.6ms)] 22,ADD,526
+14:32:30.6486 [INFO] uart: [host:  25.86s (+5.08ms)|virt:   7.34s (+1.6ms)] 22,ADD,526
+14:32:30.6528 [INFO] uart: [host:  25.86s (+4.33ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6528 [INFO] uart: [host:  25.86s (+4.27ms)|virt:   7.34s (+1.5ms)] 
+14:32:30.6529 [INFO] uart: [host:    25.86s (+85µs)|virt:      7.34s (+0s)] 
+14:32:30.6529 [INFO] uart: [host:    25.86s (+60µs)|virt:      7.34s (+0s)] 
+14:32:30.6583 [INFO] uart: [host:   25.87s (+5.4ms)|virt:   7.35s (+1.5ms)] 23,CONV_2D,38
+14:32:30.6583 [INFO] uart: [host:  25.87s (+5.44ms)|virt:   7.35s (+1.5ms)] 23,CONV_2D,38
+14:32:30.6621 [INFO] uart: [host:  25.87s (+3.82ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6622 [INFO] uart: [host:  25.87s (+3.83ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6624 [INFO] uart: [host:  25.87s (+0.23ms)|virt:      7.35s (+0s)] 
+14:32:30.6624 [INFO] uart: [host:  25.87s (+0.23ms)|virt:      7.35s (+0s)] 
+14:32:30.6686 [INFO] uart: [host:  25.88s (+6.25ms)|virt:   7.35s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2828
+14:32:30.6705 [INFO] uart: [host:  25.88s (+6.26ms)|virt:   7.35s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2828
+14:32:30.6734 [INFO] uart: [host:  25.88s (+4.82ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6735 [INFO] uart: [host:  25.88s (+4.82ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6736 [INFO] uart: [host:  25.88s (+0.19ms)|virt:      7.35s (+0s)] 
+14:32:30.6736 [INFO] uart: [host:  25.88s (+0.19ms)|virt:      7.35s (+0s)] 
+14:32:30.6813 [INFO] uart: [host:  25.89s (+7.61ms)|virt:   7.35s (+1.5ms)] 25,CONV_2D,12
+14:32:30.6813 [INFO] uart: [host:  25.89s (+7.66ms)|virt:   7.35s (+1.5ms)] 25,CONV_2D,12
+14:32:30.6838 [INFO] uart: [host:  25.89s (+2.55ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6838 [INFO] uart: [host:  25.89s (+2.49ms)|virt:   7.35s (+1.5ms)] 
+14:32:30.6839 [INFO] uart: [host:    25.89s (+95µs)|virt:      7.35s (+0s)] 
+14:32:30.6839 [INFO] uart: [host:    25.89s (+98µs)|virt:      7.35s (+0s)] 
+14:32:30.6888 [INFO] uart: [host:    25.9s (+4.9ms)|virt:   7.36s (+1.5ms)] 26,CONV_2D,17
+14:32:30.6888 [INFO] uart: [host:    25.9s (+4.9ms)|virt:   7.36s (+1.5ms)] 26,CONV_2D,17
+14:32:30.6930 [INFO] uart: [host:   25.9s (+4.19ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.6930 [INFO] uart: [host:   25.9s (+4.23ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.6935 [INFO] uart: [host:   25.9s (+0.54ms)|virt:      7.36s (+0s)] 
+14:32:30.6936 [INFO] uart: [host:   25.9s (+0.54ms)|virt:      7.36s (+0s)] 
+14:32:30.7010 [INFO] uart: [host:  25.91s (+7.44ms)|virt:   7.36s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4174
+14:32:30.7010 [INFO] uart: [host:  25.91s (+7.41ms)|virt:   7.36s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4174
+14:32:30.7033 [INFO] uart: [host:  25.91s (+2.36ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.7033 [INFO] uart: [host:  25.91s (+2.35ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.7035 [INFO] uart: [host:  25.91s (+0.16ms)|virt:      7.36s (+0s)] 
+14:32:30.7035 [INFO] uart: [host:  25.91s (+0.16ms)|virt:      7.36s (+0s)] 
+14:32:30.7114 [INFO] uart: [host:   25.92s (+7.8ms)|virt:   7.36s (+1.5ms)] 28,CONV_2D,16
+14:32:30.7114 [INFO] uart: [host:  25.92s (+7.76ms)|virt:   7.36s (+1.5ms)] 28,CONV_2D,16
+14:32:30.7141 [INFO] uart: [host:  25.92s (+2.85ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.7142 [INFO] uart: [host:  25.92s (+2.88ms)|virt:   7.36s (+1.5ms)] 
+14:32:30.7142 [INFO] uart: [host:  25.92s (+0.11ms)|virt:      7.36s (+0s)] 
+14:32:30.7142 [INFO] uart: [host:    25.92s (+77µs)|virt:      7.36s (+0s)] 
+14:32:30.7206 [INFO] uart: [host:  25.93s (+5.14ms)|virt:   7.36s (+1.5ms)] 29,ADD,198
+14:32:30.7206 [INFO] uart: [host:  25.93s (+5.19ms)|virt:   7.36s (+1.5ms)] 29,ADD,198
+14:32:30.7232 [INFO] uart: [host:  25.93s (+3.83ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7232 [INFO] uart: [host:  25.93s (+3.82ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7236 [INFO] uart: [host:  25.93s (+0.38ms)|virt:   7.37s (+0.1ms)] 
+14:32:30.7236 [INFO] uart: [host:  25.93s (+0.39ms)|virt:   7.37s (+0.1ms)] 
+14:32:30.7305 [INFO] uart: [host:  25.94s (+6.91ms)|virt:   7.37s (+1.5ms)] 30,CONV_2D,17
+14:32:30.7305 [INFO] uart: [host:  25.94s (+6.91ms)|virt:   7.37s (+1.5ms)] 30,CONV_2D,17
+14:32:30.7346 [INFO] uart: [host:  25.94s (+4.13ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7347 [INFO] uart: [host:  25.94s (+4.12ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7347 [INFO] uart: [host:  25.94s (+0.11ms)|virt:      7.37s (+0s)] 
+14:32:30.7348 [INFO] uart: [host:  25.94s (+0.11ms)|virt:      7.37s (+0s)] 
+14:32:30.7421 [INFO] uart: [host:  25.95s (+7.37ms)|virt:   7.37s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:30.7421 [INFO] uart: [host:  25.95s (+7.38ms)|virt:   7.37s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:30.7461 [INFO] uart: [host:  25.96s (+3.96ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7461 [INFO] uart: [host:  25.95s (+3.96ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7462 [INFO] uart: [host:  25.96s (+0.12ms)|virt:      7.37s (+0s)] 
+14:32:30.7462 [INFO] uart: [host:  25.95s (+0.12ms)|virt:      7.37s (+0s)] 
+14:32:30.7510 [INFO] uart: [host:  25.96s (+4.75ms)|virt:   7.37s (+1.5ms)] 32,CONV_2D,16
+14:32:30.7510 [INFO] uart: [host:  25.96s (+4.76ms)|virt:   7.37s (+1.5ms)] 32,CONV_2D,16
+14:32:30.7550 [INFO] uart: [host:  25.96s (+4.05ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7551 [INFO] uart: [host:  25.96s (+4.09ms)|virt:   7.37s (+1.5ms)] 
+14:32:30.7557 [INFO] uart: [host:  25.96s (+0.67ms)|virt:      7.37s (+0s)] 
+14:32:30.7557 [INFO] uart: [host:  25.96s (+0.67ms)|virt:      7.37s (+0s)] 
+14:32:30.7607 [INFO] uart: [host:  25.97s (+5.04ms)|virt:   7.38s (+1.5ms)] 33,ADD,197
+14:32:30.7607 [INFO] uart: [host:  25.97s (+5.01ms)|virt:   7.38s (+1.5ms)] 33,ADD,197
+14:32:30.7647 [INFO] uart: [host:  25.97s (+3.96ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7647 [INFO] uart: [host:  25.97s (+3.96ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7648 [INFO] uart: [host:  25.97s (+0.17ms)|virt:      7.38s (+0s)] 
+14:32:30.7649 [INFO] uart: [host:  25.97s (+0.16ms)|virt:      7.38s (+0s)] 
+14:32:30.7699 [INFO] uart: [host:     25.98s (+5ms)|virt:   7.38s (+1.5ms)] 34,CONV_2D,17
+14:32:30.7699 [INFO] uart: [host:     25.98s (+5ms)|virt:   7.38s (+1.5ms)] 34,CONV_2D,17
+14:32:30.7737 [INFO] uart: [host:  25.98s (+3.87ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7738 [INFO] uart: [host:   25.98s (+3.9ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7741 [INFO] uart: [host:  25.98s (+0.48ms)|virt:      7.38s (+0s)] 
+14:32:30.7742 [INFO] uart: [host:   25.98s (+0.4ms)|virt:      7.38s (+0s)] 
+14:32:30.7812 [INFO] uart: [host:  25.99s (+7.04ms)|virt:   7.38s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4170
+14:32:30.7813 [INFO] uart: [host:  25.99s (+7.08ms)|virt:   7.38s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4170
+14:32:30.7840 [INFO] uart: [host:  25.99s (+2.77ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7840 [INFO] uart: [host:  25.99s (+2.76ms)|virt:   7.38s (+1.5ms)] 
+14:32:30.7842 [INFO] uart: [host:  25.99s (+0.22ms)|virt:      7.38s (+0s)] 
+14:32:30.7842 [INFO] uart: [host:  25.99s (+0.22ms)|virt:      7.38s (+0s)] 
+14:32:30.7908 [INFO] uart: [host:     26s (+6.49ms)|virt:   7.39s (+1.5ms)] 36,CONV_2D,16
+14:32:30.7908 [INFO] uart: [host:     26s (+6.53ms)|virt:   7.39s (+1.5ms)] 36,CONV_2D,16
+14:32:30.7947 [INFO] uart: [host:     26s (+3.92ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.7947 [INFO] uart: [host:     26s (+3.84ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.7947 [INFO] uart: [host:     26s (+0.13ms)|virt:      7.39s (+0s)] 
+14:32:30.7947 [INFO] uart: [host:     26s (+0.12ms)|virt:      7.39s (+0s)] 
+14:32:30.8000 [INFO] uart: [host:  26.01s (+5.22ms)|virt:   7.39s (+1.6ms)] 37,ADD,197
+14:32:30.8000 [INFO] uart: [host:  26.01s (+5.26ms)|virt:   7.39s (+1.6ms)] 37,ADD,197
+14:32:30.8026 [INFO] uart: [host:   26.01s (+2.6ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.8026 [INFO] uart: [host:   26.01s (+2.6ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.8027 [INFO] uart: [host:  26.01s (+0.16ms)|virt:      7.39s (+0s)] 
+14:32:30.8027 [INFO] uart: [host:  26.01s (+0.16ms)|virt:      7.39s (+0s)] 
+14:32:30.8091 [INFO] uart: [host:  26.02s (+6.22ms)|virt:   7.39s (+1.5ms)] 38,CONV_2D,17
+14:32:30.8092 [INFO] uart: [host:   26.02s (+6.2ms)|virt:   7.39s (+1.5ms)] 38,CONV_2D,17
+14:32:30.8122 [INFO] uart: [host:  26.02s (+3.16ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.8122 [INFO] uart: [host:  26.02s (+3.23ms)|virt:   7.39s (+1.5ms)] 
+14:32:30.8139 [INFO] uart: [host:  26.02s (+1.52ms)|virt:      7.39s (+0s)] 
+14:32:30.8139 [INFO] uart: [host:  26.02s (+1.43ms)|virt:      7.39s (+0s)] 
+14:32:30.8216 [INFO] uart: [host:  26.03s (+7.97ms)|virt:   7.39s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4138
+14:32:30.8216 [INFO] uart: [host:  26.03s (+8.01ms)|virt:   7.39s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4138
+14:32:30.8252 [INFO] uart: [host:  26.03s (+3.57ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8252 [INFO] uart: [host:  26.03s (+3.57ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8253 [INFO] uart: [host:  26.03s (+0.18ms)|virt:       7.4s (+0s)] 
+14:32:30.8254 [INFO] uart: [host:  26.03s (+0.17ms)|virt:       7.4s (+0s)] 
+14:32:30.8302 [INFO] uart: [host:  26.04s (+4.81ms)|virt:    7.4s (+1.5ms)] 40,CONV_2D,17
+14:32:30.8302 [INFO] uart: [host:  26.04s (+4.82ms)|virt:    7.4s (+1.5ms)] 40,CONV_2D,17
+14:32:30.8344 [INFO] uart: [host:  26.04s (+4.24ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8344 [INFO] uart: [host:  26.04s (+4.24ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8346 [INFO] uart: [host:  26.04s (+0.22ms)|virt:       7.4s (+0s)] 
+14:32:30.8346 [INFO] uart: [host:  26.04s (+0.22ms)|virt:       7.4s (+0s)] 
+14:32:30.8414 [INFO] uart: [host:  26.05s (+6.77ms)|virt:    7.4s (+1.5ms)] 41,CONV_2D,23
+14:32:30.8414 [INFO] uart: [host:  26.05s (+6.77ms)|virt:    7.4s (+1.5ms)] 41,CONV_2D,23
+14:32:30.8441 [INFO] uart: [host:  26.05s (+2.64ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8441 [INFO] uart: [host:  26.05s (+2.68ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8456 [INFO] uart: [host:  26.05s (+1.43ms)|virt:       7.4s (+0s)] 
+14:32:30.8456 [INFO] uart: [host:  26.05s (+1.37ms)|virt:       7.4s (+0s)] 
+14:32:30.8518 [INFO] uart: [host:  26.06s (+6.33ms)|virt:    7.4s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5572
+14:32:30.8519 [INFO] uart: [host:  26.06s (+6.35ms)|virt:    7.4s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5572
+14:32:30.8558 [INFO] uart: [host:  26.07s (+4.03ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8558 [INFO] uart: [host:  26.06s (+3.99ms)|virt:    7.4s (+1.5ms)] 
+14:32:30.8559 [INFO] uart: [host:    26.07s (+75µs)|virt:       7.4s (+0s)] 
+14:32:30.8559 [INFO] uart: [host:   26.06s (+0.1ms)|virt:       7.4s (+0s)] 
+14:32:30.8612 [INFO] uart: [host:  26.07s (+5.32ms)|virt:   7.41s (+1.5ms)] 43,CONV_2D,21
+14:32:30.8612 [INFO] uart: [host:  26.07s (+5.29ms)|virt:   7.41s (+1.5ms)] 43,CONV_2D,21
+14:32:30.8651 [INFO] uart: [host:  26.07s (+3.86ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8651 [INFO] uart: [host:  26.07s (+3.94ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8654 [INFO] uart: [host:  26.07s (+0.33ms)|virt:      7.41s (+0s)] 
+14:32:30.8654 [INFO] uart: [host:  26.07s (+0.29ms)|virt:      7.41s (+0s)] 
+14:32:30.8716 [INFO] uart: [host:  26.08s (+6.21ms)|virt:   7.41s (+1.6ms)] 44,ADD,267
+14:32:30.8716 [INFO] uart: [host:  26.08s (+6.22ms)|virt:   7.41s (+1.6ms)] 44,ADD,267
+14:32:30.8758 [INFO] uart: [host:  26.09s (+4.16ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8758 [INFO] uart: [host:  26.08s (+4.15ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8759 [INFO] uart: [host:   26.09s (+0.1ms)|virt:      7.41s (+0s)] 
+14:32:30.8759 [INFO] uart: [host:  26.08s (+0.11ms)|virt:      7.41s (+0s)] 
+14:32:30.8810 [INFO] uart: [host:  26.09s (+5.07ms)|virt:   7.41s (+1.5ms)] 45,CONV_2D,22
+14:32:30.8810 [INFO] uart: [host:  26.09s (+5.09ms)|virt:   7.41s (+1.5ms)] 45,CONV_2D,22
+14:32:30.8850 [INFO] uart: [host:  26.09s (+3.98ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8850 [INFO] uart: [host:  26.09s (+3.94ms)|virt:   7.41s (+1.5ms)] 
+14:32:30.8851 [INFO] uart: [host:  26.09s (+0.15ms)|virt:      7.41s (+0s)] 
+14:32:30.8852 [INFO] uart: [host:  26.09s (+0.21ms)|virt:      7.41s (+0s)] 
+14:32:30.8922 [INFO] uart: [host:   26.1s (+7.07ms)|virt:   7.42s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5555
+14:32:30.8922 [INFO] uart: [host:   26.1s (+7.03ms)|virt:   7.42s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5555
+14:32:30.8957 [INFO] uart: [host:  26.11s (+3.55ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.8957 [INFO] uart: [host:   26.1s (+3.55ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.8959 [INFO] uart: [host:  26.11s (+0.21ms)|virt:      7.42s (+0s)] 
+14:32:30.8959 [INFO] uart: [host:   26.1s (+0.22ms)|virt:      7.42s (+0s)] 
+14:32:30.9012 [INFO] uart: [host:  26.11s (+5.23ms)|virt:   7.42s (+1.5ms)] 47,CONV_2D,22
+14:32:30.9012 [INFO] uart: [host:  26.11s (+5.23ms)|virt:   7.42s (+1.5ms)] 47,CONV_2D,22
+14:32:30.9049 [INFO] uart: [host:  26.11s (+3.68ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.9049 [INFO] uart: [host:  26.11s (+3.71ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.9050 [INFO] uart: [host:  26.11s (+0.23ms)|virt:      7.42s (+0s)] 
+14:32:30.9050 [INFO] uart: [host:  26.11s (+0.18ms)|virt:      7.42s (+0s)] 
+14:32:30.9099 [INFO] uart: [host:  26.12s (+4.82ms)|virt:   7.42s (+1.5ms)] 48,ADD,265
+14:32:30.9099 [INFO] uart: [host:  26.12s (+4.84ms)|virt:   7.42s (+1.5ms)] 48,ADD,265
+14:32:30.9141 [INFO] uart: [host:  26.12s (+4.18ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.9141 [INFO] uart: [host:  26.12s (+4.22ms)|virt:   7.42s (+1.5ms)] 
+14:32:30.9145 [INFO] uart: [host:  26.12s (+0.52ms)|virt:      7.42s (+0s)] 
+14:32:30.9146 [INFO] uart: [host:  26.12s (+0.44ms)|virt:      7.42s (+0s)] 
+14:32:30.9195 [INFO] uart: [host:  26.13s (+4.88ms)|virt:   7.42s (+1.5ms)] 49,CONV_2D,23
+14:32:30.9195 [INFO] uart: [host:  26.13s (+4.91ms)|virt:   7.42s (+1.5ms)] 49,CONV_2D,23
+14:32:30.9232 [INFO] uart: [host:  26.13s (+3.74ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9232 [INFO] uart: [host:  26.13s (+3.75ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9234 [INFO] uart: [host:  26.13s (+0.21ms)|virt:      7.43s (+0s)] 
+14:32:30.9234 [INFO] uart: [host:  26.13s (+0.21ms)|virt:      7.43s (+0s)] 
+14:32:30.9293 [INFO] uart: [host:  26.14s (+5.85ms)|virt:   7.43s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1380
+14:32:30.9293 [INFO] uart: [host:  26.14s (+5.86ms)|virt:   7.43s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1380
+14:32:30.9329 [INFO] uart: [host:  26.14s (+3.68ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9330 [INFO] uart: [host:  26.14s (+3.68ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9331 [INFO] uart: [host:  26.14s (+0.18ms)|virt:      7.43s (+0s)] 
+14:32:30.9331 [INFO] uart: [host:  26.14s (+0.17ms)|virt:      7.43s (+0s)] 
+14:32:30.9383 [INFO] uart: [host:  26.15s (+5.17ms)|virt:   7.43s (+1.5ms)] 51,CONV_2D,16
+14:32:30.9383 [INFO] uart: [host:  26.15s (+5.18ms)|virt:   7.43s (+1.5ms)] 51,CONV_2D,16
+14:32:30.9431 [INFO] uart: [host:  26.15s (+4.75ms)|virt:   7.43s (+1.6ms)] 
+14:32:30.9431 [INFO] uart: [host:  26.15s (+4.79ms)|virt:   7.43s (+1.6ms)] 
+14:32:30.9445 [INFO] uart: [host:  26.15s (+1.37ms)|virt:      7.43s (+0s)] 
+14:32:30.9446 [INFO] uart: [host:   26.15s (+1.3ms)|virt:      7.43s (+0s)] 
+14:32:30.9501 [INFO] uart: [host:   26.16s (+5.7ms)|virt:   7.43s (+1.5ms)] 52,CONV_2D,24
+14:32:30.9501 [INFO] uart: [host:  26.16s (+5.73ms)|virt:   7.43s (+1.5ms)] 52,CONV_2D,24
+14:32:30.9540 [INFO] uart: [host:  26.16s (+3.91ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9540 [INFO] uart: [host:  26.16s (+3.92ms)|virt:   7.43s (+1.5ms)] 
+14:32:30.9543 [INFO] uart: [host:  26.16s (+0.24ms)|virt:      7.43s (+0s)] 
+14:32:30.9543 [INFO] uart: [host:  26.16s (+0.24ms)|virt:      7.43s (+0s)] 
+14:32:30.9612 [INFO] uart: [host:  26.17s (+6.92ms)|virt:   7.44s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:30.9612 [INFO] uart: [host:  26.17s (+6.92ms)|virt:   7.44s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:30.9651 [INFO] uart: [host:  26.17s (+3.85ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9651 [INFO] uart: [host:  26.17s (+3.85ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9651 [INFO] uart: [host:  26.17s (+0.12ms)|virt:      7.44s (+0s)] 
+14:32:30.9651 [INFO] uart: [host:    26.17s (+74µs)|virt:      7.44s (+0s)] 
+14:32:30.9697 [INFO] uart: [host:  26.18s (+4.52ms)|virt:   7.44s (+1.5ms)] 54,CONV_2D,31
+14:32:30.9697 [INFO] uart: [host:  26.18s (+4.57ms)|virt:   7.44s (+1.5ms)] 54,CONV_2D,31
+14:32:30.9737 [INFO] uart: [host:  26.18s (+3.92ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9737 [INFO] uart: [host:   26.18s (+3.9ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9738 [INFO] uart: [host:   26.18s (+0.2ms)|virt:      7.44s (+0s)] 
+14:32:30.9739 [INFO] uart: [host:  26.18s (+0.26ms)|virt:      7.44s (+0s)] 
+14:32:30.9793 [INFO] uart: [host:  26.19s (+5.45ms)|virt:   7.44s (+1.5ms)] 55,ADD,116
+14:32:30.9793 [INFO] uart: [host:  26.19s (+5.46ms)|virt:   7.44s (+1.5ms)] 55,ADD,116
+14:32:30.9837 [INFO] uart: [host:  26.19s (+4.43ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9837 [INFO] uart: [host:  26.19s (+4.38ms)|virt:   7.44s (+1.5ms)] 
+14:32:30.9839 [INFO] uart: [host:  26.19s (+0.21ms)|virt:      7.44s (+0s)] 
+14:32:30.9839 [INFO] uart: [host:  26.19s (+0.22ms)|virt:      7.44s (+0s)] 
+14:32:30.9895 [INFO] uart: [host:   26.2s (+5.59ms)|virt:   7.45s (+1.5ms)] 56,CONV_2D,24
+14:32:30.9895 [INFO] uart: [host:   26.2s (+5.58ms)|virt:   7.45s (+1.5ms)] 56,CONV_2D,24
+14:32:30.9942 [INFO] uart: [host:   26.2s (+4.75ms)|virt:   7.45s (+1.5ms)] 
+14:32:30.9943 [INFO] uart: [host:   26.2s (+4.75ms)|virt:   7.45s (+1.5ms)] 
+14:32:30.9943 [INFO] uart: [host:   26.2s (+0.12ms)|virt:      7.45s (+0s)] 
+14:32:30.9943 [INFO] uart: [host:     26.2s (+82µs)|virt:      7.45s (+0s)] 
+14:32:31.0005 [INFO] uart: [host:  26.21s (+6.13ms)|virt:   7.45s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2312
+14:32:31.0005 [INFO] uart: [host:  26.21s (+6.16ms)|virt:   7.45s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2312
+14:32:31.0042 [INFO] uart: [host:   26.21s (+3.8ms)|virt:   7.45s (+1.5ms)] 
+14:32:31.0043 [INFO] uart: [host:  26.21s (+3.77ms)|virt:   7.45s (+1.5ms)] 
+14:32:31.0044 [INFO] uart: [host:  26.21s (+0.15ms)|virt:      7.45s (+0s)] 
+14:32:31.0044 [INFO] uart: [host:  26.21s (+0.15ms)|virt:      7.45s (+0s)] 
+14:32:31.0094 [INFO] uart: [host:  26.22s (+4.92ms)|virt:   7.45s (+1.5ms)] 58,CONV_2D,31
+14:32:31.0094 [INFO] uart: [host:  26.22s (+4.96ms)|virt:   7.45s (+1.5ms)] 58,CONV_2D,31
+14:32:31.0135 [INFO] uart: [host:  26.22s (+4.09ms)|virt:   7.45s (+1.5ms)] 
+14:32:31.0135 [INFO] uart: [host:  26.22s (+4.09ms)|virt:   7.45s (+1.5ms)] 
+14:32:31.0136 [INFO] uart: [host:  26.22s (+0.19ms)|virt:      7.45s (+0s)] 
+14:32:31.0136 [INFO] uart: [host:  26.22s (+0.18ms)|virt:      7.45s (+0s)] 
+14:32:31.0191 [INFO] uart: [host:  26.23s (+5.41ms)|virt:   7.45s (+1.6ms)] 59,ADD,116
+14:32:31.0191 [INFO] uart: [host:  26.23s (+5.41ms)|virt:   7.45s (+1.6ms)] 59,ADD,116
+14:32:31.0271 [INFO] uart: [host:  26.24s (+8.06ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0272 [INFO] uart: [host:  26.24s (+8.08ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0274 [INFO] uart: [host:  26.24s (+0.32ms)|virt:      7.46s (+0s)] 
+14:32:31.0275 [INFO] uart: [host:  26.24s (+0.31ms)|virt:      7.46s (+0s)] 
+14:32:31.0346 [INFO] uart: [host:  26.24s (+7.16ms)|virt:   7.46s (+1.5ms)] 60,CONV_2D,24
+14:32:31.0347 [INFO] uart: [host:  26.24s (+7.18ms)|virt:   7.46s (+1.5ms)] 60,CONV_2D,24
+14:32:31.0403 [INFO] uart: [host:   26.25s (+5.7ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0403 [INFO] uart: [host:  26.25s (+5.68ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0404 [INFO] uart: [host:  26.25s (+0.14ms)|virt:      7.46s (+0s)] 
+14:32:31.0404 [INFO] uart: [host:  26.25s (+0.12ms)|virt:      7.46s (+0s)] 
+14:32:31.0492 [INFO] uart: [host:  26.26s (+8.63ms)|virt:   7.46s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2292
+14:32:31.0492 [INFO] uart: [host:  26.26s (+8.71ms)|virt:   7.46s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2292
+14:32:31.0520 [INFO] uart: [host:  26.26s (+2.95ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0520 [INFO] uart: [host:  26.26s (+2.88ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0521 [INFO] uart: [host:  26.26s (+0.15ms)|virt:      7.46s (+0s)] 
+14:32:31.0522 [INFO] uart: [host:  26.26s (+0.14ms)|virt:      7.46s (+0s)] 
+14:32:31.0579 [INFO] uart: [host:  26.27s (+5.76ms)|virt:   7.46s (+1.5ms)] 62,CONV_2D,56
+14:32:31.0579 [INFO] uart: [host:  26.27s (+5.78ms)|virt:   7.46s (+1.5ms)] 62,CONV_2D,56
+14:32:31.0623 [INFO] uart: [host:  26.27s (+4.39ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0623 [INFO] uart: [host:  26.27s (+4.39ms)|virt:   7.46s (+1.5ms)] 
+14:32:31.0625 [INFO] uart: [host:  26.27s (+0.17ms)|virt:      7.46s (+0s)] 
+14:32:31.0625 [INFO] uart: [host:  26.27s (+0.16ms)|virt:      7.46s (+0s)] 
+14:32:31.0680 [INFO] uart: [host:  26.28s (+5.45ms)|virt:   7.47s (+1.5ms)] 63,CONV_2D,157
+14:32:31.0680 [INFO] uart: [host:  26.28s (+5.51ms)|virt:   7.47s (+1.5ms)] 63,CONV_2D,157
+14:32:31.0729 [INFO] uart: [host:  26.28s (+4.98ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0729 [INFO] uart: [host:  26.28s (+4.95ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0732 [INFO] uart: [host:  26.28s (+0.27ms)|virt:      7.47s (+0s)] 
+14:32:31.0732 [INFO] uart: [host:  26.28s (+0.25ms)|virt:      7.47s (+0s)] 
+14:32:31.0818 [INFO] uart: [host:  26.29s (+8.57ms)|virt:   7.47s (+1.5ms)] 64,AVERAGE_POOL_2D,253
+14:32:31.0818 [INFO] uart: [host:  26.29s (+8.57ms)|virt:   7.47s (+1.5ms)] 64,AVERAGE_POOL_2D,253
+14:32:31.0855 [INFO] uart: [host:  26.29s (+3.72ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0855 [INFO] uart: [host:  26.29s (+3.72ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0857 [INFO] uart: [host:  26.29s (+0.21ms)|virt:      7.47s (+0s)] 
+14:32:31.0857 [INFO] uart: [host:  26.29s (+0.21ms)|virt:      7.47s (+0s)] 
+14:32:31.0902 [INFO] uart: [host:   26.3s (+4.52ms)|virt:   7.47s (+1.5ms)] 65,RESHAPE,8
+14:32:31.0902 [INFO] uart: [host:   26.3s (+4.53ms)|virt:   7.47s (+1.5ms)] 65,RESHAPE,8
+14:32:31.0926 [INFO] uart: [host:   26.3s (+2.39ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0926 [INFO] uart: [host:   26.3s (+2.38ms)|virt:   7.47s (+1.5ms)] 
+14:32:31.0928 [INFO] uart: [host:   26.3s (+0.17ms)|virt:      7.47s (+0s)] 
+14:32:31.0928 [INFO] uart: [host:   26.3s (+0.18ms)|virt:      7.47s (+0s)] 
+14:32:31.1015 [INFO] uart: [host:  26.31s (+8.72ms)|virt:   7.48s (+1.6ms)] 66,FULLY_CONNECTED,23
+14:32:31.1015 [INFO] uart: [host:  26.31s (+8.73ms)|virt:   7.48s (+1.6ms)] 66,FULLY_CONNECTED,23
+14:32:31.1055 [INFO] uart: [host:  26.31s (+3.99ms)|virt:   7.48s (+1.5ms)] 
+14:32:31.1055 [INFO] uart: [host:  26.31s (+3.99ms)|virt:   7.48s (+1.5ms)] 
+14:32:31.1056 [INFO] uart: [host:  26.31s (+0.18ms)|virt:      7.48s (+0s)] 
+14:32:31.1057 [INFO] uart: [host:  26.31s (+0.18ms)|virt:      7.48s (+0s)] 
+14:32:31.1110 [INFO] uart: [host:  26.32s (+5.31ms)|virt:   7.48s (+1.5ms)] 67,SOFTMAX,2
+14:32:31.1110 [INFO] uart: [host:   26.32s (+5.3ms)|virt:   7.48s (+1.5ms)] 67,SOFTMAX,2
+14:32:31.1146 [INFO] uart: [host:  26.32s (+3.69ms)|virt:   7.48s (+1.5ms)] 
+14:32:31.1147 [INFO] uart: [host:  26.32s (+3.69ms)|virt:   7.48s (+1.5ms)] 
+14:32:31.1147 [INFO] uart: [host:    26.32s (+91µs)|virt:      7.48s (+0s)] 
+14:32:31.1147 [INFO] uart: [host:    26.32s (+57µs)|virt:      7.48s (+0s)] 
+14:32:31.1210 [INFO] uart: [host:  26.33s (+6.33ms)|virt:   7.48s (+1.5ms)] Perf counters not enabled.
+14:32:31.1211 [INFO] uart: [host:  26.33s (+6.34ms)|virt:   7.48s (+1.5ms)] Perf counters not enabled.
+14:32:31.1285 [INFO] uart: [host:  26.34s (+7.36ms)|virt:      7.48s (+0s)]    224M (    224196291 )  cycles total
+14:32:31.1285 [INFO] uart: [host:  26.34s (+7.41ms)|virt:      7.48s (+0s)]    224M (    224196291 )  cycles total
+14:32:31.1497 [INFO] uart: [host: 26.36s (+21.16ms)|virt:     7.49s (+7ms)] Set 76800 bytes at 0x402a15a0
+14:32:31.1497 [INFO] uart: [host: 26.36s (+21.22ms)|virt:     7.49s (+7ms)] Set 76800 bytes at 0x402a15a0
+14:32:31.1520 [INFO] uart: [host:  26.36s (+2.42ms)|virt:      7.49s (+0s)] Running mnv2
+14:32:31.1520 [INFO] uart: [host:  26.36s (+2.35ms)|virt:      7.49s (+0s)] Running mnv2
+14:32:39.0131 [INFO] uart: [host:   34.22s (+7.86s)|virt:   9.73s (+2.24s)] ....................................................................
+14:32:39.0131 [INFO] uart: [host:   34.22s (+7.86s)|virt:   9.73s (+2.24s)] ....................................................................
+14:32:39.0166 [INFO] uart: [host:  34.23s (+3.52ms)|virt:      9.73s (+0s)] "Event","Tag","Ticks"
+14:32:39.0166 [INFO] uart: [host:  34.23s (+3.48ms)|virt:      9.73s (+0s)] "Event","Tag","Ticks"
+14:32:39.0219 [INFO] uart: [host:  34.23s (+5.23ms)|virt:   9.73s (+1.5ms)] 
+14:32:39.0219 [INFO] uart: [host:  34.23s (+5.27ms)|virt:   9.73s (+1.5ms)] 
+14:32:39.0222 [INFO] uart: [host:   34.23s (+0.4ms)|virt:      9.73s (+0s)] 
+14:32:39.0222 [INFO] uart: [host:  34.23s (+0.31ms)|virt:      9.73s (+0s)] 
+14:32:39.0307 [INFO] uart: [host:  34.24s (+8.29ms)|virt:   9.73s (+1.5ms)] 0,MUL,3805
+14:32:39.0307 [INFO] uart: [host:  34.24s (+8.41ms)|virt:   9.73s (+1.5ms)] 0,MUL,3805
+14:32:39.0371 [INFO] uart: [host:   34.25s (+6.6ms)|virt:   9.73s (+1.5ms)] 
+14:32:39.0371 [INFO] uart: [host:  34.25s (+6.53ms)|virt:   9.73s (+1.5ms)] 
+14:32:39.0373 [INFO] uart: [host:   34.25s (+0.2ms)|virt:      9.73s (+0s)] 
+14:32:39.0373 [INFO] uart: [host:  34.25s (+0.19ms)|virt:      9.73s (+0s)] 
+14:32:39.0434 [INFO] uart: [host:  34.25s (+6.07ms)|virt:   9.74s (+1.5ms)] 1,SUB,9160
+14:32:39.0434 [INFO] uart: [host:  34.25s (+6.08ms)|virt:   9.74s (+1.5ms)] 1,SUB,9160
+14:32:39.0482 [INFO] uart: [host:  34.26s (+4.77ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0482 [INFO] uart: [host:  34.26s (+4.81ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0485 [INFO] uart: [host:  34.26s (+0.42ms)|virt:      9.74s (+0s)] 
+14:32:39.0485 [INFO] uart: [host:  34.26s (+0.33ms)|virt:      9.74s (+0s)] 
+14:32:39.0560 [INFO] uart: [host:  34.27s (+7.31ms)|virt:   9.74s (+1.5ms)] 2,CONV_2D,56148
+14:32:39.0560 [INFO] uart: [host:  34.26s (+7.33ms)|virt:   9.74s (+1.5ms)] 2,CONV_2D,56148
+14:32:39.0591 [INFO] uart: [host:  34.27s (+3.18ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0591 [INFO] uart: [host:  34.27s (+3.24ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0608 [INFO] uart: [host:  34.27s (+1.59ms)|virt:      9.74s (+0s)] 
+14:32:39.0608 [INFO] uart: [host:  34.27s (+1.52ms)|virt:      9.74s (+0s)] 
+14:32:39.0687 [INFO] uart: [host:  34.28s (+8.04ms)|virt:   9.74s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30896
+14:32:39.0687 [INFO] uart: [host:  34.28s (+8.09ms)|virt:   9.74s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30896
+14:32:39.0730 [INFO] uart: [host:  34.28s (+4.24ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0730 [INFO] uart: [host:  34.28s (+4.27ms)|virt:   9.74s (+1.5ms)] 
+14:32:39.0733 [INFO] uart: [host:  34.28s (+0.36ms)|virt:      9.74s (+0s)] 
+14:32:39.0733 [INFO] uart: [host:  34.28s (+0.36ms)|virt:      9.74s (+0s)] 
+14:32:39.0815 [INFO] uart: [host:  34.29s (+8.15ms)|virt:   9.74s (+1.5ms)] 4,CONV_2D,183
+14:32:39.0815 [INFO] uart: [host:   34.29s (+8.1ms)|virt:   9.74s (+1.5ms)] 4,CONV_2D,183
+14:32:39.0843 [INFO] uart: [host:  34.29s (+2.85ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.0843 [INFO] uart: [host:  34.29s (+2.86ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.0857 [INFO] uart: [host:  34.29s (+1.21ms)|virt:      9.75s (+0s)] 
+14:32:39.0857 [INFO] uart: [host:  34.29s (+1.17ms)|virt:      9.75s (+0s)] 
+14:32:39.0911 [INFO] uart: [host:   34.3s (+5.63ms)|virt:   9.75s (+1.5ms)] 5,CONV_2D,320
+14:32:39.0912 [INFO] uart: [host:   34.3s (+5.67ms)|virt:   9.75s (+1.5ms)] 5,CONV_2D,320
+14:32:39.0951 [INFO] uart: [host:   34.3s (+3.89ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.0951 [INFO] uart: [host:   34.3s (+3.86ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.0957 [INFO] uart: [host:  34.31s (+0.67ms)|virt:   9.75s (+0.1ms)] 
+14:32:39.0957 [INFO] uart: [host:   34.3s (+0.73ms)|virt:   9.75s (+0.1ms)] 
+14:32:39.1016 [INFO] uart: [host:  34.31s (+5.94ms)|virt:   9.75s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23125
+14:32:39.1016 [INFO] uart: [host:  34.31s (+5.87ms)|virt:   9.75s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23125
+14:32:39.1059 [INFO] uart: [host:  34.32s (+4.26ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.1059 [INFO] uart: [host:  34.31s (+4.33ms)|virt:   9.75s (+1.5ms)] 
+14:32:39.1061 [INFO] uart: [host:  34.32s (+0.21ms)|virt:      9.75s (+0s)] 
+14:32:39.1061 [INFO] uart: [host:  34.31s (+0.18ms)|virt:      9.75s (+0s)] 
+14:32:39.1119 [INFO] uart: [host:  34.32s (+5.87ms)|virt:   9.75s (+1.5ms)] 7,CONV_2D,81
+14:32:39.1133 [INFO] uart: [host:  34.32s (+5.83ms)|virt:   9.75s (+1.5ms)] 7,CONV_2D,81
+14:32:39.1157 [INFO] uart: [host:   34.32s (+3.7ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1157 [INFO] uart: [host:  34.32s (+3.74ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1159 [INFO] uart: [host:  34.33s (+0.18ms)|virt:      9.76s (+0s)] 
+14:32:39.1159 [INFO] uart: [host:  34.32s (+0.18ms)|virt:      9.76s (+0s)] 
+14:32:39.1203 [INFO] uart: [host:  34.33s (+4.48ms)|virt:   9.76s (+1.5ms)] 8,CONV_2D,81
+14:32:39.1204 [INFO] uart: [host:  34.33s (+4.47ms)|virt:   9.76s (+1.5ms)] 8,CONV_2D,81
+14:32:39.1245 [INFO] uart: [host:  34.33s (+4.08ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1245 [INFO] uart: [host:   34.33s (+4.2ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1251 [INFO] uart: [host:  34.33s (+0.67ms)|virt:      9.76s (+0s)] 
+14:32:39.1252 [INFO] uart: [host:  34.33s (+0.59ms)|virt:      9.76s (+0s)] 
+14:32:39.1333 [INFO] uart: [host:  34.34s (+8.23ms)|virt:   9.76s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22903
+14:32:39.1334 [INFO] uart: [host:   34.34s (+8.2ms)|virt:   9.76s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22903
+14:32:39.1375 [INFO] uart: [host:  34.35s (+4.21ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1375 [INFO] uart: [host:   34.35s (+4.2ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1377 [INFO] uart: [host:   34.35s (+0.2ms)|virt:      9.76s (+0s)] 
+14:32:39.1377 [INFO] uart: [host:  34.35s (+0.15ms)|virt:      9.76s (+0s)] 
+14:32:39.1431 [INFO] uart: [host:   34.35s (+5.4ms)|virt:   9.76s (+1.5ms)] 10,CONV_2D,81
+14:32:39.1431 [INFO] uart: [host:   34.35s (+5.4ms)|virt:   9.76s (+1.5ms)] 10,CONV_2D,81
+14:32:39.1468 [INFO] uart: [host:  34.36s (+3.69ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1468 [INFO] uart: [host:  34.36s (+3.74ms)|virt:   9.76s (+1.5ms)] 
+14:32:39.1469 [INFO] uart: [host:  34.36s (+0.16ms)|virt:      9.76s (+0s)] 
+14:32:39.1469 [INFO] uart: [host:  34.36s (+0.11ms)|virt:      9.76s (+0s)] 
+14:32:39.1516 [INFO] uart: [host:  34.36s (+4.69ms)|virt:   9.77s (+1.5ms)] 11,ADD,1044
+14:32:39.1517 [INFO] uart: [host:  34.36s (+4.73ms)|virt:   9.77s (+1.5ms)] 11,ADD,1044
+14:32:39.1556 [INFO] uart: [host:  34.36s (+4.01ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1557 [INFO] uart: [host:  34.36s (+3.98ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1558 [INFO] uart: [host:  34.37s (+0.13ms)|virt:      9.77s (+0s)] 
+14:32:39.1558 [INFO] uart: [host:  34.36s (+0.12ms)|virt:      9.77s (+0s)] 
+14:32:39.1621 [INFO] uart: [host:  34.37s (+6.32ms)|virt:   9.77s (+1.5ms)] 12,CONV_2D,82
+14:32:39.1622 [INFO] uart: [host:  34.37s (+6.37ms)|virt:   9.77s (+1.5ms)] 12,CONV_2D,82
+14:32:39.1670 [INFO] uart: [host:  34.38s (+4.85ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1670 [INFO] uart: [host:  34.38s (+4.89ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1673 [INFO] uart: [host:  34.38s (+0.26ms)|virt:      9.77s (+0s)] 
+14:32:39.1673 [INFO] uart: [host:  34.38s (+0.24ms)|virt:      9.77s (+0s)] 
+14:32:39.1752 [INFO] uart: [host:   34.38s (+6.7ms)|virt:   9.77s (+1.6ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:39.1753 [INFO] uart: [host:  34.38s (+7.68ms)|virt:   9.77s (+1.6ms)] 13,DEPTHWISE_CONV_2D,5732
+14:32:39.1779 [INFO] uart: [host:  34.39s (+3.95ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1779 [INFO] uart: [host:  34.39s (+2.95ms)|virt:   9.77s (+1.5ms)] 
+14:32:39.1781 [INFO] uart: [host:  34.39s (+0.18ms)|virt:      9.77s (+0s)] 
+14:32:39.1781 [INFO] uart: [host:  34.39s (+0.17ms)|virt:      9.77s (+0s)] 
+14:32:39.1852 [INFO] uart: [host:  34.39s (+7.15ms)|virt:   9.78s (+1.5ms)] 14,CONV_2D,24
+14:32:39.1852 [INFO] uart: [host:  34.39s (+7.15ms)|virt:   9.78s (+1.5ms)] 14,CONV_2D,24
+14:32:39.1891 [INFO] uart: [host:   34.4s (+3.86ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.1891 [INFO] uart: [host:   34.4s (+3.85ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.1891 [INFO] uart: [host:    34.4s (+0.1ms)|virt:      9.78s (+0s)] 
+14:32:39.1891 [INFO] uart: [host:     34.4s (+61µs)|virt:      9.78s (+0s)] 
+14:32:39.1952 [INFO] uart: [host:   34.4s (+6.01ms)|virt:   9.78s (+1.5ms)] 15,CONV_2D,39
+14:32:39.1952 [INFO] uart: [host:   34.4s (+6.05ms)|virt:   9.78s (+1.5ms)] 15,CONV_2D,39
+14:32:39.1989 [INFO] uart: [host:  34.41s (+2.31ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.1989 [INFO] uart: [host:  34.41s (+3.69ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.1989 [INFO] uart: [host:  34.41s (+1.48ms)|virt:      9.78s (+0s)] 
+14:32:39.1989 [INFO] uart: [host:    34.41s (+64µs)|virt:      9.78s (+0s)] 
+14:32:39.2064 [INFO] uart: [host:  34.42s (+7.42ms)|virt:   9.78s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:39.2064 [INFO] uart: [host:  34.42s (+7.46ms)|virt:   9.78s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:39.2099 [INFO] uart: [host:  34.42s (+3.49ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.2099 [INFO] uart: [host:   34.42s (+3.5ms)|virt:   9.78s (+1.5ms)] 
+14:32:39.2101 [INFO] uart: [host:  34.42s (+0.22ms)|virt:      9.78s (+0s)] 
+14:32:39.2101 [INFO] uart: [host:  34.42s (+0.22ms)|virt:      9.78s (+0s)] 
+14:32:39.2150 [INFO] uart: [host:  34.42s (+4.91ms)|virt:   9.78s (+1.5ms)] 17,CONV_2D,38
+14:32:39.2151 [INFO] uart: [host:  34.42s (+4.94ms)|virt:   9.78s (+1.5ms)] 17,CONV_2D,38
+14:32:39.2192 [INFO] uart: [host:  34.43s (+4.16ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2192 [INFO] uart: [host:  34.43s (+4.18ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2197 [INFO] uart: [host:   34.43s (+0.5ms)|virt:      9.79s (+0s)] 
+14:32:39.2197 [INFO] uart: [host:   34.43s (+0.5ms)|virt:      9.79s (+0s)] 
+14:32:39.2247 [INFO] uart: [host:  34.43s (+4.98ms)|virt:   9.79s (+1.5ms)] 18,ADD,527
+14:32:39.2247 [INFO] uart: [host:  34.43s (+4.94ms)|virt:   9.79s (+1.5ms)] 18,ADD,527
+14:32:39.2282 [INFO] uart: [host:  34.44s (+3.39ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2283 [INFO] uart: [host:  34.44s (+3.35ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2283 [INFO] uart: [host:  34.44s (+0.13ms)|virt:      9.79s (+0s)] 
+14:32:39.2283 [INFO] uart: [host:  34.44s (+0.13ms)|virt:      9.79s (+0s)] 
+14:32:39.2336 [INFO] uart: [host:  34.44s (+5.44ms)|virt:   9.79s (+1.5ms)] 19,CONV_2D,39
+14:32:39.2336 [INFO] uart: [host:  34.44s (+5.46ms)|virt:   9.79s (+1.5ms)] 19,CONV_2D,39
+14:32:39.2376 [INFO] uart: [host:  34.45s (+3.94ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2376 [INFO] uart: [host:  34.45s (+3.93ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2377 [INFO] uart: [host:  34.45s (+0.14ms)|virt:      9.79s (+0s)] 
+14:32:39.2377 [INFO] uart: [host:  34.45s (+0.18ms)|virt:      9.79s (+0s)] 
+14:32:39.2456 [INFO] uart: [host:  34.45s (+7.94ms)|virt:   9.79s (+1.6ms)] 20,DEPTHWISE_CONV_2D,11404
+14:32:39.2456 [INFO] uart: [host:   34.45s (+7.9ms)|virt:   9.79s (+1.6ms)] 20,DEPTHWISE_CONV_2D,11404
+14:32:39.2506 [INFO] uart: [host:  34.46s (+4.99ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2506 [INFO] uart: [host:  34.46s (+5.02ms)|virt:   9.79s (+1.5ms)] 
+14:32:39.2508 [INFO] uart: [host:  34.46s (+0.23ms)|virt:      9.79s (+0s)] 
+14:32:39.2509 [INFO] uart: [host:  34.46s (+0.22ms)|virt:      9.79s (+0s)] 
+14:32:39.2574 [INFO] uart: [host:   34.47s (+6.3ms)|virt:    9.8s (+1.5ms)] 21,CONV_2D,38
+14:32:39.2574 [INFO] uart: [host:  34.47s (+6.28ms)|virt:    9.8s (+1.5ms)] 21,CONV_2D,38
+14:32:39.2619 [INFO] uart: [host:  34.47s (+3.43ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2619 [INFO] uart: [host:  34.47s (+3.45ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2619 [INFO] uart: [host:  34.47s (+1.16ms)|virt:       9.8s (+0s)] 
+14:32:39.2619 [INFO] uart: [host:  34.47s (+1.14ms)|virt:       9.8s (+0s)] 
+14:32:39.2670 [INFO] uart: [host:  34.48s (+5.24ms)|virt:    9.8s (+1.5ms)] 22,ADD,527
+14:32:39.2670 [INFO] uart: [host:  34.48s (+5.27ms)|virt:    9.8s (+1.5ms)] 22,ADD,527
+14:32:39.2716 [INFO] uart: [host:   34.48s (+4.6ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2716 [INFO] uart: [host:  34.48s (+4.61ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2718 [INFO] uart: [host:  34.48s (+0.17ms)|virt:       9.8s (+0s)] 
+14:32:39.2718 [INFO] uart: [host:  34.48s (+0.17ms)|virt:       9.8s (+0s)] 
+14:32:39.2780 [INFO] uart: [host:  34.49s (+6.17ms)|virt:    9.8s (+1.5ms)] 23,CONV_2D,38
+14:32:39.2780 [INFO] uart: [host:  34.49s (+6.21ms)|virt:    9.8s (+1.5ms)] 23,CONV_2D,38
+14:32:39.2821 [INFO] uart: [host:  34.49s (+4.18ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2821 [INFO] uart: [host:  34.49s (+4.15ms)|virt:    9.8s (+1.5ms)] 
+14:32:39.2822 [INFO] uart: [host:  34.49s (+0.12ms)|virt:       9.8s (+0s)] 
+14:32:39.2823 [INFO] uart: [host:    34.49s (+96µs)|virt:       9.8s (+0s)] 
+14:32:39.2886 [INFO] uart: [host:   34.5s (+6.22ms)|virt:   9.81s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:39.2886 [INFO] uart: [host:   34.5s (+6.26ms)|virt:   9.81s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:39.2927 [INFO] uart: [host:    34.5s (+4.2ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.2927 [INFO] uart: [host:   34.5s (+4.17ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.2929 [INFO] uart: [host:   34.5s (+0.24ms)|virt:      9.81s (+0s)] 
+14:32:39.2929 [INFO] uart: [host:   34.5s (+0.23ms)|virt:      9.81s (+0s)] 
+14:32:39.2982 [INFO] uart: [host:   34.51s (+5.3ms)|virt:   9.81s (+1.5ms)] 25,CONV_2D,12
+14:32:39.2982 [INFO] uart: [host:  34.51s (+5.31ms)|virt:   9.81s (+1.5ms)] 25,CONV_2D,12
+14:32:39.3016 [INFO] uart: [host:  34.51s (+3.41ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.3016 [INFO] uart: [host:   34.51s (+3.4ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.3017 [INFO] uart: [host:  34.51s (+0.12ms)|virt:      9.81s (+0s)] 
+14:32:39.3017 [INFO] uart: [host:  34.51s (+0.11ms)|virt:      9.81s (+0s)] 
+14:32:39.3064 [INFO] uart: [host:  34.52s (+4.68ms)|virt:   9.81s (+1.5ms)] 26,CONV_2D,17
+14:32:39.3064 [INFO] uart: [host:  34.52s (+4.68ms)|virt:   9.81s (+1.5ms)] 26,CONV_2D,17
+14:32:39.3101 [INFO] uart: [host:  34.52s (+3.74ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.3102 [INFO] uart: [host:  34.52s (+3.75ms)|virt:   9.81s (+1.5ms)] 
+14:32:39.3104 [INFO] uart: [host:  34.52s (+0.21ms)|virt:      9.81s (+0s)] 
+14:32:39.3104 [INFO] uart: [host:  34.52s (+0.21ms)|virt:      9.81s (+0s)] 
+14:32:39.3184 [INFO] uart: [host:  34.53s (+7.93ms)|virt:   9.81s (+1.6ms)] 27,DEPTHWISE_CONV_2D,4176
+14:32:39.3184 [INFO] uart: [host:  34.53s (+7.91ms)|virt:   9.81s (+1.6ms)] 27,DEPTHWISE_CONV_2D,4176
+14:32:39.3212 [INFO] uart: [host:  34.53s (+2.94ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3213 [INFO] uart: [host:  34.53s (+2.97ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3214 [INFO] uart: [host:  34.53s (+0.18ms)|virt:      9.82s (+0s)] 
+14:32:39.3214 [INFO] uart: [host:  34.53s (+0.17ms)|virt:      9.82s (+0s)] 
+14:32:39.3279 [INFO] uart: [host:  34.54s (+6.54ms)|virt:   9.82s (+1.5ms)] 28,CONV_2D,16
+14:32:39.3279 [INFO] uart: [host:   34.54s (+6.5ms)|virt:   9.82s (+1.5ms)] 28,CONV_2D,16
+14:32:39.3310 [INFO] uart: [host:  34.54s (+3.06ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3311 [INFO] uart: [host:  34.54s (+3.13ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3330 [INFO] uart: [host:  34.54s (+1.73ms)|virt:      9.82s (+0s)] 
+14:32:39.3330 [INFO] uart: [host:  34.54s (+1.66ms)|virt:      9.82s (+0s)] 
+14:32:39.3379 [INFO] uart: [host:  34.55s (+5.01ms)|virt:   9.82s (+1.5ms)] 29,ADD,202
+14:32:39.3379 [INFO] uart: [host:  34.55s (+5.01ms)|virt:   9.82s (+1.5ms)] 29,ADD,202
+14:32:39.3425 [INFO] uart: [host:  34.55s (+4.64ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3426 [INFO] uart: [host:  34.55s (+4.64ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3432 [INFO] uart: [host:  34.55s (+0.75ms)|virt:      9.82s (+0s)] 
+14:32:39.3432 [INFO] uart: [host:  34.55s (+0.81ms)|virt:      9.82s (+0s)] 
+14:32:39.3490 [INFO] uart: [host:  34.56s (+5.87ms)|virt:   9.82s (+1.5ms)] 30,CONV_2D,17
+14:32:39.3490 [INFO] uart: [host:  34.56s (+5.84ms)|virt:   9.82s (+1.5ms)] 30,CONV_2D,17
+14:32:39.3531 [INFO] uart: [host:  34.56s (+4.14ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3532 [INFO] uart: [host:  34.56s (+4.13ms)|virt:   9.82s (+1.5ms)] 
+14:32:39.3532 [INFO] uart: [host:  34.56s (+0.11ms)|virt:      9.82s (+0s)] 
+14:32:39.3532 [INFO] uart: [host:    34.56s (+72µs)|virt:      9.82s (+0s)] 
+14:32:39.3605 [INFO] uart: [host:  34.57s (+7.18ms)|virt:   9.83s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:39.3605 [INFO] uart: [host:  34.57s (+7.22ms)|virt:   9.83s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:39.3640 [INFO] uart: [host:  34.57s (+3.59ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3640 [INFO] uart: [host:  34.57s (+3.57ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3641 [INFO] uart: [host:    34.57s (+97µs)|virt:      9.83s (+0s)] 
+14:32:39.3641 [INFO] uart: [host:    34.57s (+61µs)|virt:      9.83s (+0s)] 
+14:32:39.3688 [INFO] uart: [host:  34.58s (+4.71ms)|virt:   9.83s (+1.5ms)] 32,CONV_2D,16
+14:32:39.3688 [INFO] uart: [host:  34.58s (+4.76ms)|virt:   9.83s (+1.5ms)] 32,CONV_2D,16
+14:32:39.3730 [INFO] uart: [host:  34.58s (+4.16ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3731 [INFO] uart: [host:   34.58s (+4.2ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3736 [INFO] uart: [host:  34.58s (+0.54ms)|virt:      9.83s (+0s)] 
+14:32:39.3736 [INFO] uart: [host:  34.58s (+0.53ms)|virt:      9.83s (+0s)] 
+14:32:39.3786 [INFO] uart: [host:  34.59s (+5.06ms)|virt:   9.83s (+1.5ms)] 33,ADD,198
+14:32:39.3786 [INFO] uart: [host:  34.59s (+5.04ms)|virt:   9.83s (+1.5ms)] 33,ADD,198
+14:32:39.3830 [INFO] uart: [host:  34.59s (+4.41ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3831 [INFO] uart: [host:  34.59s (+4.44ms)|virt:   9.83s (+1.5ms)] 
+14:32:39.3834 [INFO] uart: [host:  34.59s (+0.37ms)|virt:      9.83s (+0s)] 
+14:32:39.3834 [INFO] uart: [host:  34.59s (+0.33ms)|virt:      9.83s (+0s)] 
+14:32:39.3914 [INFO] uart: [host:   34.6s (+7.89ms)|virt:   9.84s (+1.5ms)] 34,CONV_2D,17
+14:32:39.3914 [INFO] uart: [host:   34.6s (+7.86ms)|virt:   9.84s (+1.5ms)] 34,CONV_2D,17
+14:32:39.3941 [INFO] uart: [host:   34.6s (+2.87ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.3941 [INFO] uart: [host:    34.6s (+2.9ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.3943 [INFO] uart: [host:   34.6s (+0.18ms)|virt:      9.84s (+0s)] 
+14:32:39.3943 [INFO] uart: [host:   34.6s (+0.18ms)|virt:      9.84s (+0s)] 
+14:32:39.4019 [INFO] uart: [host:  34.61s (+7.62ms)|virt:   9.84s (+1.6ms)] 35,DEPTHWISE_CONV_2D,4174
+14:32:39.4019 [INFO] uart: [host:  34.61s (+7.62ms)|virt:   9.84s (+1.6ms)] 35,DEPTHWISE_CONV_2D,4174
+14:32:39.4057 [INFO] uart: [host:  34.61s (+3.58ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.4057 [INFO] uart: [host:  34.61s (+3.54ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.4057 [INFO] uart: [host:  34.61s (+0.13ms)|virt:      9.84s (+0s)] 
+14:32:39.4057 [INFO] uart: [host:  34.61s (+0.13ms)|virt:      9.84s (+0s)] 
+14:32:39.4117 [INFO] uart: [host:  34.62s (+6.07ms)|virt:   9.84s (+1.5ms)] 36,CONV_2D,15
+14:32:39.4117 [INFO] uart: [host:   34.62s (+6.1ms)|virt:   9.84s (+1.5ms)] 36,CONV_2D,15
+14:32:39.4168 [INFO] uart: [host:  34.63s (+5.02ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.4168 [INFO] uart: [host:  34.63s (+5.06ms)|virt:   9.84s (+1.5ms)] 
+14:32:39.4168 [INFO] uart: [host:  34.63s (+0.15ms)|virt:      9.84s (+0s)] 
+14:32:39.4168 [INFO] uart: [host:    34.63s (+80µs)|virt:      9.84s (+0s)] 
+14:32:39.4225 [INFO] uart: [host:  34.63s (+5.66ms)|virt:   9.84s (+1.5ms)] 37,ADD,199
+14:32:39.4225 [INFO] uart: [host:  34.63s (+5.67ms)|virt:   9.84s (+1.5ms)] 37,ADD,199
+14:32:39.4271 [INFO] uart: [host:  34.64s (+4.49ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4271 [INFO] uart: [host:  34.64s (+4.57ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4273 [INFO] uart: [host:  34.64s (+0.35ms)|virt:      9.85s (+0s)] 
+14:32:39.4273 [INFO] uart: [host:  34.64s (+0.27ms)|virt:      9.85s (+0s)] 
+14:32:39.4345 [INFO] uart: [host:  34.64s (+7.07ms)|virt:   9.85s (+1.5ms)] 38,CONV_2D,17
+14:32:39.4345 [INFO] uart: [host:  34.64s (+7.15ms)|virt:   9.85s (+1.5ms)] 38,CONV_2D,17
+14:32:39.4383 [INFO] uart: [host:  34.65s (+3.83ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4383 [INFO] uart: [host:  34.65s (+3.76ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4387 [INFO] uart: [host:  34.65s (+0.46ms)|virt:      9.85s (+0s)] 
+14:32:39.4387 [INFO] uart: [host:  34.65s (+0.48ms)|virt:      9.85s (+0s)] 
+14:32:39.4454 [INFO] uart: [host:  34.65s (+6.68ms)|virt:   9.85s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4136
+14:32:39.4454 [INFO] uart: [host:  34.65s (+6.69ms)|virt:   9.85s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4136
+14:32:39.4491 [INFO] uart: [host:   34.66s (+3.7ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4491 [INFO] uart: [host:   34.66s (+3.7ms)|virt:   9.85s (+1.5ms)] 
+14:32:39.4493 [INFO] uart: [host:  34.66s (+0.21ms)|virt:      9.85s (+0s)] 
+14:32:39.4493 [INFO] uart: [host:   34.66s (+0.2ms)|virt:      9.85s (+0s)] 
+14:32:39.4547 [INFO] uart: [host:  34.66s (+5.34ms)|virt:   9.85s (+1.5ms)] 40,CONV_2D,17
+14:32:39.4547 [INFO] uart: [host:  34.66s (+5.34ms)|virt:   9.85s (+1.5ms)] 40,CONV_2D,17
+14:32:39.4593 [INFO] uart: [host:  34.67s (+4.59ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4593 [INFO] uart: [host:  34.67s (+4.59ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4595 [INFO] uart: [host:  34.67s (+0.23ms)|virt:      9.86s (+0s)] 
+14:32:39.4595 [INFO] uart: [host:  34.67s (+0.22ms)|virt:      9.86s (+0s)] 
+14:32:39.4653 [INFO] uart: [host:  34.67s (+5.79ms)|virt:   9.86s (+1.5ms)] 41,CONV_2D,23
+14:32:39.4653 [INFO] uart: [host:  34.67s (+5.79ms)|virt:   9.86s (+1.5ms)] 41,CONV_2D,23
+14:32:39.4696 [INFO] uart: [host:  34.68s (+4.35ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4696 [INFO] uart: [host:  34.68s (+4.35ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4699 [INFO] uart: [host:  34.68s (+0.23ms)|virt:      9.86s (+0s)] 
+14:32:39.4699 [INFO] uart: [host:  34.68s (+0.23ms)|virt:      9.86s (+0s)] 
+14:32:39.4778 [INFO] uart: [host:  34.69s (+7.99ms)|virt:   9.86s (+1.6ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:39.4779 [INFO] uart: [host:  34.69s (+7.99ms)|virt:   9.86s (+1.6ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:39.4816 [INFO] uart: [host:  34.69s (+3.75ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4816 [INFO] uart: [host:  34.69s (+3.71ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4819 [INFO] uart: [host:  34.69s (+0.24ms)|virt:      9.86s (+0s)] 
+14:32:39.4819 [INFO] uart: [host:  34.69s (+0.32ms)|virt:      9.86s (+0s)] 
+14:32:39.4877 [INFO] uart: [host:    34.7s (+5.9ms)|virt:   9.86s (+1.5ms)] 43,CONV_2D,22
+14:32:39.4877 [INFO] uart: [host:   34.7s (+5.85ms)|virt:   9.86s (+1.5ms)] 43,CONV_2D,22
+14:32:39.4917 [INFO] uart: [host:   34.7s (+4.01ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4918 [INFO] uart: [host:   34.7s (+4.02ms)|virt:   9.86s (+1.5ms)] 
+14:32:39.4920 [INFO] uart: [host:   34.7s (+0.22ms)|virt:      9.86s (+0s)] 
+14:32:39.4920 [INFO] uart: [host:   34.7s (+0.21ms)|virt:      9.86s (+0s)] 
+14:32:39.4967 [INFO] uart: [host:  34.71s (+4.73ms)|virt:   9.87s (+1.5ms)] 44,ADD,266
+14:32:39.4967 [INFO] uart: [host:  34.71s (+4.73ms)|virt:   9.87s (+1.5ms)] 44,ADD,266
+14:32:39.5000 [INFO] uart: [host:  34.71s (+3.32ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5001 [INFO] uart: [host:  34.71s (+3.29ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5005 [INFO] uart: [host:  34.71s (+0.43ms)|virt:      9.87s (+0s)] 
+14:32:39.5005 [INFO] uart: [host:  34.71s (+0.52ms)|virt:      9.87s (+0s)] 
+14:32:39.5068 [INFO] uart: [host:  34.72s (+6.41ms)|virt:   9.87s (+1.5ms)] 45,CONV_2D,23
+14:32:39.5069 [INFO] uart: [host:  34.72s (+6.34ms)|virt:   9.87s (+1.5ms)] 45,CONV_2D,23
+14:32:39.5104 [INFO] uart: [host:   34.72s (+3.6ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5104 [INFO] uart: [host:  34.72s (+3.57ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5106 [INFO] uart: [host:  34.72s (+0.16ms)|virt:      9.87s (+0s)] 
+14:32:39.5106 [INFO] uart: [host:  34.72s (+0.19ms)|virt:      9.87s (+0s)] 
+14:32:39.5188 [INFO] uart: [host:  34.73s (+8.17ms)|virt:   9.87s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5553
+14:32:39.5188 [INFO] uart: [host:  34.73s (+8.18ms)|virt:   9.87s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5553
+14:32:39.5236 [INFO] uart: [host:  34.73s (+4.77ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5236 [INFO] uart: [host:  34.73s (+4.77ms)|virt:   9.87s (+1.5ms)] 
+14:32:39.5238 [INFO] uart: [host:  34.73s (+0.19ms)|virt:      9.87s (+0s)] 
+14:32:39.5238 [INFO] uart: [host:  34.73s (+0.18ms)|virt:      9.87s (+0s)] 
+14:32:39.5314 [INFO] uart: [host:  34.74s (+7.59ms)|virt:   9.87s (+1.5ms)] 47,CONV_2D,21
+14:32:39.5314 [INFO] uart: [host:   34.74s (+7.6ms)|virt:   9.87s (+1.5ms)] 47,CONV_2D,21
+14:32:39.5381 [INFO] uart: [host:  34.75s (+6.75ms)|virt:   9.88s (+1.5ms)] 
+14:32:39.5381 [INFO] uart: [host:  34.75s (+6.76ms)|virt:   9.88s (+1.5ms)] 
+14:32:39.5384 [INFO] uart: [host:  34.75s (+0.33ms)|virt:      9.88s (+0s)] 
+14:32:39.5384 [INFO] uart: [host:  34.75s (+0.31ms)|virt:      9.88s (+0s)] 
+14:32:39.5441 [INFO] uart: [host:  34.75s (+5.73ms)|virt:   9.88s (+1.5ms)] 48,ADD,265
+14:32:39.5442 [INFO] uart: [host:  34.75s (+5.73ms)|virt:   9.88s (+1.5ms)] 48,ADD,265
+14:32:39.5489 [INFO] uart: [host:  34.76s (+4.77ms)|virt:   9.88s (+1.5ms)] 
+14:32:39.5489 [INFO] uart: [host:  34.76s (+4.77ms)|virt:   9.88s (+1.5ms)] 
+14:32:39.5491 [INFO] uart: [host:  34.76s (+0.25ms)|virt:      9.88s (+0s)] 
+14:32:39.5491 [INFO] uart: [host:  34.76s (+0.23ms)|virt:      9.88s (+0s)] 
+14:32:39.5553 [INFO] uart: [host:  34.76s (+6.18ms)|virt:   9.88s (+1.5ms)] 49,CONV_2D,23
+14:32:39.5554 [INFO] uart: [host:  34.76s (+6.19ms)|virt:   9.88s (+1.5ms)] 49,CONV_2D,23
+14:32:39.5609 [INFO] uart: [host:  34.77s (+5.54ms)|virt:   9.88s (+1.6ms)] 
+14:32:39.5609 [INFO] uart: [host:  34.77s (+5.54ms)|virt:   9.88s (+1.6ms)] 
+14:32:39.5612 [INFO] uart: [host:  34.77s (+0.31ms)|virt:      9.88s (+0s)] 
+14:32:39.5612 [INFO] uart: [host:   34.77s (+0.3ms)|virt:      9.88s (+0s)] 
+14:32:39.5689 [INFO] uart: [host:  34.78s (+7.69ms)|virt:   9.88s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:39.5689 [INFO] uart: [host:   34.78s (+7.7ms)|virt:   9.88s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:39.5735 [INFO] uart: [host:  34.78s (+3.04ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5735 [INFO] uart: [host:  34.78s (+3.03ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5740 [INFO] uart: [host:  34.78s (+2.09ms)|virt:      9.89s (+0s)] 
+14:32:39.5741 [INFO] uart: [host:  34.78s (+2.12ms)|virt:      9.89s (+0s)] 
+14:32:39.5818 [INFO] uart: [host:  34.79s (+7.81ms)|virt:   9.89s (+1.5ms)] 51,CONV_2D,16
+14:32:39.5819 [INFO] uart: [host:  34.79s (+7.79ms)|virt:   9.89s (+1.5ms)] 51,CONV_2D,16
+14:32:39.5865 [INFO] uart: [host:   34.8s (+4.79ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5866 [INFO] uart: [host:   34.8s (+4.73ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5867 [INFO] uart: [host:   34.8s (+0.13ms)|virt:      9.89s (+0s)] 
+14:32:39.5867 [INFO] uart: [host:   34.8s (+0.12ms)|virt:      9.89s (+0s)] 
+14:32:39.5930 [INFO] uart: [host:   34.8s (+6.33ms)|virt:   9.89s (+1.5ms)] 52,CONV_2D,25
+14:32:39.5931 [INFO] uart: [host:   34.8s (+6.38ms)|virt:   9.89s (+1.5ms)] 52,CONV_2D,25
+14:32:39.5977 [INFO] uart: [host:  34.81s (+4.64ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5977 [INFO] uart: [host:  34.81s (+4.67ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.5981 [INFO] uart: [host:  34.81s (+0.38ms)|virt:      9.89s (+0s)] 
+14:32:39.5981 [INFO] uart: [host:  34.81s (+0.34ms)|virt:      9.89s (+0s)] 
+14:32:39.6059 [INFO] uart: [host:  34.82s (+7.84ms)|virt:   9.89s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2313
+14:32:39.6059 [INFO] uart: [host:  34.81s (+7.84ms)|virt:   9.89s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2313
+14:32:39.6088 [INFO] uart: [host:  34.82s (+2.91ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.6088 [INFO] uart: [host:  34.82s (+2.91ms)|virt:   9.89s (+1.5ms)] 
+14:32:39.6105 [INFO] uart: [host:   34.82s (+1.5ms)|virt:      9.89s (+0s)] 
+14:32:39.6106 [INFO] uart: [host:  34.82s (+1.46ms)|virt:      9.89s (+0s)] 
+14:32:39.6159 [INFO] uart: [host:  34.83s (+5.59ms)|virt:    9.9s (+1.5ms)] 54,CONV_2D,31
+14:32:39.6159 [INFO] uart: [host:  34.82s (+5.61ms)|virt:    9.9s (+1.5ms)] 54,CONV_2D,31
+14:32:39.6181 [INFO] uart: [host:  34.83s (+2.19ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6181 [INFO] uart: [host:  34.83s (+2.21ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6183 [INFO] uart: [host:  34.83s (+0.23ms)|virt:       9.9s (+0s)] 
+14:32:39.6184 [INFO] uart: [host:  34.83s (+0.23ms)|virt:       9.9s (+0s)] 
+14:32:39.6252 [INFO] uart: [host:  34.83s (+6.91ms)|virt:    9.9s (+1.5ms)] 55,ADD,118
+14:32:39.6253 [INFO] uart: [host:  34.83s (+6.89ms)|virt:    9.9s (+1.5ms)] 55,ADD,118
+14:32:39.6276 [INFO] uart: [host:  34.84s (+2.41ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6277 [INFO] uart: [host:  34.84s (+2.42ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6279 [INFO] uart: [host:  34.84s (+0.23ms)|virt:       9.9s (+0s)] 
+14:32:39.6279 [INFO] uart: [host:  34.84s (+0.22ms)|virt:       9.9s (+0s)] 
+14:32:39.6342 [INFO] uart: [host:  34.84s (+6.37ms)|virt:    9.9s (+1.5ms)] 56,CONV_2D,24
+14:32:39.6343 [INFO] uart: [host:  34.84s (+6.38ms)|virt:    9.9s (+1.5ms)] 56,CONV_2D,24
+14:32:39.6368 [INFO] uart: [host:  34.85s (+2.56ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6369 [INFO] uart: [host:   34.85s (+2.6ms)|virt:    9.9s (+1.5ms)] 
+14:32:39.6384 [INFO] uart: [host:  34.85s (+0.31ms)|virt:       9.9s (+0s)] 
+14:32:39.6384 [INFO] uart: [host:  34.85s (+1.23ms)|virt:       9.9s (+0s)] 
+14:32:39.6452 [INFO] uart: [host:  34.85s (+8.13ms)|virt:    9.9s (+1.6ms)] 57,DEPTHWISE_CONV_2D,2310
+14:32:39.6453 [INFO] uart: [host:  34.85s (+7.18ms)|virt:    9.9s (+1.6ms)] 57,DEPTHWISE_CONV_2D,2310
+14:32:39.6491 [INFO] uart: [host:  34.86s (+3.88ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6491 [INFO] uart: [host:  34.86s (+3.88ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6493 [INFO] uart: [host:  34.86s (+0.23ms)|virt:      9.91s (+0s)] 
+14:32:39.6494 [INFO] uart: [host:  34.86s (+0.23ms)|virt:      9.91s (+0s)] 
+14:32:39.6574 [INFO] uart: [host:  34.87s (+6.64ms)|virt:   9.91s (+1.5ms)] 58,CONV_2D,32
+14:32:39.6574 [INFO] uart: [host:  34.87s (+7.72ms)|virt:   9.91s (+1.5ms)] 58,CONV_2D,32
+14:32:39.6596 [INFO] uart: [host:   34.87s (+3.6ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6596 [INFO] uart: [host:  34.87s (+2.53ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6598 [INFO] uart: [host:  34.87s (+0.22ms)|virt:      9.91s (+0s)] 
+14:32:39.6598 [INFO] uart: [host:  34.87s (+0.22ms)|virt:      9.91s (+0s)] 
+14:32:39.6643 [INFO] uart: [host:  34.87s (+4.51ms)|virt:   9.91s (+1.5ms)] 59,ADD,117
+14:32:39.6643 [INFO] uart: [host:  34.87s (+4.48ms)|virt:   9.91s (+1.5ms)] 59,ADD,117
+14:32:39.6688 [INFO] uart: [host:  34.88s (+4.42ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6688 [INFO] uart: [host:  34.88s (+4.47ms)|virt:   9.91s (+1.5ms)] 
+14:32:39.6688 [INFO] uart: [host:  34.88s (+0.11ms)|virt:      9.91s (+0s)] 
+14:32:39.6688 [INFO] uart: [host:    34.88s (+61µs)|virt:      9.91s (+0s)] 
+14:32:39.6761 [INFO] uart: [host:  34.89s (+7.17ms)|virt:   9.91s (+1.5ms)] 60,CONV_2D,25
+14:32:39.6761 [INFO] uart: [host:  34.88s (+7.23ms)|virt:   9.91s (+1.5ms)] 60,CONV_2D,25
+14:32:39.6812 [INFO] uart: [host:  34.89s (+4.95ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.6812 [INFO] uart: [host:  34.89s (+4.91ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.6812 [INFO] uart: [host:  34.89s (+0.26ms)|virt:      9.92s (+0s)] 
+14:32:39.6812 [INFO] uart: [host:  34.89s (+0.24ms)|virt:      9.92s (+0s)] 
+14:32:39.6901 [INFO] uart: [host:    34.9s (+8.8ms)|virt:   9.92s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2287
+14:32:39.6901 [INFO] uart: [host:   34.9s (+8.84ms)|virt:   9.92s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2287
+14:32:39.6949 [INFO] uart: [host:   34.9s (+4.87ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.6949 [INFO] uart: [host:   34.9s (+4.89ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.6953 [INFO] uart: [host:   34.9s (+0.36ms)|virt:      9.92s (+0s)] 
+14:32:39.6953 [INFO] uart: [host:   34.9s (+0.31ms)|virt:      9.92s (+0s)] 
+14:32:39.6998 [INFO] uart: [host:  34.91s (+4.58ms)|virt:   9.92s (+1.5ms)] 62,CONV_2D,56
+14:32:39.6999 [INFO] uart: [host:   34.91s (+4.6ms)|virt:   9.92s (+1.5ms)] 62,CONV_2D,56
+14:32:39.7036 [INFO] uart: [host:  34.91s (+3.75ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.7036 [INFO] uart: [host:  34.91s (+3.74ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.7038 [INFO] uart: [host:  34.91s (+0.22ms)|virt:      9.92s (+0s)] 
+14:32:39.7038 [INFO] uart: [host:  34.91s (+0.22ms)|virt:      9.92s (+0s)] 
+14:32:39.7089 [INFO] uart: [host:  34.92s (+5.12ms)|virt:   9.92s (+1.5ms)] 63,CONV_2D,157
+14:32:39.7089 [INFO] uart: [host:  34.92s (+5.12ms)|virt:   9.92s (+1.5ms)] 63,CONV_2D,157
+14:32:39.7125 [INFO] uart: [host:  34.92s (+3.53ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.7126 [INFO] uart: [host:   34.92s (+3.6ms)|virt:   9.92s (+1.5ms)] 
+14:32:39.7132 [INFO] uart: [host:  34.92s (+0.68ms)|virt:      9.92s (+0s)] 
+14:32:39.7132 [INFO] uart: [host:  34.92s (+0.63ms)|virt:      9.92s (+0s)] 
+14:32:39.7190 [INFO] uart: [host:  34.93s (+5.85ms)|virt:   9.93s (+1.6ms)] 64,AVERAGE_POOL_2D,253
+14:32:39.7190 [INFO] uart: [host:  34.93s (+5.84ms)|virt:   9.93s (+1.6ms)] 64,AVERAGE_POOL_2D,253
+14:32:39.7228 [INFO] uart: [host:  34.93s (+3.83ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7228 [INFO] uart: [host:  34.93s (+3.82ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7230 [INFO] uart: [host:  34.93s (+0.21ms)|virt:      9.93s (+0s)] 
+14:32:39.7231 [INFO] uart: [host:  34.93s (+0.21ms)|virt:      9.93s (+0s)] 
+14:32:39.7276 [INFO] uart: [host:  34.94s (+4.55ms)|virt:   9.93s (+1.5ms)] 65,RESHAPE,8
+14:32:39.7276 [INFO] uart: [host:  34.94s (+4.55ms)|virt:   9.93s (+1.5ms)] 65,RESHAPE,8
+14:32:39.7298 [INFO] uart: [host:   34.94s (+2.2ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7310 [INFO] uart: [host:  34.94s (+2.18ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7311 [INFO] uart: [host:  34.94s (+1.16ms)|virt:      9.93s (+0s)] 
+14:32:39.7311 [INFO] uart: [host:  34.94s (+1.14ms)|virt:      9.93s (+0s)] 
+14:32:39.7372 [INFO] uart: [host:  34.95s (+6.22ms)|virt:   9.93s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:39.7372 [INFO] uart: [host:  34.95s (+6.26ms)|virt:   9.93s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:39.7409 [INFO] uart: [host:  34.95s (+3.72ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7409 [INFO] uart: [host:  34.95s (+3.72ms)|virt:   9.93s (+1.5ms)] 
+14:32:39.7411 [INFO] uart: [host:   34.95s (+0.2ms)|virt:      9.93s (+0s)] 
+14:32:39.7411 [INFO] uart: [host:   34.95s (+0.2ms)|virt:      9.93s (+0s)] 
+14:32:39.7460 [INFO] uart: [host:  34.96s (+4.92ms)|virt:   9.93s (+1.5ms)] 67,SOFTMAX,2
+14:32:39.7461 [INFO] uart: [host:  34.95s (+4.94ms)|virt:   9.93s (+1.5ms)] 67,SOFTMAX,2
+14:32:39.7497 [INFO] uart: [host:  34.96s (+3.71ms)|virt:   9.94s (+1.5ms)] 
+14:32:39.7497 [INFO] uart: [host:   34.96s (+3.7ms)|virt:   9.94s (+1.5ms)] 
+14:32:39.7499 [INFO] uart: [host:  34.96s (+0.22ms)|virt:      9.94s (+0s)] 
+14:32:39.7499 [INFO] uart: [host:  34.96s (+0.21ms)|virt:      9.94s (+0s)] 
+14:32:39.7575 [INFO] uart: [host:  34.97s (+7.49ms)|virt:   9.94s (+1.5ms)] Perf counters not enabled.
+14:32:39.7575 [INFO] uart: [host:  34.97s (+7.54ms)|virt:   9.94s (+1.5ms)] Perf counters not enabled.
+14:32:39.7649 [INFO] uart: [host:   34.97s (+7.5ms)|virt:   9.94s (+0.1ms)]    224M (    224138430 )  cycles total
+14:32:39.7650 [INFO] uart: [host:  34.97s (+7.47ms)|virt:   9.94s (+0.1ms)]    224M (    224138430 )  cycles total
+14:32:39.7849 [INFO] uart: [host: 34.99s (+19.92ms)|virt:   9.94s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:39.7849 [INFO] uart: [host: 34.99s (+19.91ms)|virt:   9.94s (+6.9ms)] Set 76800 bytes at 0x402a15a0
+14:32:39.7874 [INFO] uart: [host:      35s (+1.3ms)|virt:      9.94s (+0s)] Running mnv2
+14:32:39.7874 [INFO] uart: [host:     35s (+2.24ms)|virt:      9.94s (+0s)] Running mnv2
+14:32:47.6222 [INFO] uart: [host:   42.83s (+7.84s)|virt:  12.19s (+2.24s)] ....................................................................
+14:32:47.6223 [INFO] uart: [host:   42.83s (+7.84s)|virt:  12.19s (+2.24s)] ....................................................................
+14:32:47.6259 [INFO] uart: [host:  42.84s (+3.67ms)|virt:     12.19s (+0s)] "Event","Tag","Ticks"
+14:32:47.6259 [INFO] uart: [host:  42.83s (+3.66ms)|virt:     12.19s (+0s)] "Event","Tag","Ticks"
+14:32:47.6298 [INFO] uart: [host:  42.84s (+3.92ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6299 [INFO] uart: [host:  42.84s (+3.95ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6301 [INFO] uart: [host:  42.84s (+0.28ms)|virt:     12.19s (+0s)] 
+14:32:47.6301 [INFO] uart: [host:  42.84s (+0.28ms)|virt:     12.19s (+0s)] 
+14:32:47.6359 [INFO] uart: [host:  42.85s (+5.86ms)|virt:  12.19s (+1.5ms)] 0,MUL,3804
+14:32:47.6359 [INFO] uart: [host:  42.84s (+5.82ms)|virt:  12.19s (+1.5ms)] 0,MUL,3804
+14:32:47.6397 [INFO] uart: [host:  42.85s (+3.82ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6398 [INFO] uart: [host:  42.85s (+3.83ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6399 [INFO] uart: [host:  42.85s (+0.17ms)|virt:     12.19s (+0s)] 
+14:32:47.6399 [INFO] uart: [host:  42.85s (+0.17ms)|virt:     12.19s (+0s)] 
+14:32:47.6457 [INFO] uart: [host:  42.85s (+5.76ms)|virt:  12.19s (+1.5ms)] 1,SUB,9120
+14:32:47.6457 [INFO] uart: [host:  42.85s (+5.76ms)|virt:  12.19s (+1.5ms)] 1,SUB,9120
+14:32:47.6498 [INFO] uart: [host:  42.86s (+4.11ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6499 [INFO] uart: [host:  42.86s (+4.15ms)|virt:  12.19s (+1.5ms)] 
+14:32:47.6502 [INFO] uart: [host:  42.86s (+0.37ms)|virt:     12.19s (+0s)] 
+14:32:47.6502 [INFO] uart: [host:  42.86s (+0.34ms)|virt:     12.19s (+0s)] 
+14:32:47.6558 [INFO] uart: [host:  42.87s (+5.66ms)|virt:   12.2s (+1.5ms)] 2,CONV_2D,56155
+14:32:47.6558 [INFO] uart: [host:  42.86s (+5.63ms)|virt:   12.2s (+1.5ms)] 2,CONV_2D,56155
+14:32:47.6599 [INFO] uart: [host:  42.87s (+4.16ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6599 [INFO] uart: [host:  42.87s (+4.13ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6601 [INFO] uart: [host:  42.87s (+0.17ms)|virt:      12.2s (+0s)] 
+14:32:47.6601 [INFO] uart: [host:  42.87s (+0.17ms)|virt:      12.2s (+0s)] 
+14:32:47.6682 [INFO] uart: [host:  42.88s (+8.04ms)|virt:   12.2s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30898
+14:32:47.6682 [INFO] uart: [host:  42.88s (+8.08ms)|virt:   12.2s (+1.5ms)] 3,DEPTHWISE_CONV_2D,30898
+14:32:47.6722 [INFO] uart: [host:  42.88s (+3.95ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6722 [INFO] uart: [host:  42.88s (+3.98ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6728 [INFO] uart: [host:   42.88s (+0.6ms)|virt:      12.2s (+0s)] 
+14:32:47.6728 [INFO] uart: [host:   42.88s (+0.6ms)|virt:      12.2s (+0s)] 
+14:32:47.6784 [INFO] uart: [host:  42.89s (+5.66ms)|virt:   12.2s (+1.6ms)] 4,CONV_2D,183
+14:32:47.6785 [INFO] uart: [host:  42.89s (+5.64ms)|virt:   12.2s (+1.6ms)] 4,CONV_2D,183
+14:32:47.6830 [INFO] uart: [host:  42.89s (+4.62ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6830 [INFO] uart: [host:  42.89s (+4.59ms)|virt:   12.2s (+1.5ms)] 
+14:32:47.6831 [INFO] uart: [host:  42.89s (+0.12ms)|virt:      12.2s (+0s)] 
+14:32:47.6831 [INFO] uart: [host:    42.89s (+80µs)|virt:      12.2s (+0s)] 
+14:32:47.6915 [INFO] uart: [host:   42.9s (+6.84ms)|virt:   12.2s (+1.5ms)] 5,CONV_2D,320
+14:32:47.6915 [INFO] uart: [host:   42.9s (+6.88ms)|virt:   12.2s (+1.5ms)] 5,CONV_2D,320
+14:32:47.6949 [INFO] uart: [host:   42.9s (+4.96ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.6949 [INFO] uart: [host:   42.9s (+4.97ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.6970 [INFO] uart: [host:  42.91s (+2.05ms)|virt:     12.21s (+0s)] 
+14:32:47.6970 [INFO] uart: [host:  42.91s (+2.05ms)|virt:     12.21s (+0s)] 
+14:32:47.7036 [INFO] uart: [host:  42.91s (+6.63ms)|virt:  12.21s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23124
+14:32:47.7037 [INFO] uart: [host:  42.91s (+6.67ms)|virt:  12.21s (+1.5ms)] 6,DEPTHWISE_CONV_2D,23124
+14:32:47.7075 [INFO] uart: [host:  42.92s (+3.85ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7075 [INFO] uart: [host:  42.92s (+3.81ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7077 [INFO] uart: [host:  42.92s (+0.22ms)|virt:     12.21s (+0s)] 
+14:32:47.7077 [INFO] uart: [host:  42.92s (+0.22ms)|virt:     12.21s (+0s)] 
+14:32:47.7134 [INFO] uart: [host:   42.92s (+5.7ms)|virt:  12.21s (+1.5ms)] 7,CONV_2D,81
+14:32:47.7134 [INFO] uart: [host:  42.92s (+5.71ms)|virt:  12.21s (+1.5ms)] 7,CONV_2D,81
+14:32:47.7173 [INFO] uart: [host:   42.93s (+3.9ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7173 [INFO] uart: [host:   42.93s (+3.9ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7174 [INFO] uart: [host:  42.93s (+0.18ms)|virt:     12.21s (+0s)] 
+14:32:47.7175 [INFO] uart: [host:  42.93s (+0.16ms)|virt:     12.21s (+0s)] 
+14:32:47.7231 [INFO] uart: [host:  42.93s (+5.61ms)|virt:  12.21s (+1.5ms)] 8,CONV_2D,82
+14:32:47.7231 [INFO] uart: [host:  42.93s (+5.64ms)|virt:  12.21s (+1.5ms)] 8,CONV_2D,82
+14:32:47.7268 [INFO] uart: [host:  42.94s (+3.74ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7268 [INFO] uart: [host:  42.94s (+3.73ms)|virt:  12.21s (+1.5ms)] 
+14:32:47.7270 [INFO] uart: [host:  42.94s (+0.19ms)|virt:     12.21s (+0s)] 
+14:32:47.7270 [INFO] uart: [host:  42.94s (+0.18ms)|virt:     12.21s (+0s)] 
+14:32:47.7365 [INFO] uart: [host:  42.95s (+9.48ms)|virt:  12.22s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22904
+14:32:47.7366 [INFO] uart: [host:  42.95s (+9.56ms)|virt:  12.22s (+1.5ms)] 9,DEPTHWISE_CONV_2D,22904
+14:32:47.7404 [INFO] uart: [host:  42.95s (+3.94ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7405 [INFO] uart: [host:  42.95s (+3.88ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7406 [INFO] uart: [host:  42.95s (+0.22ms)|virt:     12.22s (+0s)] 
+14:32:47.7406 [INFO] uart: [host:  42.95s (+0.21ms)|virt:     12.22s (+0s)] 
+14:32:47.7460 [INFO] uart: [host:  42.96s (+5.32ms)|virt:  12.22s (+1.5ms)] 10,CONV_2D,81
+14:32:47.7460 [INFO] uart: [host:  42.95s (+5.33ms)|virt:  12.22s (+1.5ms)] 10,CONV_2D,81
+14:32:47.7501 [INFO] uart: [host:  42.96s (+4.16ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7501 [INFO] uart: [host:  42.96s (+4.16ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7503 [INFO] uart: [host:  42.96s (+0.24ms)|virt:     12.22s (+0s)] 
+14:32:47.7504 [INFO] uart: [host:  42.96s (+0.23ms)|virt:     12.22s (+0s)] 
+14:32:47.7546 [INFO] uart: [host:  42.96s (+4.23ms)|virt:  12.22s (+1.5ms)] 11,ADD,1051
+14:32:47.7546 [INFO] uart: [host:  42.96s (+4.19ms)|virt:  12.22s (+1.5ms)] 11,ADD,1051
+14:32:47.7578 [INFO] uart: [host:  42.97s (+3.23ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7578 [INFO] uart: [host:  42.97s (+3.26ms)|virt:  12.22s (+1.5ms)] 
+14:32:47.7593 [INFO] uart: [host:  42.97s (+1.48ms)|virt:     12.22s (+0s)] 
+14:32:47.7593 [INFO] uart: [host:  42.97s (+1.49ms)|virt:     12.22s (+0s)] 
+14:32:47.7647 [INFO] uart: [host:  42.97s (+5.38ms)|virt:  12.23s (+1.6ms)] 12,CONV_2D,81
+14:32:47.7647 [INFO] uart: [host:  42.97s (+5.38ms)|virt:  12.23s (+1.6ms)] 12,CONV_2D,81
+14:32:47.7682 [INFO] uart: [host:  42.98s (+3.35ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7682 [INFO] uart: [host:  42.98s (+3.32ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7682 [INFO] uart: [host:  42.98s (+0.25ms)|virt:     12.23s (+0s)] 
+14:32:47.7683 [INFO] uart: [host:  42.98s (+0.24ms)|virt:     12.23s (+0s)] 
+14:32:47.7754 [INFO] uart: [host:  42.98s (+7.17ms)|virt:  12.23s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5733
+14:32:47.7754 [INFO] uart: [host:  42.98s (+7.17ms)|virt:  12.23s (+1.5ms)] 13,DEPTHWISE_CONV_2D,5733
+14:32:47.7791 [INFO] uart: [host:   42.99s (+3.7ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7792 [INFO] uart: [host:  42.99s (+3.74ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7794 [INFO] uart: [host:  42.99s (+0.24ms)|virt:     12.23s (+0s)] 
+14:32:47.7794 [INFO] uart: [host:  42.99s (+0.23ms)|virt:     12.23s (+0s)] 
+14:32:47.7843 [INFO] uart: [host:   42.99s (+4.9ms)|virt:  12.23s (+1.5ms)] 14,CONV_2D,25
+14:32:47.7843 [INFO] uart: [host:  42.99s (+4.89ms)|virt:  12.23s (+1.5ms)] 14,CONV_2D,25
+14:32:47.7881 [INFO] uart: [host:     43s (+3.74ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7881 [INFO] uart: [host:     43s (+3.81ms)|virt:  12.23s (+1.5ms)] 
+14:32:47.7883 [INFO] uart: [host:     43s (+0.21ms)|virt:     12.23s (+0s)] 
+14:32:47.7883 [INFO] uart: [host:     43s (+0.18ms)|virt:     12.23s (+0s)] 
+14:32:47.7936 [INFO] uart: [host:     43s (+5.43ms)|virt:  12.23s (+1.5ms)] 15,CONV_2D,38
+14:32:47.7937 [INFO] uart: [host:     43s (+5.39ms)|virt:  12.23s (+1.5ms)] 15,CONV_2D,38
+14:32:47.7980 [INFO] uart: [host:  43.01s (+4.39ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.7981 [INFO] uart: [host:   43.01s (+4.4ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.7983 [INFO] uart: [host:  43.01s (+0.23ms)|virt:     12.24s (+0s)] 
+14:32:47.7983 [INFO] uart: [host:  43.01s (+0.23ms)|virt:     12.24s (+0s)] 
+14:32:47.8053 [INFO] uart: [host:  43.01s (+7.03ms)|virt:  12.24s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:47.8053 [INFO] uart: [host:     43.01s (+7ms)|virt:  12.24s (+1.5ms)] 16,DEPTHWISE_CONV_2D,11389
+14:32:47.8077 [INFO] uart: [host:  43.02s (+2.43ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8078 [INFO] uart: [host:  43.02s (+2.47ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8080 [INFO] uart: [host:  43.02s (+0.23ms)|virt:     12.24s (+0s)] 
+14:32:47.8080 [INFO] uart: [host:  43.02s (+0.22ms)|virt:     12.24s (+0s)] 
+14:32:47.8127 [INFO] uart: [host:  43.02s (+4.78ms)|virt:  12.24s (+1.5ms)] 17,CONV_2D,38
+14:32:47.8128 [INFO] uart: [host:  43.02s (+4.79ms)|virt:  12.24s (+1.5ms)] 17,CONV_2D,38
+14:32:47.8163 [INFO] uart: [host:  43.03s (+3.54ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8163 [INFO] uart: [host:  43.02s (+3.53ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8164 [INFO] uart: [host:  43.03s (+0.12ms)|virt:     12.24s (+0s)] 
+14:32:47.8164 [INFO] uart: [host:  43.03s (+0.12ms)|virt:     12.24s (+0s)] 
+14:32:47.8217 [INFO] uart: [host:  43.03s (+5.33ms)|virt:  12.24s (+1.5ms)] 18,ADD,525
+14:32:47.8217 [INFO] uart: [host:  43.03s (+5.31ms)|virt:  12.24s (+1.5ms)] 18,ADD,525
+14:32:47.8260 [INFO] uart: [host:   43.04s (+4.3ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8261 [INFO] uart: [host:  43.03s (+4.34ms)|virt:  12.24s (+1.5ms)] 
+14:32:47.8263 [INFO] uart: [host:  43.04s (+0.23ms)|virt:     12.24s (+0s)] 
+14:32:47.8263 [INFO] uart: [host:  43.03s (+0.23ms)|virt:     12.24s (+0s)] 
+14:32:47.8327 [INFO] uart: [host:  43.04s (+5.13ms)|virt:  12.25s (+1.6ms)] 19,CONV_2D,39
+14:32:47.8327 [INFO] uart: [host:  43.04s (+5.11ms)|virt:  12.25s (+1.6ms)] 19,CONV_2D,39
+14:32:47.8374 [INFO] uart: [host:  43.05s (+5.81ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8374 [INFO] uart: [host:   43.05s (+5.8ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8376 [INFO] uart: [host:  43.05s (+0.35ms)|virt:     12.25s (+0s)] 
+14:32:47.8376 [INFO] uart: [host:  43.05s (+0.37ms)|virt:     12.25s (+0s)] 
+14:32:47.8451 [INFO] uart: [host:  43.05s (+7.47ms)|virt:  12.25s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11406
+14:32:47.8451 [INFO] uart: [host:  43.05s (+7.48ms)|virt:  12.25s (+1.5ms)] 20,DEPTHWISE_CONV_2D,11406
+14:32:47.8488 [INFO] uart: [host:  43.06s (+3.76ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8488 [INFO] uart: [host:  43.06s (+3.76ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8490 [INFO] uart: [host:  43.06s (+0.18ms)|virt:     12.25s (+0s)] 
+14:32:47.8490 [INFO] uart: [host:  43.06s (+0.18ms)|virt:     12.25s (+0s)] 
+14:32:47.8570 [INFO] uart: [host:  43.07s (+7.95ms)|virt:  12.25s (+1.5ms)] 21,CONV_2D,38
+14:32:47.8570 [INFO] uart: [host:     43.07s (+8ms)|virt:  12.25s (+1.5ms)] 21,CONV_2D,38
+14:32:47.8617 [INFO] uart: [host:  43.07s (+4.61ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8618 [INFO] uart: [host:  43.07s (+4.54ms)|virt:  12.25s (+1.5ms)] 
+14:32:47.8618 [INFO] uart: [host:  43.07s (+0.27ms)|virt:     12.25s (+0s)] 
+14:32:47.8618 [INFO] uart: [host:  43.07s (+0.25ms)|virt:     12.25s (+0s)] 
+14:32:47.8666 [INFO] uart: [host:  43.08s (+4.78ms)|virt:  12.26s (+1.5ms)] 22,ADD,525
+14:32:47.8666 [INFO] uart: [host:  43.08s (+4.81ms)|virt:  12.26s (+1.5ms)] 22,ADD,525
+14:32:47.8694 [INFO] uart: [host:  43.08s (+2.75ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8694 [INFO] uart: [host:  43.08s (+2.77ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8713 [INFO] uart: [host:  43.08s (+0.18ms)|virt:     12.26s (+0s)] 
+14:32:47.8713 [INFO] uart: [host:  43.08s (+1.64ms)|virt:     12.26s (+0s)] 
+14:32:47.8775 [INFO] uart: [host:  43.09s (+7.95ms)|virt:  12.26s (+1.5ms)] 23,CONV_2D,39
+14:32:47.8775 [INFO] uart: [host:  43.09s (+6.48ms)|virt:  12.26s (+1.5ms)] 23,CONV_2D,39
+14:32:47.8814 [INFO] uart: [host:  43.09s (+3.81ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8814 [INFO] uart: [host:  43.09s (+3.78ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8815 [INFO] uart: [host:  43.09s (+0.23ms)|virt:     12.26s (+0s)] 
+14:32:47.8815 [INFO] uart: [host:  43.09s (+0.29ms)|virt:     12.26s (+0s)] 
+14:32:47.8888 [INFO] uart: [host:   43.1s (+7.28ms)|virt:  12.26s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:47.8888 [INFO] uart: [host:   43.1s (+7.24ms)|virt:  12.26s (+1.5ms)] 24,DEPTHWISE_CONV_2D,2827
+14:32:47.8933 [INFO] uart: [host:    43.1s (+4.5ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8933 [INFO] uart: [host:   43.1s (+4.51ms)|virt:  12.26s (+1.5ms)] 
+14:32:47.8935 [INFO] uart: [host:   43.1s (+0.18ms)|virt:     12.26s (+0s)] 
+14:32:47.8935 [INFO] uart: [host:   43.1s (+0.18ms)|virt:     12.26s (+0s)] 
+14:32:47.9008 [INFO] uart: [host:  43.11s (+7.07ms)|virt:  12.26s (+1.5ms)] 25,CONV_2D,12
+14:32:47.9008 [INFO] uart: [host:  43.11s (+7.06ms)|virt:  12.26s (+1.5ms)] 25,CONV_2D,12
+14:32:47.9030 [INFO] uart: [host:  43.11s (+2.49ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9030 [INFO] uart: [host:  43.11s (+2.51ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9032 [INFO] uart: [host:  43.11s (+0.22ms)|virt:     12.27s (+0s)] 
+14:32:47.9033 [INFO] uart: [host:  43.11s (+0.21ms)|virt:     12.27s (+0s)] 
+14:32:47.9089 [INFO] uart: [host:   43.12s (+5.6ms)|virt:  12.27s (+1.6ms)] 26,CONV_2D,17
+14:32:47.9104 [INFO] uart: [host:   43.12s (+5.6ms)|virt:  12.27s (+1.6ms)] 26,CONV_2D,17
+14:32:47.9126 [INFO] uart: [host:  43.12s (+3.73ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9126 [INFO] uart: [host:  43.12s (+3.74ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9128 [INFO] uart: [host:  43.12s (+0.18ms)|virt:     12.27s (+0s)] 
+14:32:47.9128 [INFO] uart: [host:  43.12s (+0.17ms)|virt:     12.27s (+0s)] 
+14:32:47.9213 [INFO] uart: [host:  43.13s (+8.56ms)|virt:  12.27s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4175
+14:32:47.9213 [INFO] uart: [host:  43.13s (+8.55ms)|virt:  12.27s (+1.5ms)] 27,DEPTHWISE_CONV_2D,4175
+14:32:47.9253 [INFO] uart: [host:  43.13s (+3.94ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9253 [INFO] uart: [host:  43.13s (+3.94ms)|virt:  12.27s (+1.5ms)] 
+14:32:47.9253 [INFO] uart: [host:  43.13s (+0.11ms)|virt:     12.27s (+0s)] 
+14:32:47.9253 [INFO] uart: [host:    43.13s (+80µs)|virt:     12.27s (+0s)] 
+14:32:47.9308 [INFO] uart: [host:  43.14s (+5.42ms)|virt:  12.27s (+1.5ms)] 28,CONV_2D,16
+14:32:47.9308 [INFO] uart: [host:  43.14s (+5.47ms)|virt:  12.27s (+1.5ms)] 28,CONV_2D,16
+14:32:47.9352 [INFO] uart: [host:  43.14s (+4.39ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9352 [INFO] uart: [host:  43.14s (+4.39ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9354 [INFO] uart: [host:  43.14s (+0.22ms)|virt:     12.28s (+0s)] 
+14:32:47.9354 [INFO] uart: [host:  43.14s (+0.21ms)|virt:     12.28s (+0s)] 
+14:32:47.9401 [INFO] uart: [host:  43.15s (+4.74ms)|virt:  12.28s (+1.5ms)] 29,ADD,200
+14:32:47.9402 [INFO] uart: [host:  43.15s (+4.73ms)|virt:  12.28s (+1.5ms)] 29,ADD,200
+14:32:47.9435 [INFO] uart: [host:  43.15s (+3.34ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9435 [INFO] uart: [host:  43.15s (+3.35ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9436 [INFO] uart: [host:  43.15s (+0.12ms)|virt:     12.28s (+0s)] 
+14:32:47.9436 [INFO] uart: [host:  43.15s (+0.12ms)|virt:     12.28s (+0s)] 
+14:32:47.9498 [INFO] uart: [host:   43.16s (+6.1ms)|virt:  12.28s (+1.5ms)] 30,CONV_2D,17
+14:32:47.9498 [INFO] uart: [host:  43.16s (+6.19ms)|virt:  12.28s (+1.5ms)] 30,CONV_2D,17
+14:32:47.9536 [INFO] uart: [host:  43.16s (+3.96ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9537 [INFO] uart: [host:  43.16s (+3.86ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9539 [INFO] uart: [host:  43.16s (+0.22ms)|virt:     12.28s (+0s)] 
+14:32:47.9539 [INFO] uart: [host:  43.16s (+0.23ms)|virt:     12.28s (+0s)] 
+14:32:47.9602 [INFO] uart: [host:  43.17s (+6.33ms)|virt:  12.28s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:47.9602 [INFO] uart: [host:  43.17s (+6.33ms)|virt:  12.28s (+1.5ms)] 31,DEPTHWISE_CONV_2D,4170
+14:32:47.9648 [INFO] uart: [host:   43.17s (+4.5ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9648 [INFO] uart: [host:  43.17s (+4.54ms)|virt:  12.28s (+1.5ms)] 
+14:32:47.9672 [INFO] uart: [host:  43.18s (+2.28ms)|virt:     12.28s (+0s)] 
+14:32:47.9673 [INFO] uart: [host:  43.18s (+2.21ms)|virt:     12.28s (+0s)] 
+14:32:47.9740 [INFO] uart: [host:  43.18s (+6.96ms)|virt:  12.29s (+1.5ms)] 32,CONV_2D,16
+14:32:47.9740 [INFO] uart: [host:     43.18s (+7ms)|virt:  12.29s (+1.5ms)] 32,CONV_2D,16
+14:32:47.9778 [INFO] uart: [host:  43.19s (+3.87ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9778 [INFO] uart: [host:  43.19s (+3.85ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9780 [INFO] uart: [host:  43.19s (+0.17ms)|virt:     12.29s (+0s)] 
+14:32:47.9780 [INFO] uart: [host:  43.19s (+0.16ms)|virt:     12.29s (+0s)] 
+14:32:47.9830 [INFO] uart: [host:  43.19s (+5.06ms)|virt:  12.29s (+1.5ms)] 33,ADD,198
+14:32:47.9831 [INFO] uart: [host:  43.19s (+5.06ms)|virt:  12.29s (+1.5ms)] 33,ADD,198
+14:32:47.9871 [INFO] uart: [host:   43.2s (+3.95ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9871 [INFO] uart: [host:   43.2s (+3.91ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9873 [INFO] uart: [host:   43.2s (+0.34ms)|virt:  12.29s (+0.1ms)] 
+14:32:47.9874 [INFO] uart: [host:   43.2s (+0.38ms)|virt:  12.29s (+0.1ms)] 
+14:32:47.9925 [INFO] uart: [host:   43.2s (+5.19ms)|virt:  12.29s (+1.5ms)] 34,CONV_2D,17
+14:32:47.9925 [INFO] uart: [host:   43.2s (+5.16ms)|virt:  12.29s (+1.5ms)] 34,CONV_2D,17
+14:32:47.9974 [INFO] uart: [host:  43.21s (+4.76ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9975 [INFO] uart: [host:  43.21s (+4.77ms)|virt:  12.29s (+1.5ms)] 
+14:32:47.9975 [INFO] uart: [host:  43.21s (+0.24ms)|virt:     12.29s (+0s)] 
+14:32:47.9975 [INFO] uart: [host:  43.21s (+0.22ms)|virt:     12.29s (+0s)] 
+14:32:48.0041 [INFO] uart: [host:  43.21s (+6.57ms)|virt:  12.29s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4172
+14:32:48.0041 [INFO] uart: [host:  43.21s (+6.61ms)|virt:  12.29s (+1.5ms)] 35,DEPTHWISE_CONV_2D,4172
+14:32:48.0080 [INFO] uart: [host:  43.22s (+3.98ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0081 [INFO] uart: [host:  43.22s (+3.96ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0083 [INFO] uart: [host:  43.22s (+0.23ms)|virt:      12.3s (+0s)] 
+14:32:48.0083 [INFO] uart: [host:  43.22s (+0.23ms)|virt:      12.3s (+0s)] 
+14:32:48.0149 [INFO] uart: [host:  43.22s (+6.56ms)|virt:   12.3s (+1.5ms)] 36,CONV_2D,16
+14:32:48.0149 [INFO] uart: [host:  43.22s (+6.56ms)|virt:   12.3s (+1.5ms)] 36,CONV_2D,16
+14:32:48.0191 [INFO] uart: [host:  43.23s (+4.21ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0191 [INFO] uart: [host:  43.23s (+4.22ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0193 [INFO] uart: [host:  43.23s (+0.24ms)|virt:      12.3s (+0s)] 
+14:32:48.0193 [INFO] uart: [host:  43.23s (+0.19ms)|virt:      12.3s (+0s)] 
+14:32:48.0292 [INFO] uart: [host:  43.24s (+9.83ms)|virt:   12.3s (+1.5ms)] 37,ADD,199
+14:32:48.0292 [INFO] uart: [host:  43.24s (+9.88ms)|virt:   12.3s (+1.5ms)] 37,ADD,199
+14:32:48.0338 [INFO] uart: [host:  43.24s (+4.59ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0338 [INFO] uart: [host:  43.24s (+4.64ms)|virt:   12.3s (+1.5ms)] 
+14:32:48.0343 [INFO] uart: [host:  43.24s (+0.57ms)|virt:      12.3s (+0s)] 
+14:32:48.0344 [INFO] uart: [host:  43.24s (+0.52ms)|virt:      12.3s (+0s)] 
+14:32:48.0402 [INFO] uart: [host:  43.25s (+5.92ms)|virt:   12.3s (+1.5ms)] 38,CONV_2D,17
+14:32:48.0403 [INFO] uart: [host:  43.25s (+5.91ms)|virt:   12.3s (+1.5ms)] 38,CONV_2D,17
+14:32:48.0462 [INFO] uart: [host:  43.26s (+5.93ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0462 [INFO] uart: [host:  43.25s (+5.93ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0463 [INFO] uart: [host:  43.26s (+0.14ms)|virt:     12.31s (+0s)] 
+14:32:48.0463 [INFO] uart: [host:  43.25s (+0.13ms)|virt:     12.31s (+0s)] 
+14:32:48.0556 [INFO] uart: [host:  43.26s (+9.25ms)|virt:  12.31s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4138
+14:32:48.0556 [INFO] uart: [host:  43.26s (+9.27ms)|virt:  12.31s (+1.5ms)] 39,DEPTHWISE_CONV_2D,4138
+14:32:48.0597 [INFO] uart: [host:  43.27s (+4.15ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0598 [INFO] uart: [host:  43.27s (+4.19ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0603 [INFO] uart: [host:   43.27s (+0.6ms)|virt:     12.31s (+0s)] 
+14:32:48.0603 [INFO] uart: [host:   43.27s (+0.6ms)|virt:     12.31s (+0s)] 
+14:32:48.0667 [INFO] uart: [host:  43.28s (+6.41ms)|virt:  12.31s (+1.5ms)] 40,CONV_2D,17
+14:32:48.0667 [INFO] uart: [host:  43.28s (+6.36ms)|virt:  12.31s (+1.5ms)] 40,CONV_2D,17
+14:32:48.0701 [INFO] uart: [host:  43.28s (+3.43ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0701 [INFO] uart: [host:  43.28s (+3.44ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0705 [INFO] uart: [host:  43.28s (+0.41ms)|virt:     12.31s (+0s)] 
+14:32:48.0706 [INFO] uart: [host:   43.28s (+0.4ms)|virt:     12.31s (+0s)] 
+14:32:48.0754 [INFO] uart: [host:  43.28s (+4.83ms)|virt:  12.31s (+1.6ms)] 41,CONV_2D,22
+14:32:48.0754 [INFO] uart: [host:  43.28s (+4.82ms)|virt:  12.31s (+1.6ms)] 41,CONV_2D,22
+14:32:48.0794 [INFO] uart: [host:  43.29s (+4.01ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0794 [INFO] uart: [host:  43.29s (+4.03ms)|virt:  12.31s (+1.5ms)] 
+14:32:48.0797 [INFO] uart: [host:  43.29s (+0.27ms)|virt:     12.31s (+0s)] 
+14:32:48.0797 [INFO] uart: [host:  43.29s (+0.26ms)|virt:     12.31s (+0s)] 
+14:32:48.0861 [INFO] uart: [host:   43.3s (+6.45ms)|virt:  12.32s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:48.0861 [INFO] uart: [host:  43.29s (+6.46ms)|virt:  12.32s (+1.5ms)] 42,DEPTHWISE_CONV_2D,5574
+14:32:48.0902 [INFO] uart: [host:   43.3s (+4.13ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.0902 [INFO] uart: [host:   43.3s (+4.09ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.0906 [INFO] uart: [host:   43.3s (+0.31ms)|virt:     12.32s (+0s)] 
+14:32:48.0906 [INFO] uart: [host:   43.3s (+0.36ms)|virt:     12.32s (+0s)] 
+14:32:48.0961 [INFO] uart: [host:  43.31s (+5.56ms)|virt:  12.32s (+1.5ms)] 43,CONV_2D,21
+14:32:48.0961 [INFO] uart: [host:    43.3s (+5.5ms)|virt:  12.32s (+1.5ms)] 43,CONV_2D,21
+14:32:48.1002 [INFO] uart: [host:  43.31s (+4.09ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.1002 [INFO] uart: [host:  43.31s (+4.12ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.1003 [INFO] uart: [host:  43.31s (+0.12ms)|virt:     12.32s (+0s)] 
+14:32:48.1003 [INFO] uart: [host:  43.31s (+0.12ms)|virt:     12.32s (+0s)] 
+14:32:48.1055 [INFO] uart: [host:  43.31s (+5.21ms)|virt:  12.32s (+1.5ms)] 44,ADD,268
+14:32:48.1055 [INFO] uart: [host:  43.31s (+5.22ms)|virt:  12.32s (+1.5ms)] 44,ADD,268
+14:32:48.1092 [INFO] uart: [host:  43.32s (+3.66ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.1092 [INFO] uart: [host:  43.32s (+3.66ms)|virt:  12.32s (+1.5ms)] 
+14:32:48.1094 [INFO] uart: [host:  43.32s (+0.23ms)|virt:     12.32s (+0s)] 
+14:32:48.1094 [INFO] uart: [host:  43.32s (+0.23ms)|virt:     12.32s (+0s)] 
+14:32:48.1148 [INFO] uart: [host:  43.32s (+5.33ms)|virt:  12.32s (+1.5ms)] 45,CONV_2D,23
+14:32:48.1148 [INFO] uart: [host:  43.32s (+5.34ms)|virt:  12.32s (+1.5ms)] 45,CONV_2D,23
+14:32:48.1190 [INFO] uart: [host:  43.33s (+4.21ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1190 [INFO] uart: [host:   43.33s (+4.2ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1192 [INFO] uart: [host:  43.33s (+0.12ms)|virt:     12.33s (+0s)] 
+14:32:48.1192 [INFO] uart: [host:   43.33s (+0.2ms)|virt:     12.33s (+0s)] 
+14:32:48.1268 [INFO] uart: [host:  43.34s (+7.69ms)|virt:  12.33s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5554
+14:32:48.1268 [INFO] uart: [host:  43.34s (+7.62ms)|virt:  12.33s (+1.5ms)] 46,DEPTHWISE_CONV_2D,5554
+14:32:48.1311 [INFO] uart: [host:  43.34s (+4.11ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1311 [INFO] uart: [host:  43.34s (+4.07ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1311 [INFO] uart: [host:  43.34s (+0.15ms)|virt:     12.33s (+0s)] 
+14:32:48.1311 [INFO] uart: [host:  43.34s (+0.14ms)|virt:     12.33s (+0s)] 
+14:32:48.1370 [INFO] uart: [host:  43.35s (+5.94ms)|virt:  12.33s (+1.5ms)] 47,CONV_2D,21
+14:32:48.1371 [INFO] uart: [host:  43.35s (+6.06ms)|virt:  12.33s (+1.5ms)] 47,CONV_2D,21
+14:32:48.1412 [INFO] uart: [host:     43.35s (+4ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1412 [INFO] uart: [host:   43.35s (+3.9ms)|virt:  12.33s (+1.5ms)] 
+14:32:48.1413 [INFO] uart: [host:  43.35s (+0.26ms)|virt:     12.33s (+0s)] 
+14:32:48.1413 [INFO] uart: [host:  43.35s (+0.25ms)|virt:     12.33s (+0s)] 
+14:32:48.1466 [INFO] uart: [host:   43.36s (+5.4ms)|virt:  12.33s (+1.6ms)] 48,ADD,267
+14:32:48.1467 [INFO] uart: [host:  43.36s (+5.42ms)|virt:  12.33s (+1.6ms)] 48,ADD,267
+14:32:48.1505 [INFO] uart: [host:  43.36s (+3.88ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1506 [INFO] uart: [host:  43.36s (+3.91ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1508 [INFO] uart: [host:  43.36s (+0.31ms)|virt:     12.34s (+0s)] 
+14:32:48.1508 [INFO] uart: [host:  43.36s (+0.29ms)|virt:     12.34s (+0s)] 
+14:32:48.1568 [INFO] uart: [host:  43.37s (+5.98ms)|virt:  12.34s (+1.5ms)] 49,CONV_2D,22
+14:32:48.1568 [INFO] uart: [host:  43.37s (+5.94ms)|virt:  12.34s (+1.5ms)] 49,CONV_2D,22
+14:32:48.1614 [INFO] uart: [host:  43.37s (+4.58ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1614 [INFO] uart: [host:  43.37s (+4.62ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1615 [INFO] uart: [host:  43.37s (+0.12ms)|virt:     12.34s (+0s)] 
+14:32:48.1615 [INFO] uart: [host:    43.37s (+97µs)|virt:     12.34s (+0s)] 
+14:32:48.1681 [INFO] uart: [host:  43.38s (+6.55ms)|virt:  12.34s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:48.1681 [INFO] uart: [host:  43.38s (+6.58ms)|virt:  12.34s (+1.5ms)] 50,DEPTHWISE_CONV_2D,1379
+14:32:48.1718 [INFO] uart: [host:  43.38s (+3.79ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1719 [INFO] uart: [host:  43.38s (+3.78ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1721 [INFO] uart: [host:  43.38s (+0.23ms)|virt:     12.34s (+0s)] 
+14:32:48.1721 [INFO] uart: [host:  43.38s (+0.23ms)|virt:     12.34s (+0s)] 
+14:32:48.1779 [INFO] uart: [host:  43.39s (+5.85ms)|virt:  12.34s (+1.5ms)] 51,CONV_2D,16
+14:32:48.1779 [INFO] uart: [host:  43.39s (+5.86ms)|virt:  12.34s (+1.5ms)] 51,CONV_2D,16
+14:32:48.1815 [INFO] uart: [host:  43.39s (+3.55ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1815 [INFO] uart: [host:  43.39s (+3.55ms)|virt:  12.34s (+1.5ms)] 
+14:32:48.1817 [INFO] uart: [host:  43.39s (+0.23ms)|virt:     12.34s (+0s)] 
+14:32:48.1817 [INFO] uart: [host:  43.39s (+0.23ms)|virt:     12.34s (+0s)] 
+14:32:48.1868 [INFO] uart: [host:   43.4s (+5.03ms)|virt:  12.35s (+1.5ms)] 52,CONV_2D,24
+14:32:48.1868 [INFO] uart: [host:   43.4s (+5.04ms)|virt:  12.35s (+1.5ms)] 52,CONV_2D,24
+14:32:48.1911 [INFO] uart: [host:   43.4s (+4.31ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.1911 [INFO] uart: [host:   43.4s (+4.31ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.1913 [INFO] uart: [host:   43.4s (+0.24ms)|virt:     12.35s (+0s)] 
+14:32:48.1913 [INFO] uart: [host:   43.4s (+0.24ms)|virt:     12.35s (+0s)] 
+14:32:48.2005 [INFO] uart: [host:  43.41s (+9.13ms)|virt:  12.35s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:48.2005 [INFO] uart: [host:  43.41s (+9.14ms)|virt:  12.35s (+1.5ms)] 53,DEPTHWISE_CONV_2D,2312
+14:32:48.2041 [INFO] uart: [host:  43.41s (+3.64ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.2041 [INFO] uart: [host:  43.41s (+3.65ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.2042 [INFO] uart: [host:  43.41s (+0.18ms)|virt:     12.35s (+0s)] 
+14:32:48.2043 [INFO] uart: [host:  43.41s (+0.17ms)|virt:     12.35s (+0s)] 
+14:32:48.2094 [INFO] uart: [host:   43.42s (+5.2ms)|virt:  12.35s (+1.5ms)] 54,CONV_2D,31
+14:32:48.2095 [INFO] uart: [host:   43.42s (+5.2ms)|virt:  12.35s (+1.5ms)] 54,CONV_2D,31
+14:32:48.2136 [INFO] uart: [host:   43.42s (+4.1ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.2136 [INFO] uart: [host:  43.42s (+4.14ms)|virt:  12.35s (+1.5ms)] 
+14:32:48.2141 [INFO] uart: [host:  43.42s (+0.51ms)|virt:     12.35s (+0s)] 
+14:32:48.2141 [INFO] uart: [host:   43.42s (+0.5ms)|virt:     12.35s (+0s)] 
+14:32:48.2190 [INFO] uart: [host:  43.43s (+4.99ms)|virt:  12.35s (+1.5ms)] 55,ADD,119
+14:32:48.2191 [INFO] uart: [host:  43.43s (+4.96ms)|virt:  12.35s (+1.5ms)] 55,ADD,119
+14:32:48.2227 [INFO] uart: [host:  43.43s (+3.64ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2227 [INFO] uart: [host:  43.43s (+3.64ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2231 [INFO] uart: [host:  43.43s (+0.39ms)|virt:  12.36s (+0.1ms)] 
+14:32:48.2231 [INFO] uart: [host:  43.43s (+0.39ms)|virt:  12.36s (+0.1ms)] 
+14:32:48.2281 [INFO] uart: [host:   43.44s (+5.1ms)|virt:  12.36s (+1.5ms)] 56,CONV_2D,24
+14:32:48.2282 [INFO] uart: [host:  43.44s (+5.06ms)|virt:  12.36s (+1.5ms)] 56,CONV_2D,24
+14:32:48.2323 [INFO] uart: [host:  43.44s (+4.17ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2324 [INFO] uart: [host:   43.44s (+4.2ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2324 [INFO] uart: [host:   43.44s (+0.1ms)|virt:     12.36s (+0s)] 
+14:32:48.2324 [INFO] uart: [host:    43.44s (+68µs)|virt:     12.36s (+0s)] 
+14:32:48.2400 [INFO] uart: [host:  43.45s (+7.52ms)|virt:  12.36s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:48.2400 [INFO] uart: [host:  43.45s (+7.61ms)|virt:  12.36s (+1.5ms)] 57,DEPTHWISE_CONV_2D,2311
+14:32:48.2445 [INFO] uart: [host:  43.45s (+4.26ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2446 [INFO] uart: [host:   43.45s (+4.2ms)|virt:  12.36s (+1.5ms)] 
+14:32:48.2446 [INFO] uart: [host:  43.45s (+0.26ms)|virt:     12.36s (+0s)] 
+14:32:48.2446 [INFO] uart: [host:  43.45s (+0.33ms)|virt:     12.36s (+0s)] 
+14:32:48.2506 [INFO] uart: [host:  43.46s (+6.08ms)|virt:  12.36s (+1.5ms)] 58,CONV_2D,31
+14:32:48.2506 [INFO] uart: [host:  43.46s (+6.04ms)|virt:  12.36s (+1.5ms)] 58,CONV_2D,31
+14:32:48.2544 [INFO] uart: [host:  43.46s (+3.77ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2544 [INFO] uart: [host:   43.46s (+3.8ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2548 [INFO] uart: [host:  43.46s (+0.39ms)|virt:     12.37s (+0s)] 
+14:32:48.2548 [INFO] uart: [host:  43.46s (+0.39ms)|virt:     12.37s (+0s)] 
+14:32:48.2598 [INFO] uart: [host:  43.47s (+5.03ms)|virt:  12.37s (+1.5ms)] 59,ADD,118
+14:32:48.2598 [INFO] uart: [host:  43.47s (+5.01ms)|virt:  12.37s (+1.5ms)] 59,ADD,118
+14:32:48.2639 [INFO] uart: [host:   43.47s (+4.1ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2639 [INFO] uart: [host:  43.47s (+4.12ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2644 [INFO] uart: [host:   43.47s (+0.5ms)|virt:     12.37s (+0s)] 
+14:32:48.2644 [INFO] uart: [host:   43.47s (+0.5ms)|virt:     12.37s (+0s)] 
+14:32:48.2696 [INFO] uart: [host:  43.48s (+5.23ms)|virt:  12.37s (+1.5ms)] 60,CONV_2D,25
+14:32:48.2696 [INFO] uart: [host:   43.48s (+5.2ms)|virt:  12.37s (+1.5ms)] 60,CONV_2D,25
+14:32:48.2732 [INFO] uart: [host:  43.48s (+3.63ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2732 [INFO] uart: [host:  43.48s (+3.63ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2734 [INFO] uart: [host:  43.48s (+0.16ms)|virt:     12.37s (+0s)] 
+14:32:48.2734 [INFO] uart: [host:  43.48s (+0.15ms)|virt:     12.37s (+0s)] 
+14:32:48.2800 [INFO] uart: [host:  43.49s (+6.64ms)|virt:  12.37s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2290
+14:32:48.2800 [INFO] uart: [host:  43.49s (+6.63ms)|virt:  12.37s (+1.5ms)] 61,DEPTHWISE_CONV_2D,2290
+14:32:48.2839 [INFO] uart: [host:  43.49s (+3.92ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2839 [INFO] uart: [host:  43.49s (+3.92ms)|virt:  12.37s (+1.5ms)] 
+14:32:48.2841 [INFO] uart: [host:  43.49s (+0.16ms)|virt:     12.37s (+0s)] 
+14:32:48.2841 [INFO] uart: [host:  43.49s (+0.15ms)|virt:     12.37s (+0s)] 
+14:32:48.2898 [INFO] uart: [host:   43.5s (+5.67ms)|virt:  12.38s (+1.5ms)] 62,CONV_2D,56
+14:32:48.2898 [INFO] uart: [host:   43.5s (+5.72ms)|virt:  12.38s (+1.5ms)] 62,CONV_2D,56
+14:32:48.2940 [INFO] uart: [host:   43.5s (+4.22ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.2940 [INFO] uart: [host:   43.5s (+4.16ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.2940 [INFO] uart: [host:   43.5s (+0.11ms)|virt:     12.38s (+0s)] 
+14:32:48.2940 [INFO] uart: [host:     43.5s (+72µs)|virt:     12.38s (+0s)] 
+14:32:48.2998 [INFO] uart: [host:  43.51s (+5.71ms)|virt:  12.38s (+1.6ms)] 63,CONV_2D,157
+14:32:48.2998 [INFO] uart: [host:  43.51s (+5.76ms)|virt:  12.38s (+1.6ms)] 63,CONV_2D,157
+14:32:48.3066 [INFO] uart: [host:  43.52s (+6.58ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.3066 [INFO] uart: [host:  43.52s (+6.54ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.3066 [INFO] uart: [host:  43.52s (+0.16ms)|virt:     12.38s (+0s)] 
+14:32:48.3066 [INFO] uart: [host:  43.52s (+0.15ms)|virt:     12.38s (+0s)] 
+14:32:48.3140 [INFO] uart: [host:  43.52s (+7.45ms)|virt:  12.38s (+1.5ms)] 64,AVERAGE_POOL_2D,253
+14:32:48.3140 [INFO] uart: [host:   43.52s (+7.5ms)|virt:  12.38s (+1.5ms)] 64,AVERAGE_POOL_2D,253
+14:32:48.3177 [INFO] uart: [host:  43.53s (+3.74ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.3177 [INFO] uart: [host:  43.53s (+3.73ms)|virt:  12.38s (+1.5ms)] 
+14:32:48.3178 [INFO] uart: [host:  43.53s (+0.12ms)|virt:     12.38s (+0s)] 
+14:32:48.3178 [INFO] uart: [host:    43.53s (+82µs)|virt:     12.38s (+0s)] 
+14:32:48.3232 [INFO] uart: [host:  43.53s (+5.34ms)|virt:  12.38s (+1.5ms)] 65,RESHAPE,8
+14:32:48.3232 [INFO] uart: [host:  43.53s (+5.38ms)|virt:  12.38s (+1.5ms)] 65,RESHAPE,8
+14:32:48.3274 [INFO] uart: [host:   43.54s (+4.2ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3274 [INFO] uart: [host:   43.54s (+4.2ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3276 [INFO] uart: [host:  43.54s (+0.22ms)|virt:     12.39s (+0s)] 
+14:32:48.3276 [INFO] uart: [host:  43.54s (+0.22ms)|virt:     12.39s (+0s)] 
+14:32:48.3340 [INFO] uart: [host:  43.54s (+6.46ms)|virt:  12.39s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:48.3341 [INFO] uart: [host:  43.54s (+6.45ms)|virt:  12.39s (+1.5ms)] 66,FULLY_CONNECTED,23
+14:32:48.3380 [INFO] uart: [host:  43.55s (+3.94ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3380 [INFO] uart: [host:  43.55s (+3.98ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3384 [INFO] uart: [host:  43.55s (+0.38ms)|virt:     12.39s (+0s)] 
+14:32:48.3384 [INFO] uart: [host:  43.55s (+0.38ms)|virt:     12.39s (+0s)] 
+14:32:48.3438 [INFO] uart: [host:  43.55s (+5.48ms)|virt:  12.39s (+1.5ms)] 67,SOFTMAX,2
+14:32:48.3439 [INFO] uart: [host:  43.55s (+5.44ms)|virt:  12.39s (+1.5ms)] 67,SOFTMAX,2
+14:32:48.3479 [INFO] uart: [host:  43.56s (+4.05ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3479 [INFO] uart: [host:  43.56s (+4.04ms)|virt:  12.39s (+1.5ms)] 
+14:32:48.3481 [INFO] uart: [host:  43.56s (+0.17ms)|virt:     12.39s (+0s)] 
+14:32:48.3481 [INFO] uart: [host:  43.56s (+0.17ms)|virt:     12.39s (+0s)] 
+14:32:48.3564 [INFO] uart: [host:  43.57s (+8.32ms)|virt:  12.39s (+1.5ms)] Perf counters not enabled.
+14:32:48.3564 [INFO] uart: [host:  43.57s (+8.32ms)|virt:  12.39s (+1.5ms)] Perf counters not enabled.
+14:32:48.3643 [INFO] uart: [host:  43.57s (+7.84ms)|virt:  12.39s (+0.1ms)]    224M (    224116879 )  cycles total
+14:32:48.3643 [INFO] uart: [host:  43.57s (+7.83ms)|virt:  12.39s (+0.1ms)]    224M (    224116879 )  cycles total
+14:32:48.3687 [INFO] uart: [host:  43.58s (+4.35ms)|virt:     12.39s (+0s)] OK   Golden tests passed
+14:32:48.3687 [INFO] uart: [host:  43.58s (+4.33ms)|virt:     12.39s (+0s)] OK   Golden tests passed
+14:32:48.3705 [INFO] uart: [host:  43.58s (+2.01ms)|virt:     12.39s (+0s)] ---
+14:32:48.3706 [INFO] uart: [host:     43.58s (+2ms)|virt:     12.39s (+0s)] ---
+14:32:48.3706 [INFO] uart: [host:    43.58s (+81µs)|virt:     12.39s (+0s)] 
+14:32:48.3706 [INFO] uart: [host:    43.58s (+74µs)|virt:     12.39s (+0s)] 
+14:32:48.3711 [INFO] uart: [host:  43.58s (+0.45ms)|virt:     12.39s (+0s)] Tests for mnv2 model
+14:32:48.3711 [INFO] uart: [host:  43.58s (+0.45ms)|virt:     12.39s (+0s)] Tests for mnv2 model
+14:32:48.3733 [INFO] uart: [host:   43.58s (+2.2ms)|virt:     12.39s (+0s)] ====================
+14:32:48.3733 [INFO] uart: [host:  43.58s (+2.23ms)|virt:     12.39s (+0s)] ====================
+14:32:48.3736 [INFO] uart: [host:  43.58s (+0.38ms)|virt:     12.39s (+0s)]  0: Run test 0
+14:32:48.3737 [INFO] uart: [host:  43.58s (+0.36ms)|virt:     12.39s (+0s)]  0: Run test 0
+14:32:48.3745 [INFO] uart: [host:  43.58s (+0.77ms)|virt:     12.39s (+0s)]  1: Run test 1
+14:32:48.3745 [INFO] uart: [host:  43.58s (+0.81ms)|virt:     12.39s (+0s)]  1: Run test 1
+14:32:48.3774 [INFO] uart: [host:  43.59s (+2.79ms)|virt:     12.39s (+0s)]  s: Run special test
+14:32:48.3774 [INFO] uart: [host:  43.59s (+2.75ms)|virt:     12.39s (+0s)]  s: Run special test
+14:32:48.3828 [INFO] uart: [host:  43.59s (+5.54ms)|virt:  12.39s (+0.1ms)]  g: Run golden tests (check for expected outputs)
+14:32:48.3828 [INFO] uart: [host:  43.59s (+5.58ms)|virt:  12.39s (+0.1ms)]  g: Run golden tests (check for expected outputs)
+14:32:48.3861 [INFO] uart: [host:   43.6s (+3.23ms)|virt:     12.39s (+0s)]  z: Run with zeros input
+14:32:48.3862 [INFO] uart: [host:  43.59s (+3.19ms)|virt:     12.39s (+0s)]  z: Run with zeros input
+14:32:48.3896 [INFO] uart: [host:   43.6s (+3.58ms)|virt:     12.39s (+0s)]  x: eXit to previous menu
+14:32:48.3913 [INFO] uart: [host:   43.6s (+3.62ms)|virt:     12.39s (+0s)]  x: eXit to previous menu

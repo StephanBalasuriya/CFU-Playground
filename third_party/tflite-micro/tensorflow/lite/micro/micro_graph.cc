@@ -100,6 +100,8 @@ TfLiteStatus MicroGraph::PrepareSubgraphs() {
           subgraph_allocations_[subgraph_idx]
               .node_and_registrations[i]
               .registration;
+      printf("    [Node %u/%u] %s\n", (unsigned)i + 1, (unsigned)operators_size,
+             OpNameFromRegistration(registration));
       if (registration->prepare != nullptr) {
         TfLiteStatus prepare_status = registration->prepare(context_, node);
         if (prepare_status != kTfLiteOk) {

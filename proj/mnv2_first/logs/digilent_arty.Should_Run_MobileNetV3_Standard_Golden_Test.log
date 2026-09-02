@@ -1,0 +1,72 @@
+14:07:04.7876 [INFO] System bus created.
+14:07:04.8416 [WARNING] SimulationFilePath not set!
+14:07:04.8906 [INFO] digilent_arty: GDB server with all CPUs started on port :10001
+14:07:04.9011 [WARNING] Method HandleMainMessage is marked with Export attribute, but was not exported.
+14:07:04.9011 [WARNING] Method Receive is marked with Export attribute, but was not exported.
+14:07:04.9117 [INFO] sysbus: Loading segment of 4881920 bytes length at 0x40000000.
+14:07:04.9453 [INFO] cpu: Setting PC value to 0x40000000.
+14:07:05.0355 [INFO] digilent_arty: Machine started.
+14:07:05.0810 [INFO] uart: [host: 0.19s (+0.19s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:07:05.0811 [INFO] uart: [host: 0.19s (+0.19s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:07:05.0813 [INFO] uart: [host: 0.19s (+0.82ms)|virt:     22.1ms (+0s)] 
+14:07:05.0813 [INFO] uart: [host: 0.19s (+0.26ms)|virt:     22.1ms (+0s)] 
+14:07:05.0823 [INFO] uart: [host: 0.19s (+1.01ms)|virt:     22.1ms (+0s)] CFU Playground
+14:07:05.0823 [INFO] uart: [host: 0.19s (+1.03ms)|virt:     22.1ms (+0s)] CFU Playground
+14:07:05.0828 [INFO] uart: [host: 0.19s (+0.53ms)|virt:     22.1ms (+0s)] ==============
+14:07:05.0828 [INFO] uart: [host: 0.19s (+0.53ms)|virt:     22.1ms (+0s)] ==============
+14:07:05.0857 [INFO] uart: [host:  0.2s (+2.93ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:07:05.0857 [INFO] uart: [host: 0.19s (+2.93ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:07:05.0868 [INFO] uart: [host:  0.2s (+1.08ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:07:05.0869 [INFO] uart: [host:  0.2s (+1.11ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:07:05.0898 [INFO] uart: [host:  0.2s (+3.01ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:07:05.0899 [INFO] uart: [host:     0.2s (+3ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:07:05.0904 [INFO] uart: [host:   0.2s (+0.6ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:07:05.0904 [INFO] uart: [host:  0.2s (+0.59ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:07:05.0912 [INFO] uart: [host:  0.2s (+0.75ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:07:05.0912 [INFO] uart: [host:  0.2s (+0.75ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:07:05.0914 [INFO] uart: [host:  0.2s (+0.27ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:07:05.0915 [INFO] uart: [host:  0.2s (+0.26ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:07:05.0919 [INFO] uart: [host:  0.2s (+0.44ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:07:05.0919 [INFO] uart: [host:  0.2s (+0.44ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:07:05.0939 [INFO] uart: [host:  0.2s (+1.98ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:07:05.0939 [INFO] uart: [host:  0.2s (+1.97ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:07:05.1497 [INFO] uart: [host: 0.26s (+55.81ms)|virt:   51ms (+28.8ms)] main> 1
+14:07:05.1498 [INFO] uart: [host: 0.26s (+55.84ms)|virt:   51ms (+28.8ms)] main> 1
+14:07:05.1498 [INFO] uart: [host:  0.26s (+0.14ms)|virt:       51ms (+0s)] 
+14:07:05.1498 [INFO] uart: [host:  0.26s (+0.11ms)|virt:       51ms (+0s)] 
+14:07:05.1524 [INFO] uart: [host:  0.26s (+2.61ms)|virt:       51ms (+0s)] Running TfLM Models menu
+14:07:05.1525 [INFO] uart: [host:  0.26s (+2.61ms)|virt:       51ms (+0s)] Running TfLM Models menu
+14:07:05.1526 [INFO] uart: [host:  0.26s (+0.14ms)|virt:       51ms (+0s)] 
+14:07:05.1526 [INFO] uart: [host:  0.26s (+0.15ms)|virt:       51ms (+0s)] 
+14:07:05.1529 [INFO] uart: [host:  0.26s (+0.36ms)|virt:       51ms (+0s)] TfLM Models
+14:07:05.1529 [INFO] uart: [host:  0.26s (+0.35ms)|virt:       51ms (+0s)] TfLM Models
+14:07:05.1531 [INFO] uart: [host:  0.26s (+0.24ms)|virt:       51ms (+0s)] ===========
+14:07:05.1532 [INFO] uart: [host:  0.26s (+0.23ms)|virt:       51ms (+0s)] ===========
+14:07:05.1579 [INFO] uart: [host:   0.27s (+4.6ms)|virt:       51ms (+0s)]  1: Person Detection int8 model
+14:07:05.1579 [INFO] uart: [host:  0.27s (+4.69ms)|virt:       51ms (+0s)]  1: Person Detection int8 model
+14:07:05.1602 [INFO] uart: [host:  0.27s (+2.43ms)|virt:       51ms (+0s)]  2: Mobile Net v2 models
+14:07:05.1602 [INFO] uart: [host:  0.27s (+2.37ms)|virt:       51ms (+0s)]  2: Mobile Net v2 models
+14:07:05.1649 [INFO] uart: [host:   0.27s (+4.6ms)|virt:       51ms (+0s)]  3: MobileNetV3 Standard models
+14:07:05.1649 [INFO] uart: [host:  0.27s (+4.63ms)|virt:       51ms (+0s)]  3: MobileNetV3 Standard models
+14:07:05.1690 [INFO] uart: [host:  0.28s (+4.12ms)|virt:       51ms (+0s)]  x: eXit to previous menu
+14:07:05.1690 [INFO] uart: [host:  0.28s (+4.16ms)|virt:       51ms (+0s)]  x: eXit to previous menu
+14:07:05.1772 [INFO] uart: [host:  0.29s (+8.25ms)|virt:  53.2ms (+2.2ms)] models> 3
+14:07:05.1772 [INFO] uart: [host:  0.29s (+8.18ms)|virt:  53.2ms (+2.2ms)] models> 3
+14:07:05.1774 [INFO] uart: [host:   0.29s (+0.2ms)|virt:     53.2ms (+0s)] 
+14:07:05.1774 [INFO] uart: [host:  0.29s (+0.19ms)|virt:     53.2ms (+0s)] 
+14:07:05.1812 [INFO] uart: [host:   0.29s (+3.8ms)|virt:     53.2ms (+0s)] Running MobileNetV3 Standard models
+14:07:05.1812 [INFO] uart: [host:  0.29s (+3.79ms)|virt:     53.2ms (+0s)] Running MobileNetV3 Standard models
+14:07:05.1831 [INFO] uart: [host:  0.29s (+1.93ms)|virt:     53.2ms (+0s)] tflite_load_model: len=480896
+14:07:05.1831 [INFO] uart: [host:  0.29s (+1.94ms)|virt:     53.2ms (+0s)] tflite_load_model: len=480896
+14:07:05.1862 [INFO] uart: [host:   0.3s (+3.07ms)|virt:     53.2ms (+0s)] Error_reporter OK!
+14:07:05.1862 [INFO] uart: [host:   0.3s (+3.08ms)|virt:     53.2ms (+0s)] Error_reporter OK!
+14:07:05.1877 [INFO] uart: [host:   0.3s (+1.56ms)|virt:  54.7ms (+1.5ms)] 
+14:07:05.1878 [INFO] uart: [host:   0.3s (+1.55ms)|virt:  54.7ms (+1.5ms)] 
+14:07:05.1878 [INFO] uart: [host:     0.3s (+73µs)|virt:     54.7ms (+0s)] 
+14:07:05.1878 [INFO] uart: [host:     0.3s (+69µs)|virt:     54.7ms (+0s)] 
+14:07:05.1990 [INFO] uart: [host: 0.31s (+11.12ms)|virt:  56.9ms (+2.2ms)] GetModel done. Creating interpreter (arena=2097152 bytes)...
+14:07:05.1990 [INFO] uart: [host: 0.31s (+11.13ms)|virt:  56.9ms (+2.2ms)] GetModel done. Creating interpreter (arena=2097152 bytes)...
+14:07:05.2029 [INFO] uart: [host:  0.31s (+3.93ms)|virt:     56.9ms (+0s)] Calling AllocateTensors()...
+14:07:05.2029 [INFO] uart: [host:  0.31s (+3.92ms)|virt:     56.9ms (+0s)] Calling AllocateTensors()...
+14:07:05.2567 [INFO] digilent_arty: Machine paused.
+14:07:05.7083 [INFO] digilent_arty: Machine resumed.

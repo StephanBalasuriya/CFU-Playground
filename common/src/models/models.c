@@ -54,7 +54,7 @@ static struct Menu MENU = {
         MENU_ITEM(AUTO_INC_CHAR, "Mobile Net v2 models", mnv2_menu),
 #endif
 #if defined(INCLUDE_MODEL_MNV3)
-        MENU_ITEM(AUTO_INC_CHAR, "MobileNetV3 Minimalistic models", mnv3_menu),
+        MENU_ITEM(AUTO_INC_CHAR, "MobileNetV3 Standard models", mnv3_menu),
 #endif
 #if defined(INCLUDE_MODEL_HPS)
         MENU_ITEM(AUTO_INC_CHAR, "HPS models", hps_model_menu),

@@ -1,0 +1,331 @@
+14:32:48.4810 [INFO] Including script: /home/victus_linux/cfu-playground-fork/CFU-Playground/proj/mnv2_first/build/renode/digilent_arty.resc
+14:32:48.4813 [INFO] System bus created.
+14:32:48.5339 [WARNING] SimulationFilePath not set!
+14:32:48.5838 [INFO] digilent_arty: GDB server with all CPUs started on port :10001
+14:32:48.5908 [WARNING] Method HandleMainMessage is marked with Export attribute, but was not exported.
+14:32:48.5931 [WARNING] Method Receive is marked with Export attribute, but was not exported.
+14:32:48.6008 [INFO] sysbus: Loading segment of 4882272 bytes length at 0x40000000.
+14:32:48.6449 [INFO] cpu: Setting PC value to 0x40000000.
+14:32:48.7250 [INFO] digilent_arty: Machine started.
+14:32:48.7722 [INFO] uart: [host: 0.19s (+0.19s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:32:48.7722 [INFO] uart: [host: 0.19s (+0.19s)|virt: 22.1ms (+22.1ms)] Hello, World!
+14:32:48.7723 [INFO] uart: [host: 0.19s (+0.19ms)|virt:     22.1ms (+0s)] 
+14:32:48.7724 [INFO] uart: [host: 0.19s (+0.15ms)|virt:     22.1ms (+0s)] 
+14:32:48.7726 [INFO] uart: [host: 0.19s (+0.29ms)|virt:     22.1ms (+0s)] CFU Playground
+14:32:48.7727 [INFO] uart: [host: 0.19s (+0.29ms)|virt:     22.1ms (+0s)] CFU Playground
+14:32:48.7728 [INFO] uart: [host: 0.19s (+0.21ms)|virt:     22.1ms (+0s)] ==============
+14:32:48.7728 [INFO] uart: [host: 0.19s (+0.21ms)|virt:     22.1ms (+0s)] ==============
+14:32:48.7732 [INFO] uart: [host: 0.19s (+0.38ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:32:48.7732 [INFO] uart: [host: 0.19s (+0.38ms)|virt:     22.1ms (+0s)]  1: TfLM Models menu
+14:32:48.7737 [INFO] uart: [host: 0.19s (+0.51ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:32:48.7737 [INFO] uart: [host: 0.19s (+0.51ms)|virt:     22.1ms (+0s)]  2: Functional CFU Tests
+14:32:48.7740 [INFO] uart: [host: 0.19s (+0.24ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:32:48.7740 [INFO] uart: [host: 0.19s (+0.24ms)|virt:     22.1ms (+0s)]  3: Project menu
+14:32:48.7771 [INFO] uart: [host: 0.19s (+3.14ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:32:48.7771 [INFO] uart: [host: 0.19s (+3.17ms)|virt:     22.1ms (+0s)]  4: Performance Counter Tests
+14:32:48.7778 [INFO] uart: [host: 0.19s (+0.68ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:32:48.7778 [INFO] uart: [host: 0.19s (+0.68ms)|virt:  22.2ms (+0.1ms)]  5: TFLite Unit Tests
+14:32:48.7795 [INFO] uart: [host:   0.2s (+1.7ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:32:48.7795 [INFO] uart: [host:   0.2s (+1.7ms)|virt:     22.2ms (+0s)]  6: Benchmarks
+14:32:48.7807 [INFO] uart: [host:  0.2s (+1.16ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:32:48.7807 [INFO] uart: [host:  0.2s (+1.16ms)|virt:     22.2ms (+0s)]  7: Util Tests
+14:32:48.7817 [INFO] uart: [host:  0.2s (+0.99ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:32:48.7817 [INFO] uart: [host:  0.2s (+1.01ms)|virt:     22.2ms (+0s)]  8: Embench IoT
+14:32:48.8292 [INFO] uart: [host: 0.25s (+47.58ms)|virt: 53.5ms (+31.3ms)] main> 5
+14:32:48.8293 [INFO] uart: [host: 0.25s (+47.56ms)|virt: 53.5ms (+31.3ms)] main> 5
+14:32:48.8294 [INFO] uart: [host:    0.25s (+87µs)|virt:     53.5ms (+0s)] 
+14:32:48.8294 [INFO] uart: [host:    0.25s (+79µs)|virt:     53.5ms (+0s)] 
+14:32:48.8334 [INFO] uart: [host:  0.25s (+4.09ms)|virt:     53.5ms (+0s)] Running TFLite Unit Tests
+14:32:48.8334 [INFO] uart: [host:  0.25s (+4.08ms)|virt:     53.5ms (+0s)] Running TFLite Unit Tests
+14:32:48.8335 [INFO] uart: [host:  0.25s (+0.15ms)|virt:     53.5ms (+0s)] 
+14:32:48.8336 [INFO] uart: [host:  0.25s (+0.15ms)|virt:     53.5ms (+0s)] 
+14:32:48.8359 [INFO] uart: [host:  0.25s (+2.28ms)|virt:     53.5ms (+0s)] CONV TEST:
+14:32:48.8359 [INFO] uart: [host:  0.25s (+2.33ms)|virt:     53.5ms (+0s)] CONV TEST:
+14:32:48.8371 [INFO] uart: [host:  0.25s (+1.25ms)|virt:     53.5ms (+0s)] Testing SimpleTestQuantized4bitPerChannel
+14:32:48.8371 [INFO] uart: [host:  0.25s (+1.21ms)|virt:     53.5ms (+0s)] Testing SimpleTestQuantized4bitPerChannel
+14:32:48.8409 [INFO] uart: [host:  0.26s (+3.68ms)|virt:    55ms (+1.5ms)] 
+14:32:48.8409 [INFO] uart: [host:  0.26s (+3.76ms)|virt:    55ms (+1.5ms)] 
+14:32:48.8411 [INFO] uart: [host:   0.26s (+0.2ms)|virt:       55ms (+0s)] 
+14:32:48.8411 [INFO] uart: [host:  0.26s (+0.21ms)|virt:       55ms (+0s)] 
+14:32:48.8529 [INFO] uart: [host: 0.27s (+11.85ms)|virt:  56.8ms (+1.8ms)] Testing SimpleTestFloat
+14:32:48.8529 [INFO] uart: [host:  0.27s (+11.8ms)|virt:  56.8ms (+1.8ms)] Testing SimpleTestFloat
+14:32:48.8570 [INFO] uart: [host:  0.27s (+4.18ms)|virt:  58.3ms (+1.5ms)] 
+14:32:48.8570 [INFO] uart: [host:  0.27s (+4.13ms)|virt:  58.3ms (+1.5ms)] 
+14:32:48.8571 [INFO] uart: [host:    0.27s (+70µs)|virt:     58.3ms (+0s)] 
+14:32:48.8571 [INFO] uart: [host:    0.27s (+98µs)|virt:     58.3ms (+0s)] 
+14:32:48.8662 [INFO] uart: [host:  0.28s (+9.05ms)|virt:    60ms (+1.7ms)] Testing InputAndFilterSameWidthHeight
+14:32:48.8662 [INFO] uart: [host:  0.28s (+9.07ms)|virt:    60ms (+1.7ms)] Testing InputAndFilterSameWidthHeight
+14:32:48.8705 [INFO] uart: [host:  0.29s (+4.35ms)|virt:  61.5ms (+1.5ms)] 
+14:32:48.8705 [INFO] uart: [host:  0.29s (+4.35ms)|virt:  61.5ms (+1.5ms)] 
+14:32:48.8706 [INFO] uart: [host:  0.29s (+0.17ms)|virt:     61.5ms (+0s)] 
+14:32:48.8706 [INFO] uart: [host:  0.29s (+0.12ms)|virt:     61.5ms (+0s)] 
+14:32:48.8804 [INFO] uart: [host:   0.3s (+9.74ms)|virt:  63.1ms (+1.6ms)] Testing InputOutputDifferentTypeIsError
+14:32:48.8805 [INFO] uart: [host:   0.3s (+9.77ms)|virt:  63.1ms (+1.6ms)] Testing InputOutputDifferentTypeIsError
+14:32:48.8845 [INFO] uart: [host:   0.3s (+4.04ms)|virt:  64.6ms (+1.5ms)] 
+14:32:48.8845 [INFO] uart: [host:   0.3s (+4.07ms)|virt:  64.6ms (+1.5ms)] 
+14:32:48.8847 [INFO] uart: [host:   0.3s (+0.19ms)|virt:     64.6ms (+0s)] 
+14:32:48.8847 [INFO] uart: [host:   0.3s (+0.17ms)|virt:     64.6ms (+0s)] 
+14:32:48.8983 [INFO] uart: [host: 0.31s (+13.68ms)|virt:  66.1ms (+1.5ms)] src/tensorflow/lite/micro/kernels/conv.cc:52 input->type != output->type (1 != 9)
+14:32:48.8984 [INFO] uart: [host: 0.31s (+13.67ms)|virt:  66.1ms (+1.5ms)] src/tensorflow/lite/micro/kernels/conv.cc:52 input->type != output->type (1 != 9)
+14:32:48.9021 [INFO] uart: [host:  0.32s (+3.77ms)|virt:  67.6ms (+1.5ms)] 
+14:32:48.9021 [INFO] uart: [host:  0.32s (+3.79ms)|virt:  67.6ms (+1.5ms)] 
+14:32:48.9023 [INFO] uart: [host:  0.32s (+0.17ms)|virt:     67.6ms (+0s)] 
+14:32:48.9023 [INFO] uart: [host:  0.32s (+0.16ms)|virt:     67.6ms (+0s)] 
+14:32:48.9108 [INFO] uart: [host:   0.33s (+8.5ms)|virt:  69.2ms (+1.6ms)] Testing HybridModeIsError
+14:32:48.9108 [INFO] uart: [host:  0.33s (+8.54ms)|virt:  69.2ms (+1.6ms)] Testing HybridModeIsError
+14:32:48.9154 [INFO] uart: [host:   0.33s (+4.6ms)|virt:  70.7ms (+1.5ms)] 
+14:32:48.9154 [INFO] uart: [host:   0.33s (+4.6ms)|virt:  70.7ms (+1.5ms)] 
+14:32:48.9158 [INFO] uart: [host:  0.33s (+0.44ms)|virt:     70.7ms (+0s)] 
+14:32:48.9159 [INFO] uart: [host:  0.33s (+0.44ms)|virt:     70.7ms (+0s)] 
+14:32:48.9311 [INFO] uart: [host: 0.35s (+15.31ms)|virt:  72.2ms (+1.5ms)] src/tensorflow/lite/micro/kernels/conv.cc Hybrid models are not supported on TFLite Micro.
+14:32:48.9312 [INFO] uart: [host: 0.35s (+15.29ms)|virt:  72.2ms (+1.5ms)] src/tensorflow/lite/micro/kernels/conv.cc Hybrid models are not supported on TFLite Micro.
+14:32:48.9347 [INFO] uart: [host:  0.35s (+3.58ms)|virt:  73.7ms (+1.5ms)] 
+14:32:48.9347 [INFO] uart: [host:  0.35s (+3.58ms)|virt:  73.7ms (+1.5ms)] 
+14:32:48.9348 [INFO] uart: [host:  0.35s (+0.12ms)|virt:     73.7ms (+0s)] 
+14:32:48.9348 [INFO] uart: [host:   0.35s (+0.1ms)|virt:     73.7ms (+0s)] 
+14:32:48.9431 [INFO] uart: [host:  0.36s (+8.22ms)|virt:  75.3ms (+1.6ms)] Testing SimpleTestQuantizedPerChannel
+14:32:48.9431 [INFO] uart: [host:  0.36s (+8.22ms)|virt:  75.3ms (+1.6ms)] Testing SimpleTestQuantizedPerChannel
+14:32:48.9466 [INFO] uart: [host:  0.36s (+3.58ms)|virt:  76.8ms (+1.5ms)] 
+14:32:48.9467 [INFO] uart: [host:  0.36s (+3.57ms)|virt:  76.8ms (+1.5ms)] 
+14:32:48.9469 [INFO] uart: [host:  0.36s (+0.29ms)|virt:     76.8ms (+0s)] 
+14:32:48.9470 [INFO] uart: [host:  0.36s (+0.35ms)|virt:     76.8ms (+0s)] 
+14:32:48.9602 [INFO] uart: [host:  0.38s (+13.2ms)|virt:  78.6ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannel64bBias
+14:32:48.9603 [INFO] uart: [host: 0.38s (+13.23ms)|virt:  78.6ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannel64bBias
+14:32:48.9658 [INFO] uart: [host:  0.38s (+5.64ms)|virt:  80.1ms (+1.5ms)] 
+14:32:48.9658 [INFO] uart: [host:  0.38s (+5.63ms)|virt:  80.1ms (+1.5ms)] 
+14:32:48.9666 [INFO] uart: [host:   0.38s (+0.8ms)|virt:     80.1ms (+0s)] 
+14:32:48.9666 [INFO] uart: [host:  0.38s (+0.77ms)|virt:     80.1ms (+0s)] 
+14:32:48.9792 [INFO] uart: [host:   0.4s (+12.6ms)|virt:  81.9ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannel32bBias
+14:32:48.9792 [INFO] uart: [host:  0.4s (+12.59ms)|virt:  81.9ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannel32bBias
+14:32:48.9834 [INFO] uart: [host:   0.4s (+4.21ms)|virt:  83.4ms (+1.5ms)] 
+14:32:48.9834 [INFO] uart: [host:   0.4s (+4.19ms)|virt:  83.4ms (+1.5ms)] 
+14:32:48.9834 [INFO] uart: [host:   0.4s (+0.11ms)|virt:     83.4ms (+0s)] 
+14:32:48.9834 [INFO] uart: [host:     0.4s (+71µs)|virt:     83.4ms (+0s)] 
+14:32:48.9945 [INFO] uart: [host: 0.41s (+11.06ms)|virt:  85.2ms (+1.8ms)] Testing SimpleTestDilatedQuantizedPerChannel
+14:32:48.9946 [INFO] uart: [host: 0.41s (+11.11ms)|virt:  85.2ms (+1.8ms)] Testing SimpleTestDilatedQuantizedPerChannel
+14:32:48.9988 [INFO] uart: [host:  0.41s (+4.27ms)|virt:  86.7ms (+1.5ms)] 
+14:32:48.9988 [INFO] uart: [host:  0.41s (+4.26ms)|virt:  86.7ms (+1.5ms)] 
+14:32:48.9988 [INFO] uart: [host:    0.41s (+86µs)|virt:     86.7ms (+0s)] 
+14:32:48.9989 [INFO] uart: [host:    0.41s (+50µs)|virt:     86.7ms (+0s)] 
+14:32:49.0097 [INFO] uart: [host: 0.43s (+10.84ms)|virt:  88.6ms (+1.9ms)] Testing SimpleTestQuantizedPerChannelRelu6
+14:32:49.0097 [INFO] uart: [host: 0.43s (+10.86ms)|virt:  88.6ms (+1.9ms)] Testing SimpleTestQuantizedPerChannelRelu6
+14:32:49.0140 [INFO] uart: [host:  0.43s (+4.26ms)|virt:  90.1ms (+1.5ms)] 
+14:32:49.0140 [INFO] uart: [host:   0.43s (+4.3ms)|virt:  90.1ms (+1.5ms)] 
+14:32:49.0141 [INFO] uart: [host:  0.43s (+0.13ms)|virt:     90.1ms (+0s)] 
+14:32:49.0141 [INFO] uart: [host:  0.43s (+0.12ms)|virt:     90.1ms (+0s)] 
+14:32:49.0338 [INFO] uart: [host: 0.45s (+19.66ms)|virt:    92ms (+1.9ms)] Testing SimpleTestQuantized16x8PerChannelRelu664bBias
+14:32:49.0338 [INFO] uart: [host: 0.45s (+19.66ms)|virt:    92ms (+1.9ms)] Testing SimpleTestQuantized16x8PerChannelRelu664bBias
+14:32:49.0379 [INFO] uart: [host:  0.45s (+4.08ms)|virt:  93.5ms (+1.5ms)] 
+14:32:49.0379 [INFO] uart: [host:  0.45s (+4.09ms)|virt:  93.5ms (+1.5ms)] 
+14:32:49.0380 [INFO] uart: [host:  0.45s (+0.14ms)|virt:     93.5ms (+0s)] 
+14:32:49.0380 [INFO] uart: [host:  0.45s (+0.11ms)|virt:     93.5ms (+0s)] 
+14:32:49.0509 [INFO] uart: [host: 0.47s (+12.92ms)|virt:  95.3ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannelRelu632bBias
+14:32:49.0509 [INFO] uart: [host: 0.47s (+12.94ms)|virt:  95.3ms (+1.8ms)] Testing SimpleTestQuantized16x8PerChannelRelu632bBias
+14:32:49.0548 [INFO] uart: [host:  0.47s (+3.83ms)|virt:  96.8ms (+1.5ms)] 
+14:32:49.0548 [INFO] uart: [host:  0.47s (+3.83ms)|virt:  96.8ms (+1.5ms)] 
+14:32:49.0549 [INFO] uart: [host:  0.47s (+0.13ms)|virt:     96.8ms (+0s)] 
+14:32:49.0549 [INFO] uart: [host:  0.47s (+0.12ms)|virt:     96.8ms (+0s)] 
+14:32:49.0648 [INFO] uart: [host:   0.48s (+9.9ms)|virt:  98.6ms (+1.8ms)] Testing Kernel1x1QuantizedPerChannel
+14:32:49.0649 [INFO] uart: [host:  0.48s (+9.96ms)|virt:  98.6ms (+1.8ms)] Testing Kernel1x1QuantizedPerChannel
+14:32:49.0692 [INFO] uart: [host:   0.49s (+4.4ms)|virt:    0.1s (+1.5ms)] 
+14:32:49.0693 [INFO] uart: [host:  0.49s (+4.39ms)|virt:    0.1s (+1.5ms)] 
+14:32:49.0695 [INFO] uart: [host:  0.49s (+0.27ms)|virt:       0.1s (+0s)] 
+14:32:49.0695 [INFO] uart: [host:  0.49s (+0.27ms)|virt:       0.1s (+0s)] 
+14:32:49.0796 [INFO] uart: [host:  0.5s (+10.11ms)|virt:    0.1s (+1.8ms)] Testing Kernel1x1QuantizedPerChannelRelu6
+14:32:49.0796 [INFO] uart: [host:  0.5s (+10.08ms)|virt:    0.1s (+1.8ms)] Testing Kernel1x1QuantizedPerChannelRelu6
+14:32:49.0837 [INFO] uart: [host:   0.5s (+4.07ms)|virt:    0.1s (+1.5ms)] 
+14:32:49.0837 [INFO] uart: [host:    0.5s (+4.1ms)|virt:    0.1s (+1.5ms)] 
+14:32:49.0842 [INFO] uart: [host:   0.5s (+0.53ms)|virt:       0.1s (+0s)] 
+14:32:49.0842 [INFO] uart: [host:    0.5s (+0.5ms)|virt:       0.1s (+0s)] 
+14:32:49.0943 [INFO] uart: [host:  0.51s (+10.1ms)|virt:   0.11s (+1.9ms)] Testing Kernel1x1Quantized16x8PerChannelRelu6
+14:32:49.0943 [INFO] uart: [host: 0.51s (+10.09ms)|virt:   0.11s (+1.9ms)] Testing Kernel1x1Quantized16x8PerChannelRelu6
+14:32:49.0986 [INFO] uart: [host:  0.51s (+4.39ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.0986 [INFO] uart: [host:  0.51s (+4.34ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.0986 [INFO] uart: [host:    0.51s (+68µs)|virt:      0.11s (+0s)] 
+14:32:49.0987 [INFO] uart: [host:    0.51s (+65µs)|virt:      0.11s (+0s)] 
+14:32:49.1120 [INFO] uart: [host: 0.53s (+13.31ms)|virt:   0.11s (+1.8ms)] Testing BroadcastPerLayerQuantizationToPerChannelShouldMatchGolden
+14:32:49.1121 [INFO] uart: [host: 0.53s (+13.36ms)|virt:   0.11s (+1.8ms)] Testing BroadcastPerLayerQuantizationToPerChannelShouldMatchGolden
+14:32:49.1160 [INFO] uart: [host:  0.53s (+3.93ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.1160 [INFO] uart: [host:  0.53s (+3.96ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.1166 [INFO] uart: [host:  0.53s (+0.62ms)|virt:      0.11s (+0s)] 
+14:32:49.1166 [INFO] uart: [host:  0.53s (+0.59ms)|virt:      0.11s (+0s)] 
+14:32:49.1305 [INFO] uart: [host: 0.55s (+13.94ms)|virt:   0.11s (+1.7ms)] Testing Int8Filter1x3x3x1ShouldMatchGoldenEvenInputPaddingSame
+14:32:49.1305 [INFO] uart: [host: 0.55s (+13.93ms)|virt:   0.11s (+1.7ms)] Testing Int8Filter1x3x3x1ShouldMatchGoldenEvenInputPaddingSame
+14:32:49.1342 [INFO] uart: [host:  0.55s (+3.72ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.1343 [INFO] uart: [host:  0.55s (+3.71ms)|virt:   0.11s (+1.5ms)] 
+14:32:49.1343 [INFO] uart: [host:  0.55s (+0.11ms)|virt:      0.11s (+0s)] 
+14:32:49.1343 [INFO] uart: [host:    0.55s (+68µs)|virt:      0.11s (+0s)] 
+14:32:49.1464 [INFO] uart: [host: 0.56s (+12.05ms)|virt:   0.11s (+1.6ms)] Testing Int8Filter1x3x3x1ShouldMatchGoldenOddInputPaddingSame
+14:32:49.1464 [INFO] uart: [host:  0.56s (+12.1ms)|virt:   0.11s (+1.6ms)] Testing Int8Filter1x3x3x1ShouldMatchGoldenOddInputPaddingSame
+14:32:49.1487 [INFO] uart: [host:   0.56s (+2.3ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1487 [INFO] uart: [host:  0.56s (+2.29ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1487 [INFO] uart: [host:    0.56s (+87µs)|virt:      0.12s (+0s)] 
+14:32:49.1488 [INFO] uart: [host:    0.56s (+80µs)|virt:      0.12s (+0s)] 
+14:32:49.1605 [INFO] uart: [host: 0.58s (+11.68ms)|virt:   0.12s (+1.6ms)] Testing FilterDimsNotMatchingAffineQuantization
+14:32:49.1605 [INFO] uart: [host: 0.58s (+11.73ms)|virt:   0.12s (+1.6ms)] Testing FilterDimsNotMatchingAffineQuantization
+14:32:49.1653 [INFO] uart: [host:  0.58s (+4.74ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1653 [INFO] uart: [host:  0.58s (+4.75ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1655 [INFO] uart: [host:  0.58s (+0.28ms)|virt:      0.12s (+0s)] 
+14:32:49.1655 [INFO] uart: [host:  0.58s (+0.27ms)|virt:      0.12s (+0s)] 
+14:32:49.1909 [INFO] uart: [host: 0.61s (+25.44ms)|virt:   0.12s (+1.8ms)] src/tensorflow/lite/micro/kernels/conv_common.cc:177 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[kConv was not true.
+14:32:49.1909 [INFO] uart: [host: 0.61s (+25.42ms)|virt:   0.12s (+1.8ms)] src/tensorflow/lite/micro/kernels/conv_common.cc:177 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[kConv was not true.
+14:32:49.1945 [INFO] uart: [host:  0.61s (+3.63ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1946 [INFO] uart: [host:  0.61s (+3.62ms)|virt:   0.12s (+1.5ms)] 
+14:32:49.1946 [INFO] uart: [host:   0.61s (+0.1ms)|virt:      0.12s (+0s)] 
+14:32:49.1947 [INFO] uart: [host:   0.61s (+0.1ms)|virt:      0.12s (+0s)] 
+14:32:49.2224 [INFO] uart: [host: 0.64s (+27.72ms)|virt:   0.12s (+1.6ms)] src/tensorflow/lite/micro/kernels/conv_common.cc:177 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[kConv was not true.
+14:32:49.2225 [INFO] uart: [host: 0.64s (+27.74ms)|virt:   0.12s (+1.6ms)] src/tensorflow/lite/micro/kernels/conv_common.cc:177 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[kConv was not true.
+14:32:49.2258 [INFO] uart: [host:  0.64s (+3.42ms)|virt:   0.13s (+1.5ms)] 
+14:32:49.2259 [INFO] uart: [host:  0.64s (+3.45ms)|virt:   0.13s (+1.5ms)] 
+14:32:49.2263 [INFO] uart: [host:  0.64s (+0.49ms)|virt:      0.13s (+0s)] 
+14:32:49.2263 [INFO] uart: [host:  0.64s (+0.48ms)|virt:      0.13s (+0s)] 
+14:32:49.2361 [INFO] uart: [host:  0.65s (+9.79ms)|virt:   0.13s (+1.6ms)] Testing Int8Input32x1Filter32x32ShouldMatchGolden
+14:32:49.2361 [INFO] uart: [host:  0.65s (+9.75ms)|virt:   0.13s (+1.6ms)] Testing Int8Input32x1Filter32x32ShouldMatchGolden
+14:32:49.2408 [INFO] uart: [host:  0.66s (+4.69ms)|virt:   0.13s (+1.5ms)] 
+14:32:49.2408 [INFO] uart: [host:  0.66s (+4.74ms)|virt:   0.13s (+1.5ms)] 
+14:32:49.2411 [INFO] uart: [host:  0.66s (+0.27ms)|virt:      0.13s (+0s)] 
+14:32:49.2411 [INFO] uart: [host:  0.66s (+0.27ms)|virt:      0.13s (+0s)] 
+14:32:49.2633 [INFO] uart: [host: 0.68s (+22.26ms)|virt:   0.13s (+4.5ms)] Testing Int8Filter8x3x3x3PerChannelScaleRelu6ShouldMatchGolden
+14:32:49.2633 [INFO] uart: [host: 0.68s (+22.22ms)|virt:   0.13s (+4.5ms)] Testing Int8Filter8x3x3x3PerChannelScaleRelu6ShouldMatchGolden
+14:32:49.2669 [INFO] uart: [host:  0.68s (+3.65ms)|virt:   0.14s (+1.5ms)] 
+14:32:49.2670 [INFO] uart: [host:  0.68s (+3.62ms)|virt:   0.14s (+1.5ms)] 
+14:32:49.2672 [INFO] uart: [host:  0.68s (+0.21ms)|virt:      0.14s (+0s)] 
+14:32:49.2672 [INFO] uart: [host:  0.68s (+0.27ms)|virt:      0.14s (+0s)] 
+14:32:49.3021 [INFO] uart: [host:  0.72s (+34.9ms)|virt:  0.15s (+12.9ms)] 21/21 tests passed
+14:32:49.3021 [INFO] uart: [host: 0.72s (+34.86ms)|virt:  0.15s (+12.9ms)] 21/21 tests passed
+14:32:49.3058 [INFO] uart: [host:  0.72s (+3.79ms)|virt:   0.15s (+1.5ms)] 
+14:32:49.3059 [INFO] uart: [host:  0.72s (+3.79ms)|virt:   0.15s (+1.5ms)] 
+14:32:49.3060 [INFO] uart: [host:  0.72s (+0.16ms)|virt:      0.15s (+0s)] 
+14:32:49.3060 [INFO] uart: [host:  0.72s (+0.16ms)|virt:      0.15s (+0s)] 
+14:32:49.3119 [INFO] uart: [host:  0.73s (+5.89ms)|virt:   0.15s (+1.6ms)] ~~~ALL TESTS PASSED~~~
+14:32:49.3119 [INFO] uart: [host:   0.73s (+5.9ms)|virt:   0.15s (+1.6ms)] ~~~ALL TESTS PASSED~~~
+14:32:49.3121 [INFO] uart: [host:  0.73s (+0.27ms)|virt:      0.15s (+0s)] 
+14:32:49.3121 [INFO] uart: [host:  0.73s (+0.24ms)|virt:      0.15s (+0s)] 
+14:32:49.3151 [INFO] uart: [host:  0.73s (+2.93ms)|virt:   0.15s (+1.5ms)] 
+14:32:49.3151 [INFO] uart: [host:  0.73s (+2.94ms)|virt:   0.15s (+1.5ms)] 
+14:32:49.3152 [INFO] uart: [host:  0.73s (+0.13ms)|virt:      0.15s (+0s)] 
+14:32:49.3152 [INFO] uart: [host:  0.73s (+0.11ms)|virt:      0.15s (+0s)] 
+14:32:49.3208 [INFO] uart: [host:  0.74s (+5.58ms)|virt:   0.15s (+1.5ms)] DEPTHWISE_CONV TEST:
+14:32:49.3208 [INFO] uart: [host:  0.74s (+5.62ms)|virt:   0.15s (+1.5ms)] DEPTHWISE_CONV TEST:
+14:32:49.3213 [INFO] uart: [host:  0.74s (+0.52ms)|virt:      0.15s (+0s)] Testing SimpleTest
+14:32:49.3213 [INFO] uart: [host:  0.74s (+0.48ms)|virt:      0.15s (+0s)] Testing SimpleTest
+14:32:49.3249 [INFO] uart: [host:  0.74s (+3.56ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3249 [INFO] uart: [host:  0.74s (+3.61ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3249 [INFO] uart: [host:  0.74s (+0.12ms)|virt:      0.16s (+0s)] 
+14:32:49.3250 [INFO] uart: [host:    0.74s (+72µs)|virt:      0.16s (+0s)] 
+14:32:49.3320 [INFO] uart: [host:  0.75s (+6.95ms)|virt:   0.16s (+1.6ms)] Testing SimpleTestRelu
+14:32:49.3320 [INFO] uart: [host:     0.75s (+7ms)|virt:   0.16s (+1.6ms)] Testing SimpleTestRelu
+14:32:49.3360 [INFO] uart: [host:  0.75s (+4.06ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3361 [INFO] uart: [host:  0.75s (+4.09ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3363 [INFO] uart: [host:  0.75s (+0.29ms)|virt:      0.16s (+0s)] 
+14:32:49.3363 [INFO] uart: [host:  0.75s (+0.24ms)|virt:      0.16s (+0s)] 
+14:32:49.3460 [INFO] uart: [host:  0.76s (+9.72ms)|virt:   0.16s (+1.7ms)] Testing SimpleTestQuantizedPerChannel
+14:32:49.3461 [INFO] uart: [host:  0.76s (+9.74ms)|virt:   0.16s (+1.7ms)] Testing SimpleTestQuantizedPerChannel
+14:32:49.3498 [INFO] uart: [host:  0.77s (+3.79ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3498 [INFO] uart: [host:  0.77s (+3.78ms)|virt:   0.16s (+1.5ms)] 
+14:32:49.3499 [INFO] uart: [host:    0.77s (+89µs)|virt:      0.16s (+0s)] 
+14:32:49.3499 [INFO] uart: [host:    0.77s (+52µs)|virt:      0.16s (+0s)] 
+14:32:49.3635 [INFO] uart: [host: 0.78s (+13.59ms)|virt:   0.16s (+1.8ms)] Testing SimpleTestQuantizedPerChannelDepthMultiplier1
+14:32:49.3635 [INFO] uart: [host: 0.78s (+13.64ms)|virt:   0.16s (+1.8ms)] Testing SimpleTestQuantizedPerChannelDepthMultiplier1
+14:32:49.3674 [INFO] uart: [host:  0.78s (+3.88ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3674 [INFO] uart: [host:  0.78s (+3.88ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3675 [INFO] uart: [host:  0.78s (+0.16ms)|virt:      0.17s (+0s)] 
+14:32:49.3675 [INFO] uart: [host:  0.78s (+0.15ms)|virt:      0.17s (+0s)] 
+14:32:49.3773 [INFO] uart: [host:  0.79s (+9.71ms)|virt:   0.17s (+1.7ms)] Testing TestQuantizedPerChannelDepthMultiplier1Relu6
+14:32:49.3773 [INFO] uart: [host:  0.79s (+9.72ms)|virt:   0.17s (+1.7ms)] Testing TestQuantizedPerChannelDepthMultiplier1Relu6
+14:32:49.3811 [INFO] uart: [host:   0.8s (+3.89ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3812 [INFO] uart: [host:   0.8s (+3.89ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3813 [INFO] uart: [host:   0.8s (+0.15ms)|virt:      0.17s (+0s)] 
+14:32:49.3813 [INFO] uart: [host:   0.8s (+0.15ms)|virt:      0.17s (+0s)] 
+14:32:49.3929 [INFO] uart: [host: 0.81s (+11.53ms)|virt:   0.17s (+1.9ms)] Testing SimpleTestDilatedQuantizedPerChannel
+14:32:49.3929 [INFO] uart: [host: 0.81s (+11.54ms)|virt:   0.17s (+1.9ms)] Testing SimpleTestDilatedQuantizedPerChannel
+14:32:49.3970 [INFO] uart: [host:  0.81s (+4.18ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3971 [INFO] uart: [host:  0.81s (+4.16ms)|virt:   0.17s (+1.5ms)] 
+14:32:49.3971 [INFO] uart: [host:  0.81s (+0.14ms)|virt:      0.17s (+0s)] 
+14:32:49.3971 [INFO] uart: [host:   0.81s (+0.1ms)|virt:      0.17s (+0s)] 
+14:32:49.4080 [INFO] uart: [host: 0.82s (+10.83ms)|virt:   0.17s (+1.9ms)] Testing TestQuantizedPerChannelCompareWithFloat
+14:32:49.4080 [INFO] uart: [host: 0.82s (+10.88ms)|virt:   0.17s (+1.9ms)] Testing TestQuantizedPerChannelCompareWithFloat
+14:32:49.4127 [INFO] uart: [host:  0.83s (+4.63ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4127 [INFO] uart: [host:  0.83s (+4.67ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4130 [INFO] uart: [host:  0.83s (+0.42ms)|virt:      0.18s (+0s)] 
+14:32:49.4131 [INFO] uart: [host:  0.83s (+0.36ms)|virt:      0.18s (+0s)] 
+14:32:49.4270 [INFO] uart: [host: 0.84s (+13.93ms)|virt:     0.18s (+2ms)] Testing SimpleTestQuantizedPerChannelInt4Filter
+14:32:49.4270 [INFO] uart: [host: 0.84s (+13.95ms)|virt:     0.18s (+2ms)] Testing SimpleTestQuantizedPerChannelInt4Filter
+14:32:49.4314 [INFO] uart: [host:  0.85s (+4.37ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4314 [INFO] uart: [host:   0.85s (+4.4ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4317 [INFO] uart: [host:  0.85s (+0.29ms)|virt:      0.18s (+0s)] 
+14:32:49.4317 [INFO] uart: [host:  0.85s (+0.29ms)|virt:      0.18s (+0s)] 
+14:32:49.4426 [INFO] uart: [host:    0.86s (+11ms)|virt:   0.18s (+1.8ms)] Testing PerChannelBroadcastQuantizationParams
+14:32:49.4426 [INFO] uart: [host: 0.86s (+10.93ms)|virt:   0.18s (+1.8ms)] Testing PerChannelBroadcastQuantizationParams
+14:32:49.4474 [INFO] uart: [host:  0.86s (+4.76ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4475 [INFO] uart: [host:  0.86s (+4.83ms)|virt:   0.18s (+1.5ms)] 
+14:32:49.4477 [INFO] uart: [host:  0.86s (+0.26ms)|virt:      0.18s (+0s)] 
+14:32:49.4477 [INFO] uart: [host:  0.86s (+0.26ms)|virt:      0.18s (+0s)] 
+14:32:49.4603 [INFO] uart: [host: 0.88s (+12.65ms)|virt:   0.18s (+1.7ms)] Testing FilterDimsNotMatchingAffineQuantization
+14:32:49.4603 [INFO] uart: [host: 0.88s (+12.63ms)|virt:   0.18s (+1.7ms)] Testing FilterDimsNotMatchingAffineQuantization
+14:32:49.4630 [INFO] uart: [host:  0.88s (+2.68ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.4630 [INFO] uart: [host:  0.88s (+2.68ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.4631 [INFO] uart: [host:  0.88s (+0.12ms)|virt:      0.19s (+0s)] 
+14:32:49.4631 [INFO] uart: [host:  0.88s (+0.12ms)|virt:      0.19s (+0s)] 
+14:32:49.4889 [INFO] uart: [host:  0.9s (+25.76ms)|virt:   0.19s (+1.8ms)] src/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:182 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[ was not true.
+14:32:49.4889 [INFO] uart: [host:  0.9s (+25.76ms)|virt:   0.19s (+1.8ms)] src/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:182 affine_quantization->scale->size == 1 || affine_quantization->scale->size == filter->dims->data[ was not true.
+14:32:49.4925 [INFO] uart: [host:  0.91s (+3.57ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.4925 [INFO] uart: [host:  0.91s (+3.58ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.4926 [INFO] uart: [host:  0.91s (+0.15ms)|virt:      0.19s (+0s)] 
+14:32:49.4926 [INFO] uart: [host:  0.91s (+0.16ms)|virt:      0.19s (+0s)] 
+14:32:49.5156 [INFO] uart: [host: 0.93s (+22.78ms)|virt:   0.19s (+1.6ms)] src/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:187 affine_quantization->scale->size != affine_quantization->zero_point->size (4 != 2)
+14:32:49.5156 [INFO] uart: [host: 0.93s (+22.74ms)|virt:   0.19s (+1.6ms)] src/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:187 affine_quantization->scale->size != affine_quantization->zero_point->size (4 != 2)
+14:32:49.5182 [INFO] uart: [host:  0.93s (+2.86ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.5183 [INFO] uart: [host:   0.93s (+2.9ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.5183 [INFO] uart: [host:  0.93s (+0.12ms)|virt:      0.19s (+0s)] 
+14:32:49.5184 [INFO] uart: [host:  0.93s (+0.12ms)|virt:      0.19s (+0s)] 
+14:32:49.5329 [INFO] uart: [host: 0.95s (+14.45ms)|virt:   0.19s (+1.5ms)] Testing Int8Input32x4Filter32x4ShouldMatchGolden
+14:32:49.5330 [INFO] uart: [host:  0.95s (+14.5ms)|virt:   0.19s (+1.5ms)] Testing Int8Input32x4Filter32x4ShouldMatchGolden
+14:32:49.5386 [INFO] uart: [host:  0.95s (+5.73ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.5386 [INFO] uart: [host:  0.95s (+5.72ms)|virt:   0.19s (+1.5ms)] 
+14:32:49.5391 [INFO] uart: [host:  0.96s (+0.55ms)|virt:      0.19s (+0s)] 
+14:32:49.5391 [INFO] uart: [host:  0.95s (+0.52ms)|virt:      0.19s (+0s)] 
+14:32:49.5572 [INFO] uart: [host: 0.97s (+18.14ms)|virt:    0.2s (+2.9ms)] Testing Int8Input32x1Filter32x1ShouldMatchGolden
+14:32:49.5573 [INFO] uart: [host: 0.97s (+18.14ms)|virt:    0.2s (+2.9ms)] Testing Int8Input32x1Filter32x1ShouldMatchGolden
+14:32:49.5619 [INFO] uart: [host:  0.98s (+4.71ms)|virt:    0.2s (+1.5ms)] 
+14:32:49.5620 [INFO] uart: [host:  0.98s (+4.71ms)|virt:    0.2s (+1.5ms)] 
+14:32:49.5621 [INFO] uart: [host:  0.98s (+0.18ms)|virt:       0.2s (+0s)] 
+14:32:49.5621 [INFO] uart: [host:  0.98s (+0.16ms)|virt:       0.2s (+0s)] 
+14:32:49.5712 [INFO] uart: [host:  0.99s (+9.09ms)|virt:    0.2s (+2.3ms)] 12/12 tests passed
+14:32:49.5713 [INFO] uart: [host:  0.99s (+9.15ms)|virt:    0.2s (+2.3ms)] 12/12 tests passed
+14:32:49.5754 [INFO] uart: [host:  0.99s (+4.19ms)|virt:    0.2s (+1.5ms)] 
+14:32:49.5754 [INFO] uart: [host:  0.99s (+4.14ms)|virt:    0.2s (+1.5ms)] 
+14:32:49.5755 [INFO] uart: [host:  0.99s (+0.12ms)|virt:       0.2s (+0s)] 
+14:32:49.5755 [INFO] uart: [host:  0.99s (+0.12ms)|virt:       0.2s (+0s)] 
+14:32:49.5813 [INFO] uart: [host:     1s (+5.75ms)|virt:    0.2s (+1.5ms)] ~~~ALL TESTS PASSED~~~
+14:32:49.5813 [INFO] uart: [host:     1s (+5.75ms)|virt:    0.2s (+1.5ms)] ~~~ALL TESTS PASSED~~~
+14:32:49.5816 [INFO] uart: [host:     1s (+0.38ms)|virt:       0.2s (+0s)] 
+14:32:49.5817 [INFO] uart: [host:     1s (+0.36ms)|virt:       0.2s (+0s)] 
+14:32:49.5849 [INFO] uart: [host:     1s (+3.24ms)|virt:   0.21s (+1.5ms)] 
+14:32:49.5849 [INFO] uart: [host:     1s (+3.23ms)|virt:   0.21s (+1.5ms)] 
+14:32:49.5849 [INFO] uart: [host:       1s (+89µs)|virt:      0.21s (+0s)] 
+14:32:49.5849 [INFO] uart: [host:       1s (+62µs)|virt:      0.21s (+0s)] 
+14:32:49.5875 [INFO] uart: [host:     1s (+2.54ms)|virt:   0.21s (+1.5ms)] ---
+14:32:49.5875 [INFO] uart: [host:     1s (+2.59ms)|virt:   0.21s (+1.5ms)] ---
+14:32:49.5891 [INFO] uart: [host:     1s (+1.45ms)|virt:      0.21s (+0s)] 
+14:32:49.5892 [INFO] uart: [host:     1s (+1.42ms)|virt:      0.21s (+0s)] 
+14:32:49.5919 [INFO] uart: [host:  1.01s (+2.96ms)|virt:   0.21s (+0.1ms)] CFU Playground
+14:32:49.5919 [INFO] uart: [host:  1.01s (+2.95ms)|virt:   0.21s (+0.1ms)] CFU Playground
+14:32:49.5941 [INFO] uart: [host:  1.01s (+1.99ms)|virt:      0.21s (+0s)] ==============
+14:32:49.5941 [INFO] uart: [host:     1.01s (+2ms)|virt:      0.21s (+0s)] ==============
+14:32:49.5956 [INFO] uart: [host:  1.01s (+1.69ms)|virt:      0.21s (+0s)]  1: TfLM Models menu
+14:32:49.5956 [INFO] uart: [host:  1.01s (+1.72ms)|virt:      0.21s (+0s)]  1: TfLM Models menu
+14:32:49.5996 [INFO] uart: [host:  1.02s (+3.98ms)|virt:      0.21s (+0s)]  2: Functional CFU Tests
+14:32:49.5996 [INFO] uart: [host:  1.02s (+3.96ms)|virt:      0.21s (+0s)]  2: Functional CFU Tests
+14:32:49.6010 [INFO] uart: [host:  1.02s (+1.43ms)|virt:      0.21s (+0s)]  3: Project menu
+14:32:49.6010 [INFO] uart: [host:  1.02s (+1.45ms)|virt:      0.21s (+0s)]  3: Project menu
+14:32:49.6049 [INFO] uart: [host:  1.02s (+3.94ms)|virt:      0.21s (+0s)]  4: Performance Counter Tests
+14:32:49.6050 [INFO] uart: [host:  1.02s (+3.94ms)|virt:      0.21s (+0s)]  4: Performance Counter Tests
+14:32:49.6085 [INFO] uart: [host:   1.02s (+3.5ms)|virt:      0.21s (+0s)]  5: TFLite Unit Tests
+14:32:49.6085 [INFO] uart: [host:  1.02s (+3.51ms)|virt:      0.21s (+0s)]  5: TFLite Unit Tests
+14:32:49.6098 [INFO] uart: [host:  1.03s (+1.31ms)|virt:      0.21s (+0s)]  6: Benchmarks
+14:32:49.6098 [INFO] uart: [host:  1.03s (+1.31ms)|virt:      0.21s (+0s)]  6: Benchmarks
+14:32:49.6126 [INFO] uart: [host:  1.03s (+2.81ms)|virt:      0.21s (+0s)]  7: Util Tests
+14:32:49.6126 [INFO] uart: [host:  1.03s (+2.81ms)|virt:      0.21s (+0s)]  7: Util Tests
+14:32:49.6142 [INFO] uart: [host:  1.03s (+1.66ms)|virt:   0.21s (+0.1ms)]  8: Embench IoT
+14:32:49.6142 [INFO] uart: [host:  1.03s (+1.62ms)|virt:   0.21s (+0.1ms)]  8: Embench IoT

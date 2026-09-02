@@ -20,7 +20,7 @@
 
 #include "menu.h"
 #include "models/mnv3/input_00001.h"
-#include "models/mnv3/model_mobilenetv3_small_min.h"
+#include "models/mnv3/model_mobilenetv3_small_std.h"
 #include "tflite.h"
 
 #ifdef CSR_VIDEO_FRAMEBUFFER_BASE
@@ -31,12 +31,14 @@ extern "C" {
 
 // Initialize the model in TFLM runtime
 static void mnv3_init(void) {
-  tflite_load_model(model_mobilenetv3_small_min, model_mobilenetv3_small_min_len);
+  printf("mnv3_init: loading model...\n");
+  tflite_load_model(model_mobilenetv3_small_std, model_mobilenetv3_small_std_len);
+  printf("mnv3_init: model loaded successfully\n");
 }
 
-// Run MobileNetV3 Minimalistic classification
+// Run MobileNetV3 Standard Small classification
 static int32_t mnv3_classify(void) {
-  printf("Running MobileNetV3 Minimalistic model...\n");
+  printf("Running MobileNetV3 Standard Small model...\n");
   tflite_classify();
 
   int8_t* output = tflite_get_output();
@@ -58,7 +60,7 @@ static void do_classify_test0(void) {
   char msg_buff[256] = {0};
   snprintf(msg_buff, sizeof(msg_buff), "Result: %ld", (long)result);
   fb_clear();
-  fb_draw_string(0, 10, 0x007FFF00, "MobileNetV3 Min Test 0");
+  fb_draw_string(0, 10, 0x007FFF00, "MobileNetV3 Std Test 0");
   fb_draw_buffer(0, 50, 160, 160, (const uint8_t*)input_00001, 3);
   fb_draw_string(0, 220, 0x007FFF00, msg_buff);
   flush_cpu_dcache();
@@ -67,7 +69,7 @@ static void do_classify_test0(void) {
 }
 
 static struct Menu MENU = {
-    "MobileNetV3 Minimalistic Models",
+    "MobileNetV3 Standard Small Models",
     "mnv3",
     {
         MENU_ITEM('g', "Run golden test input 0", do_classify_test0),
@@ -77,6 +79,8 @@ static struct Menu MENU = {
 };
 
 void mnv3_menu(void) {
+  printf("mnv3_menu: starting mnv3_init()...\n");
   mnv3_init();
+  printf("mnv3_menu: starting menu_run(&MENU)...\n");
   menu_run(&MENU);
 }

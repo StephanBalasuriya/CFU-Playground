@@ -18,9 +18,9 @@ import sys
 import numpy as np
 import tensorflow as tf
 
-def generate_mobilenetv3_minimalistic():
+def generate_mobilenetv3_standard():
     print("==================================================")
-    print("Generating MobileNetV3-Small Minimalistic INT8 Model")
+    print("Generating MobileNetV3-Small Standard INT8 Model")
     print("==================================================")
 
     # 1. Model Parameters
@@ -30,16 +30,16 @@ def generate_mobilenetv3_minimalistic():
     
     # Output paths
     output_dir = os.path.dirname(os.path.abspath(__file__))
-    model_path = os.path.join(output_dir, "model_mobilenetv3_small_min.tflite")
+    model_path = os.path.join(output_dir, "model_mobilenetv3_small_std.tflite")
     dat_path = os.path.join(output_dir, "input_00001.dat")
 
-    # 2. Build MobileNetV3 Minimalistic Keras Model
-    # minimalistic=True disables SE modules & uses ReLU6 activations
-    print("Instantiating MobileNetV3-Small (minimalistic=True)...")
+    # 2. Build MobileNetV3 Standard Small Keras Model
+    # minimalistic=False enables Squeeze-and-Excitation (SE) modules & Hard-Swish activations
+    print("Instantiating MobileNetV3-Small (minimalistic=False)...")
     model = tf.keras.applications.MobileNetV3Small(
         input_shape=INPUT_SHAPE,
         alpha=ALPHA,
-        minimalistic=True,
+        minimalistic=False,
         include_top=True,
         weights=None,
         classes=NUM_CLASSES
@@ -47,6 +47,7 @@ def generate_mobilenetv3_minimalistic():
 
     # 3. Calibration Generator for PTQ
     def representative_dataset_gen():
+        np.random.seed(42)
         for _ in range(50):
             data = np.random.uniform(-1.0, 1.0, size=(1, *INPUT_SHAPE)).astype(np.float32)
             yield [data]
@@ -73,6 +74,7 @@ def generate_mobilenetv3_minimalistic():
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()
 
+    np.random.seed(1234)
     sample_input = np.random.randint(-128, 127, size=input_details[0]['shape'], dtype=np.int8)
     sample_input.tofile(dat_path)
 
@@ -85,4 +87,4 @@ def generate_mobilenetv3_minimalistic():
     print("Done!")
 
 if __name__ == "__main__":
-    generate_mobilenetv3_minimalistic()
+    generate_mobilenetv3_standard()

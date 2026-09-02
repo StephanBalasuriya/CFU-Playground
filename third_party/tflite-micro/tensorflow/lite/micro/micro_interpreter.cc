@@ -180,6 +180,7 @@ TfLiteStatus MicroInterpreter::PrepareNodeAndRegistrationDataFromFlatbuffer() {
 }
 
 TfLiteStatus MicroInterpreter::AllocateTensors() {
+  printf("  AllocateTensors: StartModelAllocation...\n");
   SubgraphAllocations* allocations = allocator_.StartModelAllocation(model_);
 
   if (allocations == nullptr) {
@@ -190,6 +191,7 @@ TfLiteStatus MicroInterpreter::AllocateTensors() {
 
   graph_.SetSubgraphAllocations(allocations);
 
+  printf("  AllocateTensors: PrepareNodeAndRegistrationDataFromFlatbuffer...\n");
   TF_LITE_ENSURE_STATUS(PrepareNodeAndRegistrationDataFromFlatbuffer());
 
   // Only allow AllocatePersistentBuffer in Init stage.
@@ -197,6 +199,7 @@ TfLiteStatus MicroInterpreter::AllocateTensors() {
   context_.RequestScratchBufferInArena = nullptr;
   context_.GetScratchBuffer = nullptr;
   context_.GetExternalContext = nullptr;
+  printf("  AllocateTensors: InitSubgraphs...\n");
   TF_LITE_ENSURE_STATUS(graph_.InitSubgraphs());
 
   // Both AllocatePersistentBuffer and RequestScratchBufferInArena is
@@ -206,6 +209,7 @@ TfLiteStatus MicroInterpreter::AllocateTensors() {
   // external_context become available in Prepare stage.
   context_.GetExternalContext = MicroContextGetExternalContext;
 
+  printf("  AllocateTensors: PrepareSubgraphs...\n");
   TF_LITE_ENSURE_STATUS(graph_.PrepareSubgraphs());
 
   // Prepare is done, we're ready for Invoke. Memory allocation is no longer
@@ -214,10 +218,12 @@ TfLiteStatus MicroInterpreter::AllocateTensors() {
   context_.RequestScratchBufferInArena = nullptr;
   context_.GetScratchBuffer = MicroContextGetScratchBuffer;
 
+  printf("  AllocateTensors: FinishModelAllocation (greedy memory planning)...\n");
   TF_LITE_ENSURE_OK(&context_, allocator_.FinishModelAllocation(
                                    model_, graph_.GetAllocations(),
                                    &scratch_buffer_handles_));
 
+  printf("  AllocateTensors: SetScratchBufferHandles...\n");
   micro_context_.SetScratchBufferHandles(scratch_buffer_handles_);
 
   // TODO(b/162311891): Drop these allocations when the interpreter supports
@@ -233,6 +239,7 @@ TfLiteStatus MicroInterpreter::AllocateTensors() {
     return kTfLiteError;
   }
 
+  printf("  AllocateTensors: initializing input tensors...\n");
   for (size_t i = 0; i < inputs_size(); ++i) {
     input_tensors_[i] = allocator_.AllocatePersistentTfLiteTensor(
         model_, graph_.GetAllocations(), inputs().Get(i), 0);

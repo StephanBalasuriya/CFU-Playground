@@ -93,7 +93,7 @@ constexpr int kTensorArenaSize = const_max<int>(
     800 * 1024,
 #endif
 #ifdef INCLUDE_MODEL_MNV3
-    800 * 1024,
+    2048 * 1024,
 #endif
 #ifdef INCLUDE_MODEL_HPS
     256 * 1024,
@@ -150,6 +150,7 @@ static void tflite_init() {
 
 void tflite_load_model(const unsigned char* model_data,
                        unsigned int model_length) {
+  printf("tflite_load_model: model_length=%u bytes\n", model_length);
   tflite_init();
   tflite_preload(model_data, model_length);
   if (interpreter) {
@@ -159,18 +160,23 @@ void tflite_load_model(const unsigned char* model_data,
 
   // Map the model into a usable data structure. This doesn't involve any
   // copying or parsing, it's a very lightweight operation.
+  printf("tflite_load_model: GetModel...\n");
   model = tflite::GetModel(model_data);
+  printf("tflite_load_model: GetModel OK\n");
 
   // Build an interpreter to run the model with.
   // NOLINTNEXTLINE(runtime-global-variables)
   alignas(tflite::INTERPRETER_TYPE) static unsigned char
       buf[sizeof(tflite::INTERPRETER_TYPE)];
+  printf("tflite_load_model: initializing MicroInterpreter (arena=%d bytes)...\n", kTensorArenaSize);
   interpreter = new (buf)
       tflite::INTERPRETER_TYPE(model, *op_resolver, tensor_arena,
                                kTensorArenaSize, nullptr, profiler);
 
+  printf("tflite_load_model: calling AllocateTensors()...\n");
   // Allocate memory from the tensor_arena for the model's tensors.
   TfLiteStatus allocate_status = interpreter->AllocateTensors();
+  printf("tflite_load_model: AllocateTensors() returned status %d\n", (int)allocate_status);
   if (allocate_status != kTfLiteOk) {
     TF_LITE_REPORT_ERROR(error_reporter, "AllocateTensors() failed");
     return;
@@ -190,6 +196,7 @@ void tflite_load_model(const unsigned char* model_data,
   puts("\n");
 
   tflite_postload();
+  printf("tflite_load_model: completed successfully!\n");
 }
 
 void tflite_set_input_zeros(void) {
